@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+]>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://example.org/data/EE_course_final.csv#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=1">
+    <CourseID>EE 101</CourseID>
+    <CourseName>Introduction to Digital Logic</CourseName>
+    <Instructor>Gandhi Puvvada, Michael Castle, Han Wang</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=10">
+    <CourseID>EE 301L</CourseID>
+    <CourseName>Linear Systems</CourseName>
+    <Instructor>Saeid Jafari, Krishna Nayak</Instructor>
+    <Prerequisite>EE 202L</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=100">
+    <CourseID>EE 537</CourseID>
+    <CourseName>Modern Solid-State Devices</CourseName>
+    <Instructor>Chongwu Zhou, Kian Kaviani</Instructor>
+    <Prerequisite>EE 338</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=101">
+    <CourseID>EE 539</CourseID>
+    <CourseName>Engineering Quantum Mechanics</CourseName>
+    <Instructor>Tony Levi</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=102">
+    <CourseID>EE 540</CourseID>
+    <CourseName>Introduction to Quantum Electronics</CourseName>
+    <Instructor>Robert Hellwarth</Instructor>
+    <Prerequisite>EE 470</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=103">
+    <CourseID>EE 541</CourseID>
+    <CourseName>Radio Frequency Filter Design</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 348</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=104">
+    <CourseID>EE 542</CourseID>
+    <CourseName>Internet and Cloud Computing</CourseName>
+    <Instructor>Kai Hwang</Instructor>
+    <Prerequisite>EE 450 or EE 457</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=105">
+    <CourseID>EE 543aL</CourseID>
+    <CourseName>Digital Control Systems</CourseName>
+    <Instructor>Fariba Ariaei</Instructor>
+    <Prerequisite>EE 482</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=106">
+    <CourseID>EE 543bL</CourseID>
+    <CourseName>Digital Control Systems</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 543a</Prerequisite>
+    <Unit>1</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=107">
+    <CourseID>EE 544</CourseID>
+    <CourseName>Radio Frequency Systems and Hardware</CourseName>
+    <Instructor>Ali Zahid</Instructor>
+    <Prerequisite>EE 301, EE 348, EE 364</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=108">
+    <CourseID>EE 545</CourseID>
+    <CourseName>Robotics</CourseName>
+    <Instructor>Stefan Schaal</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=109">
+    <CourseID>EE 546</CourseID>
+    <CourseName>Intelligent Embedded Systems</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=11">
+    <CourseID>EE 322</CourseID>
+    <CourseName>Introduction to Digital Audio</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=110">
+    <CourseID>EE 547</CourseID>
+    <CourseName>Sensing and Planning in Robotics</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=111">
+    <CourseID>EE 548</CourseID>
+    <CourseName>Analytical Methods in Robotics</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=112">
+    <CourseID>EE 550</CourseID>
+    <CourseName>Design and Analysis of Computer Communication</CourseName>
+    <Instructor>Michael Neely</Instructor>
+    <Prerequisite>EE 450 and EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=113">
+    <CourseID>EE 551</CourseID>
+    <CourseName>Principles of Radar</CourseName>
+    <Instructor>Mahta Moghaddam</Instructor>
+    <Prerequisite>EE364 and EE 470</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=114">
+    <CourseID>EE 552</CourseID>
+    <CourseName>Asynchronous VLSI Design</CourseName>
+    <Instructor>Peter Beerel</Instructor>
+    <Prerequisite>EE 477</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=115">
+    <CourseID>EE 553</CourseID>
+    <CourseName>Computational Solution of Optimization Problems</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 441</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=116">
+    <CourseID>EE 554</CourseID>
+    <CourseName>Real Time Computer Systems</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 457</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=117">
+    <CourseID>EE 555</CourseID>
+    <CourseName>Broadband Network Architectures</CourseName>
+    <Instructor>Ali Zahid</Instructor>
+    <Prerequisite>EE 450 and EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=118">
+    <CourseID>EE 556</CourseID>
+    <CourseName>Stochastic Systems</CourseName>
+    <Instructor>Rahul Jain</Instructor>
+    <Prerequisite>EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=119">
+    <CourseID>EE 557</CourseID>
+    <CourseName>Computer Systems Architecture</CourseName>
+    <Instructor>Michel Dubois, Murali Annavaram, Xuehai Qian</Instructor>
+    <Prerequisite>EE 457</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=12">
+    <CourseID>EE 326Lx</CourseID>
+    <CourseName>Essentials of Electrical Engineering</CourseName>
+    <Instructor>Douglas Burke</Instructor>
+    <Prerequisite>PHYS 152L, MATH 126</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=120">
+    <CourseID>EE 558</CourseID>
+    <CourseName>Optical Fiber Communication Systems</CourseName>
+    <Instructor>Sabino Piazzolla, Alan Willner</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=121">
+    <Corequisite>EE 441, EE 503</Corequisite>
+    <CourseID>EE 559</CourseID>
+    <CourseName>Mathematical Pattern Recognition</CourseName>
+    <Instructor>B. Keith Jenkins</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=122">
+    <CourseID>EE 560L</CourseID>
+    <CourseName>Digital System Design</CourseName>
+    <Instructor>Gandhi Puvvada</Instructor>
+    <Prerequisite>EE 457</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=123">
+    <CourseID>EE 561</CourseID>
+    <CourseName>Foundations of Artificial Intelligence</CourseName>
+    <Instructor>Sheila Tejada, Ning Wang, David Pynadath, Laurent Itti</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=124">
+    <CourseID>EE 562</CourseID>
+    <CourseName>Random Processes in Engineering</CourseName>
+    <Instructor>Urbashi Mitra, Bob Scholtz</Instructor>
+    <Prerequisite>EE 441 and EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=125">
+    <CourseID>EE 563</CourseID>
+    <CourseName>Estimation Theory</CourseName>
+    <Instructor>Maryam M. Shanechi</Instructor>
+    <Prerequisite>EE 562a, EE 562b</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=126">
+    <CourseID>EE 564</CourseID>
+    <CourseName>Digital Communication and Coding Systems</CourseName>
+    <Instructor>Keith Chugg</Instructor>
+    <Prerequisite>EE 441 and EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=127">
+    <CourseID>EE 565</CourseID>
+    <CourseName>Information Theory and Compression</CourseName>
+    <Instructor>Salman Avestimehr</Instructor>
+    <Prerequisite>EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=128">
+    <CourseID>EE 566</CourseID>
+    <CourseName>Optical Information Processing</CourseName>
+    <Instructor>B. Keith Jenkins</Instructor>
+    <Prerequisite>EE 401</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=129">
+    <Corequisite>EE 503</Corequisite>
+    <CourseID>EE 567</CourseID>
+    <CourseName>Communications Systems</CourseName>
+    <Instructor>Christopher Walker</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=13">
+    <CourseID>EE 330</CourseID>
+    <CourseName>Electromagnetics I</CourseName>
+    <Instructor>Mahta Moghaddam, John Stang</Instructor>
+    <Prerequisite>EE 202L, MATH 445, PHYS 152L</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=130">
+    <CourseID>EE 569</CourseID>
+    <CourseName>Introduction to Digital Image Processing</CourseName>
+    <Instructor>Jay Kuo</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=131">
+    <CourseID>EE 570a</CourseID>
+    <CourseName>Advanced Electromagnetic Theory</CourseName>
+    <Instructor>Aluizio Prata Jr.</Instructor>
+    <Prerequisite>EE 470</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=132">
+    <CourseID>EE 570b</CourseID>
+    <CourseName>Advanced Electromagnetic Theory</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 470</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=133">
+    <CourseID>EE 571a</CourseID>
+    <CourseName>Microwave Networks</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 470</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=134">
+    <CourseID>EE 571b</CourseID>
+    <CourseName>Microwave Networks</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 571a</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=135">
+    <CourseID>EE 572a</CourseID>
+    <CourseName>Plasma Dynamics</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=136">
+    <CourseID>EE 572b</CourseID>
+    <CourseName>Plasma Dynamics</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=137">
+    <CourseID>EE 573a</CourseID>
+    <CourseName>Antenna Analysis</CourseName>
+    <Instructor>Aluizio Prata Jr.</Instructor>
+    <Prerequisite>EE 470</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=138">
+    <CourseID>EE 573b</CourseID>
+    <CourseName>Antenna Analysis</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 470</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=139">
+    <CourseID>EE 574</CourseID>
+    <CourseName>Computer Vision</CourseName>
+    <Instructor>Ramakant Nevatia</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=14">
+    <CourseID>EE 337L</CourseID>
+    <CourseName>Engineering Nano-Systems</CourseName>
+    <Instructor>Tony Levi</Instructor>
+    <Prerequisite>PHYS 152</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=140">
+    <CourseID>EE 577a</CourseID>
+    <CourseName>VLSI System Design</CourseName>
+    <Instructor>Shahin Nazarian</Instructor>
+    <Prerequisite>EE 477</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=141">
+    <CourseID>EE 577b</CourseID>
+    <CourseName>VLSI System Design</CourseName>
+    <Instructor>Jeffrey Draper, Shahin Nazarian</Instructor>
+    <Prerequisite>EE 477</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=142">
+    <CourseID>EE 578 </CourseID>
+    <CourseName>Reflector Antennas</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 470</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=143">
+    <CourseID>EE 579</CourseID>
+    <CourseName>Wireless and Mobile Networks Design of VLSI Circuits</CourseName>
+    <Instructor>Bhaskar Krishnamachari</Instructor>
+    <Prerequisite>CSCI 551 or EE 550 or EE 555</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=144">
+    <Corequisite>EE 457 and EE 477</Corequisite>
+    <CourseID>EE 581</CourseID>
+    <CourseName>Mathematical Foundations for Computer-Aided Design of VLSI Circuits</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=145">
+    <CourseID>EE 583</CourseID>
+    <CourseName>Statistics Signal Processing</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=146">
+    <Corequisite> </Corequisite>
+    <CourseID>EE 584</CourseID>
+    <CourseName>Chaotic Systems</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 562a, EE 562b</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=147">
+    <CourseID>EE 585</CourseID>
+    <CourseName>Linear System Theory</CourseName>
+    <Instructor>Fariba Ariaei</Instructor>
+    <Prerequisite>EE 441</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=148">
+    <CourseID>EE 586L</CourseID>
+    <CourseName>Advanced DSP Design Laboratory</CourseName>
+    <Instructor>Panayiotis Georgiou</Instructor>
+    <Prerequisite>EE 583 or EE 569</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=149">
+    <CourseID>EE 587</CourseID>
+    <CourseName>Nonliear and Adaptive Control</CourseName>
+    <Instructor>Saeid Jafari</Instructor>
+    <Prerequisite>EE 482, EE 585</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=15">
+    <CourseID>EE 338</CourseID>
+    <CourseName>Physical Electronics</CourseName>
+    <Instructor>Stephen Cronin, Rehan Kapadia</Instructor>
+    <Prerequisite>EE 202, PHYS 152</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=150">
+    <CourseID>EE 590</CourseID>
+    <CourseName>Directed Research</CourseName>
+    <Instructor>Sandeep Gupta, Eun Sok Kim, Edward Maby, Bhaskar Krishnamachari</Instructor>
+    <Unit>1, 2 - 12</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=151">
+    <CourseID>EE 591</CourseID>
+    <CourseName>Magnetic Resonance Imaging and Reconstruction</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 483</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=152">
+    <CourseID>EE 592</CourseID>
+    <CourseName>Computational Methods for Inverse Problems</CourseName>
+    <Instructor>Justin Haldar</Instructor>
+    <Prerequisite>EE 483 and EE 441</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=153">
+    <CourseID>EE 593</CourseID>
+    <CourseName>Multivariable Control</CourseName>
+    <Instructor>Fariba Ariaei</Instructor>
+    <Prerequisite>EE 482 and EE 585</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=154">
+    <CourseID>EE 594a</CourseID>
+    <CourseName>Master's Thesis</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>2</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=155">
+    <CourseID>EE 594b</CourseID>
+    <CourseName>Master's Thesis</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>2</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=156">
+    <CourseID>EE 594z</CourseID>
+    <CourseName>Master's Thesis</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>0</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=157">
+    <CourseID>EE 596</CourseID>
+    <CourseName>Wavelets</CourseName>
+    <Instructor>Antonio Ortega</Instructor>
+    <Prerequisite>EE 441, EE 483</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=158">
+    <CourseID>EE 597 </CourseID>
+    <CourseName>Wireless Networks</CourseName>
+    <Instructor>Konstantinos Psounis</Instructor>
+    <Prerequisite>EE 450 and EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=159">
+    <CourseID>EE 598</CourseID>
+    <CourseName>Electrical Engineering Research Seminar</CourseName>
+    <Instructor>Rahul Jain, Mahdi Soltanolkotabi, Paul Bogdan, Salman Avestimehr, Ashutosh Nayyar</Instructor>
+    <Unit>1, max: 2</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=16">
+    <Corequisite>EE 338</Corequisite>
+    <CourseID>EE 348L </CourseID>
+    <CourseName>Electronic Circuits</CourseName>
+    <Instructor>Susan Schober, Edward Maby</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=160">
+    <CourseID>EE 599</CourseID>
+    <CourseName>Special Topics</CourseName>
+    <Instructor>AAshutosh Nayyar, Rehan Kapadia, Han Wang, Mary Mehrnoosh Eshaghian-Wilner, Maryam M. Shanechi, C. S. Raghavendra, Alice C. Parker, Andreas Molisch, Antonio Ortega, Solomon W. Golomb, Mahdi Soltanolkotabi, Stephen Cronin, Willie Ng, Tameem Albash</Instructor>
+    <Unit>2,3,4, max:9</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=161">
+    <CourseID>EE 601</CourseID>
+    <CourseName>Advanced Semiconductor Device Physics</CourseName>
+    <Instructor>Tony Levi</Instructor>
+    <Prerequisite>EE 471 or EE 539</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=162">
+    <CourseID>EE 606</CourseID>
+    <CourseName>Nonequilibrium Processes in Semiconductors</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=163">
+    <CourseID>EE 607</CourseID>
+    <CourseName>Microelectromechanical Systems</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 504</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=164">
+    <CourseID>EE 608L</CourseID>
+    <CourseName>Microelectromechanical Systems Laboratory</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=165">
+    <CourseID>EE 612</CourseID>
+    <CourseName>Science and Practice of Nanotechnology</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 330 or EE 470</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=166">
+    <CourseID>EE 619</CourseID>
+    <CourseName>Advanced Topics in Automatic Speech Recognition</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=167">
+    <CourseID>EE 620</CourseID>
+    <CourseName>Advanced Topics in Applied Stochastic Models</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=168">
+    <CourseID>EE 632</CourseID>
+    <CourseName>Integrated Communication Systems</CourseName>
+    <Instructor>Hossein Hashemi</Instructor>
+    <Prerequisite>EE 536a</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=169">
+    <CourseID>EE 635</CourseID>
+    <CourseName>Advanced Wireless Communications</CourseName>
+    <Instructor>Andreas Molisch</Instructor>
+    <Prerequisite>EE 535</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=17">
+    <CourseID>EE 351</CourseID>
+    <CourseName>Programming and Multimedia on the WWW</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=170">
+    <CourseID>EE 642</CourseID>
+    <CourseName>Advanced Geometrical Optics</CourseName>
+    <Instructor>Armand Tanguay Jr.</Instructor>
+    <Prerequisite>EE 529</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=171">
+    <CourseID>EE 645</CourseID>
+    <CourseName>Uncertainty Modeling and Stochastic Optimization</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=172">
+    <CourseID>EE 648</CourseID>
+    <CourseName>Network Economics and Games</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 450 and EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=173">
+    <CourseID>EE 649</CourseID>
+    <CourseName>Stochastic Network Optimization</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=174">
+    <CourseID>EE 650</CourseID>
+    <CourseName>Advanced Topics in Computer Networks</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 450 AND EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=175">
+    <CourseID>EE 652</CourseID>
+    <CourseName>Low-Power Wireless Networks</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 450 and EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=176">
+    <CourseID>EE 653</CourseID>
+    <CourseName>Advanced Topics in Microarchitecture</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 557</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=177">
+    <CourseID>EE 657</CourseID>
+    <CourseName>Parallel and Distributed Computing</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 557</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=178">
+    <CourseID>EE 658</CourseID>
+    <CourseName>Diagnosis and Design of Reliable Digital Systems</CourseName>
+    <Instructor>Mohamm Mirza-Aghatabar</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=179">
+    <CourseID>EE 659</CourseID>
+    <CourseName>Interconnection Networks</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 557</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=18">
+    <CourseID>EE 352L</CourseID>
+    <CourseName>Computer Organization and Architecture</CourseName>
+    <Instructor>Mary Mehrnoosh Eshaghian-Wilner</Instructor>
+    <Prerequisite>CSCI 104</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=180">
+    <CourseID>EE 660</CourseID>
+    <CourseName>Machine Learning from Signals: Foundations and Methods</CourseName>
+    <Instructor>B. Keith Jenkins</Instructor>
+    <Prerequisite>EE 441 and EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=181">
+    <CourseID>EE 664</CourseID>
+    <CourseName>Advanced Topics in Communication Theory</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 564</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=182">
+    <CourseID>EE 665</CourseID>
+    <CourseName>Advanced Topics in Information Theory</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 565</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=183">
+    <CourseID>EE 667</CourseID>
+    <CourseName>Array Signal Processing</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 562a_ EE 562b</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=184">
+    <CourseID>EE 669</CourseID>
+    <CourseName>Multimedia Data Compression</CourseName>
+    <Instructor>Jay Kuo</Instructor>
+    <Prerequisite>EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=185">
+    <CourseID>EE 674a</CourseID>
+    <CourseName>Advanced Topics in Computer Vision</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=186">
+    <CourseID>EE 674b</CourseID>
+    <CourseName>Advanced Topics in Computer Vision</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=187">
+    <CourseID>EE 677</CourseID>
+    <CourseName>VLSI Architectures and Algorithms</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 557</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=188">
+    <CourseID>EE 680</CourseID>
+    <CourseName>Computer-Aided Design of Digital Systems I</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 581</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=189">
+    <CourseID>EE 681</CourseID>
+    <CourseName>Computer-Aided Design of Digital Systems II</CourseName>
+    <Instructor>Massoud Pedram</Instructor>
+    <Prerequisite>EE 557, EE 680</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=19">
+    <CourseID>EE 354L</CourseID>
+    <CourseName>Introduction to Digital Circuits</CourseName>
+    <Instructor>Gandhi Puvvada</Instructor>
+    <Prerequisite>EE 101, EE 209</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=190">
+    <CourseID>EE 682</CourseID>
+    <CourseName>Law and Intellectual Property</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=191">
+    <CourseID>EE 690</CourseID>
+    <CourseName>Directed Research</CourseName>
+    <Instructor>Sandeep Gupta, Eun Sok Kim, Edward Maby</Instructor>
+    <Unit>1,2,3,4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=192">
+    <CourseID>EE 790</CourseID>
+    <CourseName>Research</CourseName>
+    <Instructor>Sandeep Gupta, Eun Sok Kim, Edward Maby</Instructor>
+    <Unit>1,2,3,4,5,6,7,8,9,10,11,12</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=193">
+    <CourseID>EE 794a</CourseID>
+    <CourseName>Doctoral Dissertation</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>2</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=194">
+    <CourseID>EE 794b</CourseID>
+    <CourseName>Doctoral Dissertation</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>2</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=195">
+    <CourseID>EE 794c</CourseID>
+    <CourseName>Doctoral Dissertation</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>2</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=196">
+    <CourseID>EE 794d</CourseID>
+    <CourseName>Doctoral Dissertation</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>2</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=197">
+    <CourseID>EE 794z</CourseID>
+    <CourseName>Doctoral Dissertation</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>2</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=2">
+    <CourseID>EE 105</CourseID>
+    <CourseName>Introduction to Electrical Engineering </CourseName>
+    <Instructor>Armand Tanguay Jr.</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=20">
+    <CourseID>EE 355x</CourseID>
+    <CourseName>Software Design for Electrical Engineers</CourseName>
+    <Instructor>Mark Redekopp</Instructor>
+    <Prerequisite>EE 150</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=21">
+    <CourseID>EE 357 </CourseID>
+    <CourseName>Basic Organization of Computer Systems</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 354</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=22">
+    <CourseID>EE 364</CourseID>
+    <CourseName>Introduction to Probability and Statistics for Electrical Engineering</CourseName>
+    <Instructor>Todd Brun, Keith Chugg, Jerry Mendel</Instructor>
+    <Prerequisite>MATH 225 or MATH 245</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=23">
+    <CourseID>EE 370</CourseID>
+    <CourseName>Electromechanics</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 330 </Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=24">
+    <CourseID>EE 390</CourseID>
+    <CourseName>Special Problems</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>1, 2, 3, 4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=25">
+    <CourseID>EE 415</CourseID>
+    <CourseName>Introduction to MEMS</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=26">
+    <CourseID>EE 422x</CourseID>
+    <CourseName>Electromagnetic Systems Design</CourseName>
+    <Instructor>Martin Gundersen</Instructor>
+    <Prerequisite>EE 330</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=27">
+    <CourseID>EE 423Lx</CourseID>
+    <CourseName>Loudspeaker and Sound-System Design</CourseName>
+    <Instructor>George Augspurger</Instructor>
+    <Prerequisite>EE 301 or AME 302, PHYS 152</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=28">
+    <CourseID>EE 434Lx</CourseID>
+    <CourseName>Digital Signal Processing Design Laboratory</CourseName>
+    <Instructor>Panayiotis Georgiou</Instructor>
+    <Prerequisite>EE 483</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=29">
+    <CourseID>EE 436</CourseID>
+    <CourseName>Introduction to Condensed Matter Physics</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=3">
+    <CourseID>EE 109L</CourseID>
+    <CourseName>Introduction to Embedded Systems</CourseName>
+    <Instructor>Mark Redekopp, Allan Weber</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=30">
+    <CourseID>EE 438L</CourseID>
+    <CourseName>Processing for Microelectronics</CourseName>
+    <Instructor>Kian Kaviani</Instructor>
+    <Prerequisite>EE 338</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=31">
+    <CourseID>EE 439</CourseID>
+    <CourseName>Principles of Semiconductor Processing</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=32">
+    <CourseID>EE 441</CourseID>
+    <CourseName>Applied Linear Algebra for Engineering</CourseName>
+    <Instructor>Ben Reichardt</Instructor>
+    <Prerequisite>MATH 445 or graduate standing</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=33">
+    <CourseID>EE 443</CourseID>
+    <CourseName>Introduction to Power Systems</CourseName>
+    <Instructor>Mohammed Beshir, Robert Castro</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=34">
+    <CourseID>EE 444</CourseID>
+    <CourseName>Power Systems Technology</CourseName>
+    <Instructor>Mohammed Beshir</Instructor>
+    <Prerequisite>EE 202</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=35">
+    <CourseID>EE 445</CourseID>
+    <CourseName>Introduction to Robotics</CourseName>
+    <Instructor>Nora Ayanian</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=36">
+    <CourseID>EE 447Lx</CourseID>
+    <CourseName>Mixed Signal Electronic Circuits</CourseName>
+    <Instructor>Douglas Burke</Instructor>
+    <Prerequisite>EE 348</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=37">
+    <CourseID>EE 448L</CourseID>
+    <CourseName>Communication Electronics</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 348</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=38">
+    <CourseID>EE 450</CourseID>
+    <CourseName>Introduction to Computer Networks</CourseName>
+    <Instructor>Genevieve Bartlett, Leana Golubchik, Joe Touch, Ali Zahid, Shahin Nazarian</Instructor>
+    <Prerequisite>junior standing</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=39">
+    <CourseID>EE 451</CourseID>
+    <CourseName>Parallel and Distributed Computation</CourseName>
+    <Instructor>Viktor Prasanna</Instructor>
+    <Prerequisite>EE 355 or CSCI 201</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=4">
+    <CourseID>EE 150L</CourseID>
+    <CourseName>Engineering Computational Methods</CourseName>
+    <Instructor>Douglas Burke</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=40">
+    <CourseID>EE 452L</CourseID>
+    <CourseName>Game Hardware Architectures</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 352</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=41">
+    <CourseID>EE 454L</CourseID>
+    <CourseName>Introduction to System-on-Chip</CourseName>
+    <Instructor>Paul Bogdan</Instructor>
+    <Prerequisite>EE 354</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=42">
+    <CourseID>EE 455x</CourseID>
+    <CourseName>Introduction to Programming Systems Design</CourseName>
+    <Instructor>Claire Bono, Saty Raghavachary</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=43">
+    <CourseID>EE 457</CourseID>
+    <CourseName>Computer Systems Organization</CourseName>
+    <Instructor>Gandhi Puvvada, Mark Redekopp</Instructor>
+    <Prerequisite>EE 354 or graduate standing</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=44">
+    <CourseID>EE 459Lx</CourseID>
+    <CourseName>Embeded Systems Design Laboratory</CourseName>
+    <Instructor>Allan Weber</Instructor>
+    <Prerequisite>EE 357</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=45">
+    <CourseID>EE 460</CourseID>
+    <CourseName>Introduction to Artificial Intelligence</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=46">
+    <CourseID>EE 467</CourseID>
+    <CourseName>Introduction to Communication Systems</CourseName>
+    <Instructor>Alan Willner</Instructor>
+    <Prerequisite>EE 301</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=47">
+    <CourseID>EE 470</CourseID>
+    <CourseName>Electromagnetics II</CourseName>
+    <Instructor>Aluizio Prata</Instructor>
+    <Prerequisite>EE 330</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=48">
+    <CourseID>EE 471</CourseID>
+    <CourseName>Applied Quantum Mechanics for Engineers</CourseName>
+    <Instructor>Martin Gundersen</Instructor>
+    <Prerequisite>EE 330 or graduate standing</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=49">
+    <CourseID>EE 472</CourseID>
+    <CourseName>Introduction to Lasers and Laser Systems</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 470</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=5">
+    <Corequisite>MATH 245</Corequisite>
+    <CourseID>EE 202L</CourseID>
+    <CourseName>Linear Circuits</CourseName>
+    <Instructor>Edward Maby</Instructor>
+    <Prerequisite>PHYS 152L</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=50">
+    <Corequisite>EE 470</Corequisite>
+    <CourseID>EE 473L</CourseID>
+    <CourseName>Lasers and Optics Laboratory</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=51">
+    <CourseID>EE 474</CourseID>
+    <CourseName>Introduction to Photonics</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 330_ EE338</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=52">
+    <CourseID>EE 475</CourseID>
+    <CourseName>Wireless Communication Technology</CourseName>
+    <Instructor>Dan Goebel</Instructor>
+    <Prerequisite>EE 241_ EE 483</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=53">
+    <CourseID>EE 476</CourseID>
+    <CourseName>Chemical Engineering Materials</CourseName>
+    <Instructor>Jongseung Yoon</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=54">
+    <CourseID>EE 477L</CourseID>
+    <CourseName>MOS VLSI Circuit Design</CourseName>
+    <Instructor>Ali Zadeh, Massoud Pedram, Alice C. Parker, Shahin Nazarian</Instructor>
+    <Prerequisite>EE 277 or EE 338</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=55">
+    <CourseID>EE 479</CourseID>
+    <CourseName>Analog Integrated Circuit Design</CourseName>
+    <Instructor>Mike S.W. Chen</Instructor>
+    <Prerequisite>EE 348</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=56">
+    <CourseID>EE 480</CourseID>
+    <CourseName>Introduction to Nanoscience and Nanotechnology</CourseName>
+    <Instructor>Chongwu Zhou</Instructor>
+    <Prerequisite>EE 338</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=57">
+    <CourseID>EE 481L</CourseID>
+    <CourseName>Control Systems Laboratory</CourseName>
+    <Instructor>Henryk Flashner</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=58">
+    <CourseID>EE 482</CourseID>
+    <CourseName>Linear Control Systems</CourseName>
+    <Instructor>Fariba Ariaei</Instructor>
+    <Prerequisite>EE 301 or graduate standing</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=59">
+    <CourseID>EE 483</CourseID>
+    <CourseName>Introduction to Digital Signal Processing</CourseName>
+    <Instructor>Justin Haldar, Richard Leahy</Instructor>
+    <Prerequisite>EE 301</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=6">
+    <CourseID>EE 209</CourseID>
+    <CourseName>Foundations of Digital System Design</CourseName>
+    <Instructor>Shahin Nazarian</Instructor>
+    <Prerequisite>EE 109</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=60">
+    <CourseID>EE 484x</CourseID>
+    <CourseName>Communication System Design</CourseName>
+    <Instructor>Christopher Walker, R Cramer</Instructor>
+    <Prerequisite>EE 364, EE475</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=61">
+    <CourseID>EE 490x</CourseID>
+    <CourseName>Directed Research</CourseName>
+    <Instructor>Sandeep Gupta, Eun Kim, Edward Maby</Instructor>
+    <Unit>1 - 8, max:12</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=62">
+    <CourseID>EE 499</CourseID>
+    <CourseName>Special Topics</CourseName>
+    <Instructor>Costas Synolakis, Athanassios Fokas</Instructor>
+    <Unit>2 - 4, max: 8</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=63">
+    <CourseID>EE 500</CourseID>
+    <CourseName>Neural and Fuzzy Systems</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=64">
+    <CourseID>EE 501 </CourseID>
+    <CourseName>Solid State</CourseName>
+    <Instructor>Anupam Madhukar</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=65">
+    <CourseID>EE 502</CourseID>
+    <CourseName>Advanced Solid State</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=66">
+    <CourseID>EE 503</CourseID>
+    <CourseName>Probability for Electrical and Computer Engineers</CourseName>
+    <Instructor>Alexander Sawchuk, Michael Neely, Salman Avestimehr, Bart Kosko, Konstantinos Psounis</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=67">
+    <CourseID>EE 504L</CourseID>
+    <CourseName>Solid-state Processing and Integrated Circuits Laboratory</CourseName>
+    <Instructor>Kian Kaviani</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=68">
+    <CourseID>EE 505</CourseID>
+    <CourseName>Analog, Mixed-Signal, and RF Integrated-Circuit Tape-Out</CourseName>
+    <Instructor>Sungwon Chung</Instructor>
+    <Prerequisite>EE 536a</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=69">
+    <CourseID>EE 506</CourseID>
+    <CourseName>Semiconductor Physics</CourseName>
+    <Instructor>P. Daniel Dapkus</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=7">
+    <CourseID>EE 222</CourseID>
+    <CourseName>Fundamentals of Audio Engineering</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=70">
+    <CourseID>EE 507</CourseID>
+    <CourseName>Micro- and Nano-Fabrication Technology</CourseName>
+    <Instructor>Wei Wu</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=71">
+    <CourseID>EE 508</CourseID>
+    <CourseName>Nano-Fabrication Lithography</CourseName>
+    <Instructor>Wei Wu</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=72">
+    <CourseID>EE 509</CourseID>
+    <CourseName>Electromagnetics for Semiconductor Photonics</CourseName>
+    <Instructor>Michelle Povinelli</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=73">
+    <Corequisite>EE 503</Corequisite>
+    <CourseID>EE 511</CourseID>
+    <CourseName>Simulation Methods for Stochastic Systems</CourseName>
+    <Instructor>Osonde Osoba, John Silvester</Instructor>
+    <Unit>1</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=74">
+    <CourseID>EE 512</CourseID>
+    <CourseName>Stochastic Processes</CourseName>
+    <Instructor>Rahul Jain, Ashutosh Nayyar</Instructor>
+    <Prerequisite>EE 441 and EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=75">
+    <CourseID>EE 513</CourseID>
+    <CourseName>Solid State Energy Devices</CourseName>
+    <Instructor>Paul Dapkus</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=76">
+    <CourseID>EE 514</CourseID>
+    <CourseName>Quantum Error Correction</CourseName>
+    <Instructor>Daniel Lidar</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=77">
+    <CourseID>EE 515</CourseID>
+    <CourseName>High-Voltage Technology</CourseName>
+    <Instructor>Martin Gundersen</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=78">
+    <CourseID>EE 516</CourseID>
+    <CourseName>High-Voltage DC Trasmission Systems</CourseName>
+    <Instructor>Brandon Franzke, Mohammed Beshir</Instructor>
+    <Prerequisite>EE 443</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=79">
+    <CourseID>EE 517</CourseID>
+    <CourseName>Statistics for Engineers</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=8">
+    <CourseID>EE 241</CourseID>
+    <CourseName>Applied Linear Algebra for Engineering</CourseName>
+    <Instructor>Federico Spedalieri, Ben Reichardt</Instructor>
+    <Prerequisite>MATH 126</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=80">
+    <CourseID>EE 518</CourseID>
+    <CourseName>Mathematics and Tools for Financial Engineering</CourseName>
+    <Instructor>Saeid Jafari, Petros Ioannou</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=81">
+    <CourseID>EE 519</CourseID>
+    <CourseName>Speech Recognition and Processing for Multimedia</CourseName>
+    <Instructor>Shrikanth (Shri) Narayanan, Joseph Tepperman</Instructor>
+    <Prerequisite>EE 483</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=82">
+    <CourseID>EE 520 </CourseID>
+    <CourseName>Introduction to Quantum Information Processing</CourseName>
+    <Instructor>Todd Brun</Instructor>
+    <Prerequisite>EE 441 and EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=83">
+    <CourseID>EE 521</CourseID>
+    <CourseName>Power Systems Analysis and Design</CourseName>
+    <Instructor>Mohammed Beshir</Instructor>
+    <Prerequisite>EE 443</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=84">
+    <CourseID>EE 522</CourseID>
+    <CourseName>Immersive Audio Signal Processing</CourseName>
+    <Instructor>Chris Kyriakakis</Instructor>
+    <Prerequisite>EE 301</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=85">
+    <CourseID>EE 523</CourseID>
+    <CourseName>Advanced Biomedical Imaging</CourseName>
+    <Instructor>Brent Liu</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=86">
+    <CourseID>EE 524</CourseID>
+    <CourseName>Transients in Power Systems</CourseName>
+    <Instructor>Syed Ahmed</Instructor>
+    <Prerequisite>EE 443</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=87">
+    <CourseID>EE 525</CourseID>
+    <CourseName>Power System Protection</CourseName>
+    <Instructor>Vibhor Trehan</Instructor>
+    <Prerequisite>EE 443</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=88">
+    <CourseID>EE 526</CourseID>
+    <CourseName>Renewable Energy in Power Systems</CourseName>
+    <Instructor>Mohammed Beshir</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=89">
+    <Corequisite>EE 521</Corequisite>
+    <CourseID>EE 527</CourseID>
+    <CourseName>Net-Centric Power-System Control</CourseName>
+    <Instructor>Edmond Jonckheere</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=9">
+    <CourseID>EE 277L </CourseID>
+    <CourseName>Introduction to Digital Integrated Circuits</CourseName>
+    <Instructor>Shermin Arab, Sandeep Gupta</Instructor>
+    <Prerequisite>EE 109</Prerequisite>
+    <Unit>2</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=90">
+    <CourseID>EE 528</CourseID>
+    <CourseName>Power Electronics</CourseName>
+    <Instructor>Andras Kuthi</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=91">
+    <CourseID>EE 529</CourseID>
+    <CourseName>Optics</CourseName>
+    <Instructor>Armand Tanguay Jr.</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=92">
+    <CourseID>EE 530</CourseID>
+    <CourseName>Optical Materials, Instruments and Devices</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 529</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=93">
+    <CourseID>EE 531</CourseID>
+    <CourseName>Nonliear Optics</CourseName>
+    <Instructor>TBA</Instructor>
+    <Prerequisite>EE 470</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=94">
+    <CourseID>EE 532</CourseID>
+    <CourseName>Wireless Internet and Pervasive Computing</CourseName>
+    <Instructor>Kai Hwang</Instructor>
+    <Prerequisite>EE 450</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=95">
+    <CourseID>EE 533</CourseID>
+    <CourseName>Network Processor Design and Programming</CourseName>
+    <Instructor>Young Cho</Instructor>
+    <Prerequisite>EE 457</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=96">
+    <CourseID>EE 534</CourseID>
+    <CourseName>Materials Characterization</CourseName>
+    <Instructor>Anupam Madhukar</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=97">
+    <CourseID>EE 535</CourseID>
+    <CourseName>Mobile Communications</CourseName>
+    <Instructor>Andreas Molisch</Instructor>
+    <Prerequisite>EE 503</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=98">
+    <CourseID>EE 536a</CourseID>
+    <CourseName>Mixed-Signal Integrated Circuit Design</CourseName>
+    <Instructor>Hossein Hashemi</Instructor>
+    <Prerequisite>EE 448 or EE 479</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/EE_course_final.csv#row=99">
+    <CourseID>EE 536b</CourseID>
+    <CourseName>Mixed-Signal Integrated Circuit Design</CourseName>
+    <Instructor>Mike S.W. Chen</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+</rdf:RDF>

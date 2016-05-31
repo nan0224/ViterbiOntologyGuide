@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+]>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://example.org/data/CS_phd_student_faculty.csv#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=1">
+    <Email>agharwal@usc.edu</Email>
+    <FacultyAdvisor>Ramakant Nevatia</FacultyAdvisor>
+    <Name>Arnav Agharwal</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=10">
+    <Email>alipourf@usc.edu</Email>
+    <FacultyAdvisor>Minlan Yu</FacultyAdvisor>
+    <Name>Omid Alipourfard</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=100">
+    <Email>davidink@usc.edu</Email>
+    <FacultyAdvisor>Gaurav Sukhatme</FacultyAdvisor>
+    <Name>David Inkyu Kim</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=101">
+    <Email>eunkyung@usc.edu</Email>
+    <FacultyAdvisor>Morteza Dehghani</FacultyAdvisor>
+    <Name>Eunkyung Kim</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=102">
+    <Email>kanggeok@usc.edu</Email>
+    <FacultyAdvisor>Gerard Medioni</FacultyAdvisor>
+    <Name>Kanggeon Kim</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=103">
+    <Email>kooti@usc.edu</Email>
+    <FacultyAdvisor>Kristina Lerman</FacultyAdvisor>
+    <Name>Farshad Kooti</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=104">
+    <Email>nkovvuri@usc.edu</Email>
+    <FacultyAdvisor>Ramakant Nevatia</FacultyAdvisor>
+    <Name>Naga Vijaya Kovvuri</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=105">
+    <Email>kumbhare@usc.edu</Email>
+    <FacultyAdvisor>Viktor Prasanna</FacultyAdvisor>
+    <Name>Alok Gautam Kumbhare</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=106">
+    <Email>nlawton@usc.edu</Email>
+    <FacultyAdvisor>Aram Galstyan, Greg Ver Steeg</FacultyAdvisor>
+    <Name>Neal Lawton</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=107">
+    <Email>ducmle@usc.edu</Email>
+    <FacultyAdvisor>Neno Medvidovic</FacultyAdvisor>
+    <Name>Duc Le</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=108">
+    <Email>sangwonl@usc.edu</Email>
+    <FacultyAdvisor>Bhaskar Krishnamachari</FacultyAdvisor>
+    <Name>Sang Won Lee</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=109">
+    <Email>younkyul@usc.edu</Email>
+    <FacultyAdvisor>Neno Medvidovic</FacultyAdvisor>
+    <Name>Youn Kyu Lee</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=11">
+    <Email>almaymon@usc.edu</Email>
+    <FacultyAdvisor>Shahram Ghandeharizadeh</FacultyAdvisor>
+    <Name>Marwan Almaymoni</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=110">
+    <Email>legendre@usc.edu</Email>
+    <FacultyAdvisor>Paul Debevec</FacultyAdvisor>
+    <Name>Chloe LeGendre</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=111">
+    <Email>leksut@usc.edu</Email>
+    <FacultyAdvisor>Gerard Medioni</FacultyAdvisor>
+    <Name>Jatuporn Leksut</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=112">
+    <Email>bailanli@usc.edu</Email>
+    <FacultyAdvisor>Ming-Deh Huang</FacultyAdvisor>
+    <Name>Bailan Li</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=113">
+    <Email>dingli@usc.edu</Email>
+    <FacultyAdvisor>William GJ Halfond</FacultyAdvisor>
+    <Name>Ding Li</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=114">
+    <Email>yaguang@usc.edu</Email>
+    <FacultyAdvisor>Cyrus Shahabi</FacultyAdvisor>
+    <Name>Yaguang Li</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=115">
+    <Email>yijingli@usc.edu</Email>
+    <FacultyAdvisor>Jernej Barbic</FacultyAdvisor>
+    <Name>Yijing Li</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=116">
+    <Email>yuliangl@usc.edu</Email>
+    <FacultyAdvisor>Minlan Yu</FacultyAdvisor>
+    <Name>Yuliang Li</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=117">
+    <Email>sunghan@usc.edu</Email>
+    <FacultyAdvisor>Leana Golubchik</FacultyAdvisor>
+    <Name>Sung-Han Lin</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=118">
+    <Email>dlink@usc.edu</Email>
+    <FacultyAdvisor>Neno Medvidovic</FacultyAdvisor>
+    <Name>Daniel Link</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=119">
+    <Email>jeremyjl@usc.edu</Email>
+    <FacultyAdvisor>Robert Lucas</FacultyAdvisor>
+    <Name>Jeremy Liu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=12">
+    <Email>alwabel@usc.edu</Email>
+    <FacultyAdvisor>John Heidemann</FacultyAdvisor>
+    <Name>Abdulla Alwabel</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=120">
+    <Email>kuanl@usc.edu</Email>
+    <FacultyAdvisor>Fei Sha</FacultyAdvisor>
+    <Name>Kuan Liu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=121">
+    <Email>lianliu@usc.edu</Email>
+    <FacultyAdvisor>Ming-Deh Huang</FacultyAdvisor>
+    <Name>Lian Liu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=122">
+    <Email>liu851@usc.edu</Email>
+    <FacultyAdvisor>Ramesh Govindan</FacultyAdvisor>
+    <Name>Xiaochen Liu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=123">
+    <Email>xuemeili@usc.edu</Email>
+    <FacultyAdvisor>Minlan Yu</FacultyAdvisor>
+    <Name>Xuemei Liu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=124">
+    <Email>haonanlu@usc.edu</Email>
+    <FacultyAdvisor>Wyatt Lloyd</FacultyAdvisor>
+    <Name>Haonan Lu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=125">
+    <Email>ylu720@usc.edu</Email>
+    <FacultyAdvisor>Cyrus Shahabi</FacultyAdvisor>
+    <Name>Ying Lu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=126">
+    <Email>zhiyunlu@usc.edu</Email>
+    <FacultyAdvisor>Fei Sha</FacultyAdvisor>
+    <Name>Zhiyun Lu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=127">
+    <Email>yingjunl@usc.edu</Email>
+    <FacultyAdvisor>William GJ Halfond</FacultyAdvisor>
+    <Name>Yingjun Lyu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=128">
+    <Email>hangma@usc.edu</Email>
+    <FacultyAdvisor>Sven Koenig</FacultyAdvisor>
+    <Name>Hang Ma</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=129">
+    <Email>spmahaja@usc.edu</Email>
+    <FacultyAdvisor>William GJ Halfond</FacultyAdvisor>
+    <Name>Sonal Mahajan</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=13">
+    <Email>saman@usc.edu</Email>
+    <FacultyAdvisor>Viktor Prasanna, Yogesh Simmhan</FacultyAdvisor>
+    <Name>Saima Aman</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=130">
+    <Email>malandra@usc.edu</Email>
+    <FacultyAdvisor>Shrikanth (Shri) Narayanan</FacultyAdvisor>
+    <Name>Nikolaos Malandrakis</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=131">
+    <Email>manuvina@usc.edu</Email>
+    <FacultyAdvisor>David DeVault</FacultyAdvisor>
+    <Name>Ramesh Manuvinakurike</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=132">
+    <Email>victorrm@usc.edu</Email>
+    <FacultyAdvisor>Shrikanth (Shri) Narayanan</FacultyAdvisor>
+    <Name>Victor Martinez Palacios</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=133">
+    <Email>seanmaso@usc.edu</Email>
+    <FacultyAdvisor>Stefan Schaal</FacultyAdvisor>
+    <Name>Sean Mason</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=134">
+    <Email>kmatam@usc.edu</Email>
+    <FacultyAdvisor>Murali Annavaram</FacultyAdvisor>
+    <Name>Kiran Matam</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=135">
+    <Email>saramarm@usc.edu</Email>
+    <FacultyAdvisor>Milind Tambe</FacultyAdvisor>
+    <Name>Sara McCarthy</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=136">
+    <Email>mcdorman@usc.edu</Email>
+    <FacultyAdvisor>Maja Mataric</FacultyAdvisor>
+    <Name>Braden McDorman</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=137">
+    <Email>rossmead@usc.edu</Email>
+    <FacultyAdvisor>Maja Mataric</FacultyAdvisor>
+    <Name>Ross Mead</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=138">
+    <Email>fmeier@usc.edu</Email>
+    <FacultyAdvisor>Stefan Schaal</FacultyAdvisor>
+    <Name>Franziska Meier</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=139">
+    <Email>jmell@usc.edu</Email>
+    <FacultyAdvisor>Jonathan Gratch</FacultyAdvisor>
+    <Name>Johnathan Mell</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=14">
+    <Email>cardi@usc.edu</Email>
+    <FacultyAdvisor>John Heidemann</FacultyAdvisor>
+    <Name>Calvin Ardi</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=140">
+    <Email>rmiao@usc.edu</Email>
+    <FacultyAdvisor>Minlan Yu</FacultyAdvisor>
+    <Name>Rui Miao</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=141">
+    <Email>misyrlis@usc.edu</Email>
+    <FacultyAdvisor>Viktor Prasanna</FacultyAdvisor>
+    <Name>Michail Misyrlis</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=142">
+    <Email>molchano@usc.edu</Email>
+    <FacultyAdvisor>Gaurav Sukhatme</FacultyAdvisor>
+    <Name>Artem Mochanov</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=143">
+    <Email>nmontaze@usc.edu</Email>
+    <FacultyAdvisor>Jerry Hobbs</FacultyAdvisor>
+    <Name>Niloofar Montazeri</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=144">
+    <Email>jamesmoo@usc.edu</Email>
+    <FacultyAdvisor>Carl Kesselman</FacultyAdvisor>
+    <Name>James Moore</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=145">
+    <Email>moyerd@usc.edu</Email>
+    <FacultyAdvisor>Greg Ver Steeg</FacultyAdvisor>
+    <Name>Daniel Moyer</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=146">
+    <Email>knagano@usc.edu</Email>
+    <FacultyAdvisor>Paul Debevec</FacultyAdvisor>
+    <Name>Koki Nagano</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=147">
+    <Email>nasihati@usc.edu</Email>
+    <FacultyAdvisor>Pedro Diniz</FacultyAdvisor>
+    <Name>Setareh Nasihati Gilani</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=148">
+    <Email>hnawaz@usc.edu</Email>
+    <FacultyAdvisor>Ewa Deelman</FacultyAdvisor>
+    <Name>Hassan Nawaz</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=149">
+    <Email>znazari@usc.edu</Email>
+    <FacultyAdvisor>Jonathan Gratch</FacultyAdvisor>
+    <Name>Zahra Nazari</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=15">
+    <Email>masghari@usc.edu</Email>
+    <FacultyAdvisor>Cyrus Shahabi</FacultyAdvisor>
+    <Name>Mohammad Asghari</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=150">
+    <Email>quangmin@usc.edu</Email>
+    <FacultyAdvisor>Wyatt Lloyd</FacultyAdvisor>
+    <Name>Kheim Ngo</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=151">
+    <Email>hieun@usc.edu</Email>
+    <FacultyAdvisor>Shahram Ghandeharizadeh</FacultyAdvisor>
+    <Name>Hieu Nguyen</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=152">
+    <Email>kiennguy@usc.edu</Email>
+    <FacultyAdvisor>Cyrus Shahabi</FacultyAdvisor>
+    <Name>Kien Nguyen</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=153">
+    <Email>minhnngu@usc.edu</Email>
+    <FacultyAdvisor>Cyrus Shahabi</FacultyAdvisor>
+    <Name>Minh Nguyen</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=154">
+    <Email>thanhhng@usc.edu</Email>
+    <FacultyAdvisor>Milind Tambe</FacultyAdvisor>
+    <Name>Thanh Nguyen</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=155">
+    <Email>enouri@usc.edu</Email>
+    <FacultyAdvisor>David Traum</FacultyAdvisor>
+    <Name>Elnaz Nouri</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=156">
+    <Email>olszewsk@usc.edu</Email>
+    <FacultyAdvisor>Hao Li</FacultyAdvisor>
+    <Name>Kyle Olszewski</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=157">
+    <Email>eorrico@usc.edu</Email>
+    <FacultyAdvisor>Milind Tambe</FacultyAdvisor>
+    <Name>Elizabeth Orrico</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=158">
+    <Email>gpang@usc.edu</Email>
+    <FacultyAdvisor>Ulrich Neumann</FacultyAdvisor>
+    <Name>Guan Pang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=159">
+    <Email>sunghyup@usc.edu</Email>
+    <FacultyAdvisor>Louis-Louis-Philippe Morency</FacultyAdvisor>
+    <Name>Sunghyun Park</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=16">
+    <Email>bavent@usc.edu</Email>
+    <FacultyAdvisor>Aleksandra Korolova</FacultyAdvisor>
+    <Name>Brendan Avent</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=160">
+    <Email>patri@usc.edu</Email>
+    <FacultyAdvisor>Viktor Prasanna</FacultyAdvisor>
+    <Name>Om Prasad Patri</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=161">
+    <Email>luis.pedrosa@usc.edu</Email>
+    <FacultyAdvisor>Ramesh Govindan</FacultyAdvisor>
+    <Name>Luis Pedrosa</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=162">
+    <Email>pflueger@usc.edu</Email>
+    <FacultyAdvisor>Gaurav Sukhatme</FacultyAdvisor>
+    <Name>Max Pflueger</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=163">
+    <Email>minhpham@usc.edu</Email>
+    <FacultyAdvisor>Craig Knoblock</FacultyAdvisor>
+    <Name>Minh Pham</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=164">
+    <Email>epincus@usc.edu</Email>
+    <FacultyAdvisor>David Traum</FacultyAdvisor>
+    <Name>Eli Pincus</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=165">
+    <Email>potthast@usc.edu</Email>
+    <FacultyAdvisor>Gaurav Sukhatme</FacultyAdvisor>
+    <Name>Christian Potthast</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=166">
+    <Email>pourdamg@usc.edu</Email>
+    <FacultyAdvisor>Morteza Dehghani</FacultyAdvisor>
+    <Name>Nima Pourdamghani</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=167">
+    <Email>pourtara@usc.edu</Email>
+    <FacultyAdvisor>Stefan Schaal</FacultyAdvisor>
+    <Name>Farhad Pourtaran</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=168">
+    <Email>japreiss@usc.edu</Email>
+    <FacultyAdvisor>Gaurav Sukhatme</FacultyAdvisor>
+    <Name>James Preiss</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=169">
+    <Email>aqadeer@usc.edu</Email>
+    <FacultyAdvisor>John Heidemann</FacultyAdvisor>
+    <Name>Abdul Qadeer</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=17">
+    <Email>azmandia@usc.edu</Email>
+    <FacultyAdvisor>Evan Suma</FacultyAdvisor>
+    <Name>Mahdi Azmandian</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=170">
+    <Email>kqi@usc.edu</Email>
+    <FacultyAdvisor>Barry Boehm</FacultyAdvisor>
+    <Name>Kan Qi</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=171">
+    <Email>yundi.qian@usc.edu</Email>
+    <FacultyAdvisor>Milind Tambe</FacultyAdvisor>
+    <Name>Yundi Qian</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=172">
+    <Email>rqiang@usc.edu</Email>
+    <FacultyAdvisor>Shaddin Dughmi, David Kempe</FacultyAdvisor>
+    <Name>Ruixin Qiang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=173">
+    <Email>rqiu@usc.edu</Email>
+    <FacultyAdvisor>Ulrich Neumann</FacultyAdvisor>
+    <Name>Rongqi Qiu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=174">
+    <Email>akramakr@usc.edu</Email>
+    <FacultyAdvisor>Shrikanth (Shri) Narayanan</FacultyAdvisor>
+    <Name>Anil Ramakrishna</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=175">
+    <Email>reing@usc.edu</Email>
+    <FacultyAdvisor>Aram Galstyan, Greg Ver Steeg</FacultyAdvisor>
+    <Name>Kyle Reing</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=176">
+    <Email>roemmele@usc.edu</Email>
+    <FacultyAdvisor>Andrew Gordon</FacultyAdvisor>
+    <Name>Melissa Roemmele</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=177">
+    <Email>nrotella@usc.edu</Email>
+    <FacultyAdvisor>Stefan Schaal</FacultyAdvisor>
+    <Name>Nicholas Rotella</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=178">
+    <Email>esabir@usc.edu</Email>
+    <FacultyAdvisor>Prem Natarajan</FacultyAdvisor>
+    <Name>Ekraam Sabir</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=179">
+    <Email>gsafi@usc.edu</Email>
+    <FacultyAdvisor>Neno Medvidovic</FacultyAdvisor>
+    <Name>Gholamreza Safi</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=18">
+    <Email>bagherig@usc.edu</Email>
+    <FacultyAdvisor>Fei Sha</FacultyAdvisor>
+    <Name>Alireza Bagheri Garakani</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=180">
+    <Email>gsahin@usc.edu</Email>
+    <FacultyAdvisor>Gerard Medioni</FacultyAdvisor>
+    <Name>Gozde Sahin</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=181">
+    <Email>sajid@usc.edu</Email>
+    <FacultyAdvisor>Maja Matari��</FacultyAdvisor>
+    <Name>Qandeel Sajid</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=182">
+    <Email>bsankara@usc.edu</Email>
+    <FacultyAdvisor>Stefan Schaal</FacultyAdvisor>
+    <Name>Bharath Sankaran</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=183">
+    <Email>aschlenk@usc.edu</Email>
+    <FacultyAdvisor>Milind Tambe</FacultyAdvisor>
+    <Name>Aaron Schlenker</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=184">
+    <Email>bschlink@usc.edu</Email>
+    <FacultyAdvisor>Minlan Yu, Ethan Katz-Bassett</FacultyAdvisor>
+    <Name>Brandon Schlinker</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=185">
+    <Email>rschuler@usc.edu</Email>
+    <FacultyAdvisor>Carl Kesselman</FacultyAdvisor>
+    <Name>Robert Schuler</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=186">
+    <Email>sungyons@usc.edu</Email>
+    <FacultyAdvisor>Yan Liu</FacultyAdvisor>
+    <Name>Sungyong Seo</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=187">
+    <Email>nidhirsh@usc.edu</Email>
+    <FacultyAdvisor>Leana Golubchik</FacultyAdvisor>
+    <Name>Nidhi Shah</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=188">
+    <Email>armansha@usc.edu</Email>
+    <FacultyAdvisor>Nenad Medvidovic</FacultyAdvisor>
+    <Name>Arman Shahbazian</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=189">
+    <Email>vinodsha@usc.edu</Email>
+    <FacultyAdvisor>Jelena Mirkovic</FacultyAdvisor>
+    <Name>Vinod Sharma</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=19">
+    <Email>lueninba@usc.edu</Email>
+    <FacultyAdvisor>Wei-Min Shen</FacultyAdvisor>
+    <Name>Luenin Barrios</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=190">
+    <Email>rshemira@usc.edu</Email>
+    <FacultyAdvisor>Nenad Medvidovic</FacultyAdvisor>
+    <Name>Ruhollah Shemirani</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=191">
+    <Email>esheng@usc.edu</Email>
+    <FacultyAdvisor>Prem Natarajan</FacultyAdvisor>
+    <Name>Emily Sheng</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=192">
+    <Email>haoshi@usc.edu</Email>
+    <FacultyAdvisor>Jelena Mirkovic</FacultyAdvisor>
+    <Name>Hao Shi</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=193">
+    <Email>xingshi@usc.edu</Email>
+    <FacultyAdvisor>Kevin Knight</FacultyAdvisor>
+    <Name>Xing Shi</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=194">
+    <Email>yuanshi@usc.edu</Email>
+    <FacultyAdvisor>Fei Sha</FacultyAdvisor>
+    <Name>Yuan Shi</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=195">
+    <Email>ashine@usc.edu</Email>
+    <FacultyAdvisor>David Kempe</FacultyAdvisor>
+    <Name>Alana Shine</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=196">
+    <Email>elaine.g.short@usc.edu</Email>
+    <FacultyAdvisor>Maja Mataric</FacultyAdvisor>
+    <Name>Elaine Short</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=197">
+    <Email>slepicka@usc.edu</Email>
+    <FacultyAdvisor>Craig Knoblock</FacultyAdvisor>
+    <Name>Jason Slepicka</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=198">
+    <Email>patrices@usc.edu</Email>
+    <FacultyAdvisor>Aiichiro Nakano</FacultyAdvisor>
+    <Name>Patrick Small</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=199">
+    <Email>kaisong@usc.edu</Email>
+    <FacultyAdvisor>Leana Golubchik</FacultyAdvisor>
+    <Name>Kai Song</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=2">
+    <Email>aakdogan@usc.edu</Email>
+    <FacultyAdvisor>Cyrus Shahabi</FacultyAdvisor>
+    <Name>Afsin Akdogan</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=20">
+    <Email>bebel@usc.edu</Email>
+    <FacultyAdvisor>Leonard Adleman</FacultyAdvisor>
+    <Name>Joseph Bebel</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=200">
+    <Email>sorianom@usc.edu</Email>
+    <FacultyAdvisor>Milind Tambe</FacultyAdvisor>
+    <Name>Marcolino Leandro Soriano</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=201">
+    <Email>ajiteshs@usc.edu</Email>
+    <FacultyAdvisor>Viktor Prasanna</FacultyAdvisor>
+    <Name>Ajitesh Srivastava</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=202">
+    <Email>staruk@usc.edu</Email>
+    <FacultyAdvisor>Shrikanth (Shri) Narayanan</FacultyAdvisor>
+    <Name>Elizabeth Staruk</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=203">
+    <Email>chensun@usc.edu</Email>
+    <FacultyAdvisor>Ramakant Nevatia</FacultyAdvisor>
+    <Name>Chen Sun</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=204">
+    <Email>shaohuas@usc.edu</Email>
+    <FacultyAdvisor>TBA</FacultyAdvisor>
+    <Name>Shao-Hua Sun</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=205">
+    <Email>gsutanto@usc.edu</Email>
+    <FacultyAdvisor>Stefan Schaal</FacultyAdvisor>
+    <Name>Giovanni Sutanto</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=206">
+    <Email>swiftspo@usc.edu</Email>
+    <FacultyAdvisor>Maja Mataric</FacultyAdvisor>
+    <Name>Katelyn Swift-Spong</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=207">
+    <Email>taheriya@usc.edu</Email>
+    <FacultyAdvisor>Craig Knoblock</FacultyAdvisor>
+    <Name>Mohsen Taheriyan</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=208">
+    <Email>jetanner@usc.edu</Email>
+    <FacultyAdvisor>Laurent Itti</FacultyAdvisor>
+    <Name>James Tanner</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=209">
+    <Email>atavakol@usc.edu</Email>
+    <FacultyAdvisor>Nora Ayanian</FacultyAdvisor>
+    <Name>Arash Tavakoli</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=21">
+    <Email>bebel@usc.edu</Email>
+    <FacultyAdvisor>Kevin Knight</FacultyAdvisor>
+    <Name>James Bedell</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=210">
+    <Email>jeraldlt@usc.edu</Email>
+    <FacultyAdvisor>Evan Suma</FacultyAdvisor>
+    <Name>Jerald Thomas</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=211">
+    <Email>hto@usc.edu</Email>
+    <FacultyAdvisor>Cyrus Shahabi</FacultyAdvisor>
+    <Name>Hien To</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=212">
+    <Email>anhttran@usc.edu</Email>
+    <FacultyAdvisor>Gerard Medioni</FacultyAdvisor>
+    <Name>Anh Tran</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=213">
+    <Email>johntran@usc.edu</Email>
+    <FacultyAdvisor>Robert Lucas</FacultyAdvisor>
+    <Name>John Tran</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=214">
+    <Email>luantran@usc.edu</Email>
+    <FacultyAdvisor>Cyrus Shahabi</FacultyAdvisor>
+    <Name>Luan Tran</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=215">
+    <Email>tregubov@usc.edu</Email>
+    <FacultyAdvisor>Barry Boehm</FacultyAdvisor>
+    <Name>Alexey Tregubov</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=216">
+    <Email>jamietsa@usc.edu</Email>
+    <FacultyAdvisor>Ethan Katz-Bassett, Wyatt Lloyd</FacultyAdvisor>
+    <Name>Jamie Tsao</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=217">
+    <Email>turas@usc.edu</Email>
+    <FacultyAdvisor>Sven Koenig</FacultyAdvisor>
+    <Name>Tansel Uras</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=218">
+    <Email>ywadhawa@usc.edu</Email>
+    <FacultyAdvisor>Clifford Neuman</FacultyAdvisor>
+    <Name>Yatin Wadhawan</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=219">
+    <Email>mianwan@usc.edu</Email>
+    <FacultyAdvisor>William GJ Halfond</FacultyAdvisor>
+    <Name>Mian Wan</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=22">
+    <Email>pbehnamg@usc.edu</Email>
+    <FacultyAdvisor>Neno Medvidovic</FacultyAdvisor>
+    <Name>Pooyan Behnamghader</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=220">
+    <Email>wang736@usc.edu</Email>
+    <FacultyAdvisor>Barry Boehm</FacultyAdvisor>
+    <Name>Bo Wang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=221">
+    <Email>bohanwan@usc.edu</Email>
+    <FacultyAdvisor>Sven Koenig</FacultyAdvisor>
+    <Name>Bohan Wang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=222">
+    <Email>ruizhewa@usc.edu</Email>
+    <FacultyAdvisor>Gerard Medioni</FacultyAdvisor>
+    <Name>Ruizhe Wang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=223">
+    <Email>weiyuewa@usc.edu</Email>
+    <FacultyAdvisor>Ulrich Neumann</FacultyAdvisor>
+    <Name>Weiyue Wang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=224">
+    <Email>weilan@usc.edu</Email>
+    <FacultyAdvisor>John Heidemann</FacultyAdvisor>
+    <Name>Lan Wei</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=225">
+    <Email>lingyuw@usc.edu</Email>
+    <FacultyAdvisor>Hao Li</FacultyAdvisor>
+    <Name>Ling-Yu Wei</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=226">
+    <Email>cwickram@usc.edu</Email>
+    <FacultyAdvisor>Viktor Prasanna</FacultyAdvisor>
+    <Name>Charith Wickramaarachchi</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=227">
+    <Email>cwienber@usc.edu</Email>
+    <FacultyAdvisor>Andrew Gordon</FacultyAdvisor>
+    <Name>Christopher Wienberg</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=228">
+    <Email>bwilder@usc.edu</Email>
+    <FacultyAdvisor>Milind Tambe</FacultyAdvisor>
+    <Name>Bryan Wilder</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=229">
+    <Email>windau@usc.edu</Email>
+    <FacultyAdvisor>Wei-Min Shen</FacultyAdvisor>
+    <Name>Jens Windau</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=23">
+    <Email>jasminab@usc.edu</Email>
+    <FacultyAdvisor>Michael Arbib</FacultyAdvisor>
+    <Name>Jasmine Berry</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=230">
+    <Email>simonwoo@usc.edu</Email>
+    <FacultyAdvisor>Jelena Mirkovic</FacultyAdvisor>
+    <Name>Simon Woo</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=231">
+    <Email>wubo@usc.edu</Email>
+    <FacultyAdvisor>Craig Knoblock</FacultyAdvisor>
+    <Name>Bo Wu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=232">
+    <Email>hwu732@usc.edu</Email>
+    <FacultyAdvisor>Kristina Lerman</FacultyAdvisor>
+    <Name>Hao Wu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=233">
+    <Email>haifengx@usc.edu</Email>
+    <FacultyAdvisor>Milind Tambe, Shaddin Dughmi</FacultyAdvisor>
+    <Name>Haifeng Xu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=234">
+    <Email>hongyixu@usc.edu</Email>
+    <FacultyAdvisor>Jernej Barbic</FacultyAdvisor>
+    <Name>Hongyi Xu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=235">
+    <Email>kxu@usc.edu</Email>
+    <FacultyAdvisor>Dennis McLeod</FacultyAdvisor>
+    <Name>Kaijian Xu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=236">
+    <Email>xingx@usc.edu</Email>
+    <FacultyAdvisor>Ramesh Govindan</FacultyAdvisor>
+    <Name>Xing Xu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=237">
+    <Email>amulyaya@usc.edu</Email>
+    <FacultyAdvisor>Milind Tambe</FacultyAdvisor>
+    <Name>Amulya Yadav</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=238">
+    <Email>powenyao@usc.edu</Email>
+    <FacultyAdvisor>Michael Zyda</FacultyAdvisor>
+    <Name>Po-Wen Yao</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=239">
+    <Email>davidayo@usc.edu</Email>
+    <FacultyAdvisor>Michael Zyda</FacultyAdvisor>
+    <Name>David Young</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=24">
+    <Email>boghrati@usc.edu</Email>
+    <FacultyAdvisor>Morteza Dehghani</FacultyAdvisor>
+    <Name>Reihane Boghrati</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=240">
+    <Email>qiyu@usc.edu</Email>
+    <FacultyAdvisor>Yan Liu</FacultyAdvisor>
+    <Name>Qi Yu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=241">
+    <Email>kyriakos@usc.edu</Email>
+    <FacultyAdvisor>Ethan Katz-Bassett, Ramesh Govindan</FacultyAdvisor>
+    <Name>Kyriakos Zarifis</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=242">
+    <Email>zhan661@usc.edu</Email>
+    <FacultyAdvisor>Milind Tambe</FacultyAdvisor>
+    <Name>Chao Zhang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=243">
+    <Email>zhan355@usc.edu</Email>
+    <FacultyAdvisor>Fei Sha</FacultyAdvisor>
+    <Name>Ke Zhang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=244">
+    <Email>mingyanz@usc.edu</Email>
+    <FacultyAdvisor>Minlan Yu</FacultyAdvisor>
+    <Name>Mingyang Zhang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=245">
+    <Email>yinuozha@usc.edu</Email>
+    <FacultyAdvisor>Viktor Prasanna</FacultyAdvisor>
+    <Name>Yinuo Zhang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=246">
+    <Email>danyongz@usc.edu</Email>
+    <FacultyAdvisor>Jernej Barbic</FacultyAdvisor>
+    <Name>Danyong Zhao</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=247">
+    <Email>jiapingz@usc.edu</Email>
+    <FacultyAdvisor>Laurent Itti</FacultyAdvisor>
+    <Name>Jiaping Zhao</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=248">
+    <Email>yixuezha@usc.edu</Email>
+    <FacultyAdvisor>Neno Medvidovic</FacultyAdvisor>
+    <Name>Yixue Zhao</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=249">
+    <Email>liangzhu@usc.edu</Email>
+    <FacultyAdvisor>John Heidemann</FacultyAdvisor>
+    <Name>Liang Zhu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=25">
+    <Email>bbooth@usc.edu</Email>
+    <FacultyAdvisor>Shrikanth (Shri) Narayanan</FacultyAdvisor>
+    <Name>Brandon Booth</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=250">
+    <Email>tianzhu@usc.edu</Email>
+    <FacultyAdvisor>Michael Zyda</FacultyAdvisor>
+    <Name>Tian Zhu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=251">
+    <Email>vzois@usc.edu</Email>
+    <FacultyAdvisor>Viktor Prasanna</FacultyAdvisor>
+    <Name>Vasileios Zois</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=26">
+    <Email>calderm@usc.edu</Email>
+    <FacultyAdvisor>Ethan Katz-Bassett, Ramesh Govindan</FacultyAdvisor>
+    <Name>Matthew Calder</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=27">
+    <Email>dogancan@usc.edu</Email>
+    <FacultyAdvisor>Shrikanth (Shri) Narayanan</FacultyAdvisor>
+    <Name>Dogan Can</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=28">
+    <Email>songcao@usc.edu</Email>
+    <FacultyAdvisor>Ramakant Nevatia</FacultyAdvisor>
+    <Name>Song Cao</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=29">
+    <Email>echa@usc.edu</Email>
+    <FacultyAdvisor>Maja Mataric</FacultyAdvisor>
+    <Name>Elizabeth Cha</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=3">
+    <Email>zakhtar@usc.edu</Email>
+    <FacultyAdvisor>Jelena Mirkovic</FacultyAdvisor>
+    <Name>Zahaib Akhtar</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=30">
+    <Email>chinkaic@usc.edu</Email>
+    <FacultyAdvisor>Laurent Itti</FacultyAdvisor>
+    <Name>Chin-Kai Chang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=31">
+    <Email>yichang@usc.edu</Email>
+    <FacultyAdvisor>Yan Liu</FacultyAdvisor>
+    <Name>Yi Chang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=32">
+    <Email>schangpi@usc.edu</Email>
+    <FacultyAdvisor>Fei Sha</FacultyAdvisor>
+    <Name>Soravit Changpinyo</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=33">
+    <Email>weilunc@usc.edu</Email>
+    <FacultyAdvisor>Fei Sha</FacultyAdvisor>
+    <Name>Wei-Lun Chao</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=34">
+    <Email>zche@usc.edu</Email>
+    <FacultyAdvisor>Yan Liu</FacultyAdvisor>
+    <Name>Zhengping Che</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=35">
+    <Email>ychebota@usc.edu</Email>
+    <FacultyAdvisor>Stefan Schaal</FacultyAdvisor>
+    <Name>Yevgen Chebotar</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=36">
+    <Email>chianc@usc.edu</Email>
+    <FacultyAdvisor>Wei-Min Shen</FacultyAdvisor>
+    <Name>Chi-An Chen</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=37">
+    <Email>chihfanc@usc.edu</Email>
+    <FacultyAdvisor>Gerard Medioni</FacultyAdvisor>
+    <Name>Chih-Fan Chen</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=38">
+    <Email>hsinghac@usc.edu</Email>
+    <FacultyAdvisor>Ming-Deh Huang</FacultyAdvisor>
+    <Name>Hsing-Hau Chen</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=39">
+    <Email>qianqiac@usc.edu</Email>
+    <FacultyAdvisor>Barry Boehm</FacultyAdvisor>
+    <Name>Qianqian (Celia) Chen</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=4">
+    <Email>alghanmi@usc.edu</Email>
+    <FacultyAdvisor>Dennis McLeod</FacultyAdvisor>
+    <Name>Rami Al-Ghanmi</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=40">
+    <Email>dehua.cheng@usc.edu</Email>
+    <FacultyAdvisor>Yan Liu</FacultyAdvisor>
+    <Name>Dehua Cheng</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=41">
+    <Email>chen533@usc.edu</Email>
+    <FacultyAdvisor>Shang-Hua Teng</FacultyAdvisor>
+    <Name>Yu Cheng</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=42">
+    <Email>chungmin@usc.edu</Email>
+    <FacultyAdvisor>Viktor Prasanna</FacultyAdvisor>
+    <Name>Chung Ming Cheung</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=43">
+    <Email>hoyeeche@usc.edu</Email>
+    <FacultyAdvisor>Shang-Hua Teng</FacultyAdvisor>
+    <Name>Ho Yee Cheung</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=44">
+    <Email>chiuyich@usc.edu</Email>
+    <FacultyAdvisor>Ethan Katz-Bassett</FacultyAdvisor>
+    <Name>Yi-Ching Chiu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=45">
+    <Email>clabaugh@usc.edu</Email>
+    <FacultyAdvisor>Maja Mataric</FacultyAdvisor>
+    <Name>Caitlyn Clabaugh</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=46">
+    <Email>lironcoh@usc.edu</Email>
+    <FacultyAdvisor>Sven Koenig</FacultyAdvisor>
+    <Name>Liron Cohen</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=47">
+    <Email>brianaco@usc.edu</Email>
+    <FacultyAdvisor>Francisco Valero-Cuevas</FacultyAdvisor>
+    <Name>Brian Cohn</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=48">
+    <Email>collinst@usc.edu</Email>
+    <FacultyAdvisor>Wei-Min Shen</FacultyAdvisor>
+    <Name>Thomas Collins</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=49">
+    <Email>gconstan@usc.edu</Email>
+    <FacultyAdvisor>Cyrus Shahabi</FacultyAdvisor>
+    <Name>Giorgos Constantinou</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=5">
+    <Email>yalabdul@usc.edu</Email>
+    <FacultyAdvisor>Shahram Ghandeharizadeh</FacultyAdvisor>
+    <Name>Yazeed Ibrahim A Alabdulkarim</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=50">
+    <Email>fdavoodi@usc.edu</Email>
+    <FacultyAdvisor>Cyrus Shahabi</FacultyAdvisor>
+    <Name>Faranak Davoodi</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=51">
+    <Email>demski@usc.edu</Email>
+    <FacultyAdvisor>Paul Rosenbloom</FacultyAdvisor>
+    <Name>Abram Demski</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=52">
+    <Email>dingxiod@usc.edu</Email>
+    <FacultyAdvisor>Cyrus Shahabi</FacultyAdvisor>
+    <Name>Dingxiong Deng</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=53">
+    <Email>xiyueden@usc.edu</Email>
+    <FacultyAdvisor>Jelena Mirkovic</FacultyAdvisor>
+    <Name>Xiyue Deng</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=54">
+    <Email>deri@usc.edu</Email>
+    <FacultyAdvisor>Kevin Knight</FacultyAdvisor>
+    <Name>Aliya Deri</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=55">
+    <Email>shaydeut@usc.edu</Email>
+    <FacultyAdvisor>Gerard Medioni</FacultyAdvisor>
+    <Name>Shay Deutsch</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=56">
+    <Email>echihabi@usc.edu</Email>
+    <FacultyAdvisor>Daniel Marcu</FacultyAdvisor>
+    <Name>Abdessamad Echihabi</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=57">
+    <Email>emamjome@usc.edu</Email>
+    <FacultyAdvisor>Shaddin Dughmi,David Kempe</FacultyAdvisor>
+    <Name>Ehsan Emamjomeh-Zadeh</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=58">
+    <Email>feifang@usc.edu</Email>
+    <FacultyAdvisor>Milind Tambe</FacultyAdvisor>
+    <Name>Fei Fang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=59">
+    <Email>flach@usc.edu</Email>
+    <FacultyAdvisor>Ethan Katz-Bassett, Ramesh Govindan</FacultyAdvisor>
+    <Name>Tobias Flach</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=6">
+    <Email>alameer@usc.edu</Email>
+    <FacultyAdvisor>William GJ Halfond</FacultyAdvisor>
+    <Name>Abdulmajeed Alameer</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=60">
+    <Email>benjamif@usc.edu</Email>
+    <FacultyAdvisor>Milind Tambe</FacultyAdvisor>
+    <Name>Benjamin Ford</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=61">
+    <Email>frangoud@usc.edu</Email>
+    <FacultyAdvisor>Michael Zyda</FacultyAdvisor>
+    <Name>Fotos Frangoudes</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=62">
+    <Email>gaos@usc.edu</Email>
+    <FacultyAdvisor>Aram Galstyan</FacultyAdvisor>
+    <Name>Shuyang Gao</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=63">
+    <Email>sahilgar@usc.edu</Email>
+    <FacultyAdvisor>Aram Galstyan</FacultyAdvisor>
+    <Name>Sahil Garg</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=64">
+    <Email>jgarten@usc.edu</Email>
+    <FacultyAdvisor>Morteza Dehghani</FacultyAdvisor>
+    <Name>Justin Garten</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=65">
+    <Email>mghazvin@usc.edu</Email>
+    <FacultyAdvisor>Kevin Knight</FacultyAdvisor>
+    <Name>Marjan Ghazvini Nejad</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=66">
+    <Email>sayangho@usc.edu</Email>
+    <FacultyAdvisor>Stefan Scherer</FacultyAdvisor>
+    <Name>Sayan Ghosh</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=67">
+    <Email>palashgo@usc.edu</Email>
+    <FacultyAdvisor>Viktor Prasanna</FacultyAdvisor>
+    <Name>Palash Goyal</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=68">
+    <Email>wgrant@usc.edu</Email>
+    <FacultyAdvisor>Laurent Itti</FacultyAdvisor>
+    <Name>William Grant</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=69">
+    <Email>greczek@usc.edu</Email>
+    <FacultyAdvisor>Maja Mataric</FacultyAdvisor>
+    <Name>Jillian Greczek</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=7">
+    <Email>alfarrar@usc.edu</Email>
+    <FacultyAdvisor>Cyrus Shahabi</FacultyAdvisor>
+    <Name>Abdullah Alfarrarjeh</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=70">
+    <Email>jgui@usc.edu</Email>
+    <FacultyAdvisor>William GJ Halfond</FacultyAdvisor>
+    <Name>Jiaping Gui</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=71">
+    <Email>dongguo@usc.edu</Email>
+    <FacultyAdvisor>Raghu Raghavendra</FacultyAdvisor>
+    <Name>Dong Guo</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=72">
+    <Email>hangguo@usc.edu</Email>
+    <FacultyAdvisor>John Heidemann</FacultyAdvisor>
+    <Name>Hang Guo</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=73">
+    <Email>ahamza@usc.edu</Email>
+    <FacultyAdvisor>Nora Ayanian</FacultyAdvisor>
+    <Name>Ameer Hamza</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=74">
+    <Email>han554@usc.edu</Email>
+    <FacultyAdvisor>Shaddin Dughmi, David Kempe</FacultyAdvisor>
+    <Name>Li Han</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=75">
+    <Email>gfharris@usc.edu</Email>
+    <FacultyAdvisor>Viktor Prasanna</FacultyAdvisor>
+    <Name>Gregory Harris</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=76">
+    <Email>hausman@usc.edu</Email>
+    <FacultyAdvisor>Gaurav Sukhatme</FacultyAdvisor>
+    <Name>Karol Hausman</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=77">
+    <Email>xinranhe@usc.edu</Email>
+    <FacultyAdvisor>Yan Liu, David Kempe</FacultyAdvisor>
+    <Name>Xinran He</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=78">
+    <Email>mthernan@usc.edu</Email>
+    <FacultyAdvisor>Gerard Medioni</FacultyAdvisor>
+    <Name>Matthias Hernandez</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=79">
+    <Email>a.hira@usc.edu</Email>
+    <FacultyAdvisor>Barry Boehm</FacultyAdvisor>
+    <Name>Anandi Hira</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=8">
+    <Email>alhadlaq@usc.edu</Email>
+    <FacultyAdvisor>Shahram Ghandeharizadeh</FacultyAdvisor>
+    <Name>Abdulaziz Alhadlaq</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=80">
+    <Email>whoenig@usc.edu</Email>
+    <FacultyAdvisor>Nora Ayanian</FacultyAdvisor>
+    <Name>Wolfgang Hoeing</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=81">
+    <Email>liwenhu@usc.edu</Email>
+    <FacultyAdvisor>Hao Li</FacultyAdvisor>
+    <Name>Liwen Hu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=82">
+    <Email>yitaoh@usc.edu</Email>
+    <FacultyAdvisor>Ramesh Govindan</FacultyAdvisor>
+    <Name>Yitao Hu</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=83">
+    <Email>bojunhua@usc.edu</Email>
+    <FacultyAdvisor>Sven Koenig</FacultyAdvisor>
+    <Name>Bojun Huang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=84">
+    <Email>huang10@usc.edu</Email>
+    <FacultyAdvisor>Suya You</FacultyAdvisor>
+    <Name>Jing Huang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=85">
+    <Email>qianguih@usc.edu</Email>
+    <FacultyAdvisor>Ulrich Neumann</FacultyAdvisor>
+    <Name>Qingui Huang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=86">
+    <Email>chienchun.hung@usc.edu</Email>
+    <FacultyAdvisor>Leana Golubchik</FacultyAdvisor>
+    <Name>Chien-Chun Hung</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=87">
+    <Email>lochuynh@usc.edu</Email>
+    <FacultyAdvisor>Paul Debevec</FacultyAdvisor>
+    <Name>Loc Huynh</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=88">
+    <Email>siddhajj@usc.edu</Email>
+    <FacultyAdvisor>Aram Galstyan</FacultyAdvisor>
+    <Name>Siddharth Jain</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=89">
+    <Email>ajaiswal@usc.edu</Email>
+    <FacultyAdvisor>Raghu Raghavendra</FacultyAdvisor>
+    <Name>Ayush Jaiswal</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=9">
+    <Email>mohsinal@usc.edu</Email>
+    <FacultyAdvisor>Wyatt Lloyd</FacultyAdvisor>
+    <Name>Mohsin Ali</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=90">
+    <Email>jalalkam@usc.edu</Email>
+    <FacultyAdvisor>Stefan Scherer</FacultyAdvisor>
+    <Name>Ali Jalal-Kamali</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=91">
+    <Email>yurongji@usc.edu</Email>
+    <FacultyAdvisor>Ramesh Govindan</FacultyAdvisor>
+    <Name>Yurong Jiang</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=92">
+    <Email>emmanuej@usc.edu</Email>
+    <FacultyAdvisor>Jonathan Gratch</FacultyAdvisor>
+    <Name>Emmanuel Johnson</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=93">
+    <Email>andrewvj@usc.edu</Email>
+    <FacultyAdvisor>Paul Debevec</FacultyAdvisor>
+    <Name>Andrew Jones</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=94">
+    <Email>hjoshi@usc.edu</Email>
+    <FacultyAdvisor>Paul Rosenbloom</FacultyAdvisor>
+    <Name>Himanshu Joshi</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=95">
+    <Email>dkale@usc.edu</Email>
+    <FacultyAdvisor>Greg Ver Steeg</FacultyAdvisor>
+    <Name>David Kale</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=96">
+    <Email>nkamra@usc.edu</Email>
+    <FacultyAdvisor>Nora Ayanian</FacultyAdvisor>
+    <Name>Nitin Kamra</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=97">
+    <Email>dkar@usc.edu</Email>
+    <FacultyAdvisor>Milind Tambe</FacultyAdvisor>
+    <Name>Debarun Kar</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=98">
+    <Email>kazemita@usc.edu</Email>
+    <FacultyAdvisor>Dennis McLeod</FacultyAdvisor>
+    <Name>Jalal Kazemitabar Amirkolaei</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_phd_student_faculty.csv#row=99">
+    <Email>kemna@usc.edu</Email>
+    <FacultyAdvisor>Gaurav Sukhatme</FacultyAdvisor>
+    <Name>Stephanie Kemna</Name>
+  </rdf:Description>
+</rdf:RDF>

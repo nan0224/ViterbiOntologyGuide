@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+]>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://example.org/data/CS_course_final.csv#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=1">
+    <CourseID>CSCI 101L</CourseID>
+    <CourseName>Fundamentals of Computer Programming</CourseName>
+    <Instructor>Massoud Ghyam</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=10">
+    <CourseID>CSCI 300</CourseID>
+    <CourseName>Introduction to Intelligent Agents Using Science Fiction</CourseName>
+    <Instructor>Milind Tambe</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=11">
+    <CourseID>CSCI 310</CourseID>
+    <CourseName>Software Engeineering</CourseName>
+    <Instructor>William GJ Halfond</Instructor>
+    <Prerequisite>CSCI 201</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=12">
+    <CourseID>CSCI 350</CourseID>
+    <CourseName>Introduction to Operating Systems</CourseName>
+    <Instructor>Ramesh Govindan</Instructor>
+    <Prerequisite>(CSCI 201) AND (EE 109 OR EE 352)</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=13">
+    <CourseID>CSCI 351</CourseID>
+    <CourseName>Programming and Multimedia on the World Wide Web</CourseName>
+    <Instructor>Massoud Ghyam</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=14">
+    <CourseID>CSCI 353</CourseID>
+    <CourseName>Introduction to Internetworking</CourseName>
+    <Instructor>Alefiya Hussain</Instructor>
+    <Prerequisite>CSCI 201</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=15">
+    <CourseID>CSCI 360</CourseID>
+    <CourseName>Introduction to Artificial Intelligence</CourseName>
+    <Instructor>Sven Koenig</Instructor>
+    <Prerequisite>(CSCI 104 AND CSCI 170)</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=16">
+    <CourseID>CSCI 401</CourseID>
+    <CourseName>Capstone:Design and Construction of Large Software Systems</CourseName>
+    <Instructor>Jeffrey Miller</Instructor>
+    <Prerequisite>CSCI 270 AND CSCI 310</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=17">
+    <CourseID>CSCI 402</CourseID>
+    <CourseName>Operating Systems</CourseName>
+    <Instructor>Bill Cheng</Instructor>
+    <Prerequisite>(CSCI 201 OR CSCI 455) AND (EE 352 OR EE 357)</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=18">
+    <CourseID>CSCI 404</CourseID>
+    <CourseName>Capstone: Creating Your High-Tech Startup</CourseName>
+    <Instructor>Ashish Soni</Instructor>
+    <Prerequisite>CSCI 201 AND CSCI 270 AND ITP 466</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=19">
+    <CourseID>CSCI 420</CourseID>
+    <CourseName>Computer Graphics</CourseName>
+    <Instructor>Jernej Barbic</Instructor>
+    <Prerequisite>CSCI 104 AND MATH 225</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=2">
+    <Corequisite>CSCI 109 OR EE 109</Corequisite>
+    <CourseID>CSCI 103L</CourseID>
+    <CourseName>Introduction to Programming</CourseName>
+    <Instructor>Massoud Ghyam, Mark Redekopp, David Pritchard</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=20">
+    <CourseID>CSCI 423</CourseID>
+    <CourseName>Native Console Multiplayer Game Development</CourseName>
+    <Instructor>Artjoms Kovalovs</Instructor>
+    <Prerequisite>CSCI 522 OR ITP 380</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=21">
+    <CourseID>CSCI 424</CourseID>
+    <CourseName>Game Engine Tool Development</CourseName>
+    <Instructor>Artjoms Kovalovs</Instructor>
+    <Prerequisite>ITP 380</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=22">
+    <CourseID>CSCI 430</CourseID>
+    <CourseName>Introduction to Computer and Network Security</CourseName>
+    <Instructor>Jelena Mirkovic</Instructor>
+    <Prerequisite>CSCI 201</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=23">
+    <CourseID>CSCI 445L</CourseID>
+    <CourseName>Introduction to Robotics</CourseName>
+    <Instructor>Nora Ayanian</Instructor>
+    <Prerequisite>CSCI 103</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=24">
+    <CourseID>CSCI 455x</CourseID>
+    <CourseName>Introduction to Programming Systems Design</CourseName>
+    <Instructor>Claire Bono</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=25">
+    <CourseID>CSCI 476</CourseID>
+    <CourseName>Cryptography: Secure Communication and Computation</CourseName>
+    <Instructor>Shang-Hua Teng</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=26">
+    <CourseID>CSCI 477A</CourseID>
+    <CourseName>Design and Construction of Large Software Systems</CourseName>
+    <Instructor>Supannika Koolmanojwong</Instructor>
+    <Unit>2</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=27">
+    <CourseID>CSCI 491AL</CourseID>
+    <CourseName>Final Game Project</CourseName>
+    <Instructor>Scott Easley</Instructor>
+    <Unit>2</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=28">
+    <CourseID>CSCI 492</CourseID>
+    <CourseName>Immersive Game Development</CourseName>
+    <Instructor>Artjoms Kovalovs</Instructor>
+    <Unit>2</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=29">
+    <CourseID>CSCI 503</CourseID>
+    <CourseName>Parallel Programming</CourseName>
+    <Instructor>Jacqueline Chame</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=3">
+    <Corequisite>CSCI 170</Corequisite>
+    <CourseID>CSCI 104L</CourseID>
+    <CourseName>Data Structures and Object Oriented Design</CourseName>
+    <Instructor>Aaron Cote, David Kempe</Instructor>
+    <Prerequisite>CSCI 103</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=30">
+    <CourseID>CSCI 510</CourseID>
+    <CourseName>Software Management and Economics</CourseName>
+    <Instructor>Barry Boehm, Supannika Koolmanojwong</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=31">
+    <CourseID>CSCI 520</CourseID>
+    <CourseName>Computer Animation and Simulation</CourseName>
+    <Instructor>Jose Villeta</Instructor>
+    <Prerequisite>CSCI-420 OR CSCI-580</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=32">
+    <CourseID>CSCI 522</CourseID>
+    <CourseName>Game Engine Development</CourseName>
+    <Instructor>Artjoms Kovalovs</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=33">
+    <CourseID>CSCI 523</CourseID>
+    <CourseName>Networked Games</CourseName>
+    <Instructor>Michael Zyda</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=34">
+    <CourseID>CSCI 524</CourseID>
+    <CourseName>Networked Artificial Intelligence</CourseName>
+    <Instructor>Michael Zyda</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=35">
+    <CourseID>CSCI 526</CourseID>
+    <CourseName>Advanced Mobile Devices and Game Consoles</CourseName>
+    <Instructor>Michael Zyda, Scott Easley</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=36">
+    <CourseID>CSCI 529AB</CourseID>
+    <CourseName>Advanced Game Projects</CourseName>
+    <Instructor>Michael Zyda</Instructor>
+    <Unit>2</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=37">
+    <CourseID>CSCI 530</CourseID>
+    <CourseName>Security Systems</CourseName>
+    <Instructor>Clifford Neuman</Instructor>
+    <Prerequisite>CSCI 402</Prerequisite>
+    <Unit>0</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=38">
+    <CourseID>CSCI 531</CourseID>
+    <CourseName>Applied Cryptography</CourseName>
+    <Instructor>William Cheng</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=39">
+    <CourseID>CSCI 540</CourseID>
+    <CourseName>Self-Organization</CourseName>
+    <Instructor>Ari Requicha</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=4">
+    <CourseID>CSCI 109</CourseID>
+    <CourseName>Introduction to Computing</CourseName>
+    <Instructor>Paul Rosenbloom, Gaurav Sukhatme</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=40">
+    <CourseID>CSCI 543</CourseID>
+    <CourseName>Software Multiagent Systems</CourseName>
+    <Instructor>Milind Tambe</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=41">
+    <CourseID>CSCI 544</CourseID>
+    <CourseName>Applied Natural Language Processing</CourseName>
+    <Instructor>Ron Artstein</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=42">
+    <CourseID>CSCI 545</CourseID>
+    <CourseName>Robotics</CourseName>
+    <Instructor>Stefan Schaal</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=43">
+    <CourseID>CSCI 546</CourseID>
+    <CourseName>Intelligent Embedded Systems</CourseName>
+    <Instructor>Gaurav Sukhatme</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=44">
+    <CourseID>CSCI 547</CourseID>
+    <CourseName>Sensing and Planning in Robotics</CourseName>
+    <Instructor>Gaurav Sukhatme</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=45">
+    <CourseID>CSCI 548</CourseID>
+    <CourseName>Information Integration on the Web</CourseName>
+    <Instructor>Craig Knoblock, Pedro Szekely</Instructor>
+    <Prerequisite>CSCI 561</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=46">
+    <CourseID>CSCI 551</CourseID>
+    <CourseName>Computer Communications</CourseName>
+    <Instructor>John Heidemann, Ethan Katz-Bassett</Instructor>
+    <Prerequisite>(CSCI 350 OR CSCI 353 OR CSCI 402) AND (CSCI 353 OR EE 450)</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=47">
+    <CourseID>CSCI 555</CourseID>
+    <CourseName>Advanced Operating Systems</CourseName>
+    <Instructor>Clifford Neuman</Instructor>
+    <Prerequisite>CSCI 402</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=48">
+    <CourseID>CSCI 556</CourseID>
+    <CourseName>Introduction to Cryptography</CourseName>
+    <Instructor>Ming-Deh Huang</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=49">
+    <CourseID>CSCI 558L</CourseID>
+    <CourseName>Internetwork and Distributed Systems Laboratory</CourseName>
+    <Instructor>Young Cho</Instructor>
+    <Prerequisite>CSCI 402 AND EE450</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=5">
+    <CourseID>CSCI 170</CourseID>
+    <CourseName>Discrete Methods in Computer Science</CourseName>
+    <Instructor>Aaron Cote, Ming-Deh Huang</Instructor>
+    <Prerequisite>CSCI 103 AND CSCI 109</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=50">
+    <CourseID>CSCI 561</CourseID>
+    <CourseName>Foundations of Artificial Intelligence</CourseName>
+    <Instructor>Laurent Itti</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=51">
+    <CourseID>CSCI 564</CourseID>
+    <CourseName>Brain Theory and Artificial Intelligence</CourseName>
+    <Instructor>Michael Arbib</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=52">
+    <CourseID>CSCI 565</CourseID>
+    <CourseName>Compiler Design</CourseName>
+    <Instructor>Pedro Diniz</Instructor>
+    <Prerequisite>CSCI 455</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=53">
+    <CourseID>CSCI 567</CourseID>
+    <CourseName>Machine Learning</CourseName>
+    <Instructor>Fei Sha, Yan Liu</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=54">
+    <CourseID>CSCI 568</CourseID>
+    <CourseName>Requirements Engineering</CourseName>
+    <Instructor>George Edwards</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=55">
+    <CourseID>CSCI 570</CourseID>
+    <CourseName>Analysis of Algorithms</CourseName>
+    <Instructor>Shahriar (Shawn) Shamsian</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=56">
+    <CourseID>CSCI 571</CourseID>
+    <CourseName>Web Technologies</CourseName>
+    <Instructor>Ellis Horowitz, Marco Papa</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=57">
+    <CourseID>CSCI 572</CourseID>
+    <CourseName>Web Search Engines</CourseName>
+    <Instructor>Ellis Horowitz, Chris Mattmann</Instructor>
+    <Prerequisite>CSCI 571</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=58">
+    <CourseID>CSCI 574</CourseID>
+    <CourseName>Computer Vision</CourseName>
+    <Instructor>Ramakant Nevatia</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=59">
+    <CourseID>CSCI 576</CourseID>
+    <CourseName>Multimedia Systems Design</CourseName>
+    <Instructor>Parag Havaldar</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=6">
+    <CourseID>CSCI 180</CourseID>
+    <CourseName>Survey of Digital Games and Their Technologies</CourseName>
+    <Instructor>St. John Colon</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=60">
+    <CourseID>CSCI 577A</CourseID>
+    <CourseName>Software Engineering</CourseName>
+    <Instructor>Barry Boehm, Supannika Koolmanojwong</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=61">
+    <CourseID>CSCI 577B</CourseID>
+    <CourseName>Software Engeineering</CourseName>
+    <Instructor>Supannika Koolmanojwong</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=62">
+    <CourseID>CSCI 578</CourseID>
+    <CourseName>Software Architectures</CourseName>
+    <Instructor>Nenad Medvidovic, Chris Mattmann</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=63">
+    <CourseID>CSCI 580</CourseID>
+    <CourseName>3-D Graphics and Rendering</CourseName>
+    <Instructor>Ulrich Neumann, Saty Raghavachary</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=64">
+    <CourseID>CSCI 582</CourseID>
+    <CourseName>Geometric Modeling</CourseName>
+    <Instructor>Ari Requicha</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=65">
+    <CourseID>CSCI 585</CourseID>
+    <CourseName>Database Systems</CourseName>
+    <Instructor>Dennis McLeod, Saty Raghavachary, Massoud Ghyam</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=66">
+    <CourseID>CSCI 586</CourseID>
+    <CourseName>Database Systems Interoperability</CourseName>
+    <Instructor>Dennis McLeod</Instructor>
+    <Prerequisite>CSCI 585</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=67">
+    <CourseID>CSCI 587</CourseID>
+    <CourseName>Geospatial Information Management</CourseName>
+    <Instructor>Cyrus Shahabi</Instructor>
+    <Prerequisite>CSCI 585</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=68">
+    <CourseID>CSCI 591</CourseID>
+    <CourseName>Computer Science Research Colloquium </CourseName>
+    <Instructor>Lizsl De Leon</Instructor>
+    <Unit>1</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=69">
+    <CourseID>CSCI 596</CourseID>
+    <CourseName>Scientific Computing and Visualization</CourseName>
+    <Instructor>Aiichiro Nakano</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=7">
+    <CourseID>CSCI 201L</CourseID>
+    <CourseName>Principles of Software Development</CourseName>
+    <Instructor>Michael Crowley, Jeffrey Miller</Instructor>
+    <Prerequisite>CSCI 104</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=70">
+    <CourseID>CSCI 598</CourseID>
+    <CourseName>Professional Writing and Communication for Computer Scientis</CourseName>
+    <Instructor>Steve Bucher</Instructor>
+    <Unit>1</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=71">
+    <CourseID>CSCI 651</CourseID>
+    <CourseName>Advanced Computer Communications</CourseName>
+    <Instructor>John Heidemann</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=72">
+    <CourseID>CSCI 653</CourseID>
+    <CourseName>High Performance Computing and Simulations</CourseName>
+    <Instructor>Aiichiro Nakano</Instructor>
+    <Prerequisite>CSCI 596 OR CSCI 580</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=73">
+    <CourseID>CSCI 662</CourseID>
+    <CourseName>Advanced Natural Language Processing</CourseName>
+    <Instructor>Kevin Knight, David Chiang</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=74">
+    <CourseID>CSCI 670</CourseID>
+    <CourseName>Advanced Analysis of Algorithms</CourseName>
+    <Instructor>Ming-Deh Huang, David Kempe, Shang-Hua Teng</Instructor>
+    <Prerequisite>CSCI 570</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=75">
+    <CourseID>CSCI 675</CourseID>
+    <CourseName>Convex and Combinatorial Optimization</CourseName>
+    <Instructor>Shaddin Dughmi</Instructor>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=76">
+    <CourseID>CSCI 685</CourseID>
+    <CourseName>Advanced Topics in Database Systems</CourseName>
+    <Instructor>Shahram Ghandeharizadeh</Instructor>
+    <Prerequisite>CSCI 485 OR CSCI 585</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=77">
+    <CourseID>CSCI 694AB</CourseID>
+    <CourseName>Topics in Computer Networks and Distributed Systems</CourseName>
+    <Instructor>Ethan Katz-Bassett, Minlan Yu</Instructor>
+    <Prerequisite>CSCI 551 OR CSCI 555</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=8">
+    <CourseID>CSCI 270</CourseID>
+    <CourseName>Introduction to Algorithms and Theory of Computing</CourseName>
+    <Instructor>Aaron Cote, Leonard Adleman, Michael Schindler</Instructor>
+    <Prerequisite>CSCI 104 AND CSCI 170</Prerequisite>
+    <Unit>4</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_course_final.csv#row=9">
+    <CourseID>CSCI 281</CourseID>
+    <CourseName>Pipelines for Games and Interactives</CourseName>
+    <Instructor>Scott Easley</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+]>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://example.org/data/ee_faculty_final.csv#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=1">
+    <Alias>Michael A. Arbib</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-9220</Cellphone>
+    <E_mail>arbib@pollux.usc.edu</E_mail>
+    <Name>Michael Arbib</Name>
+    <Office>HNB 03</Office>
+    <Position>University Professor, Professor of Electrical Engineering, Fletcher Jones Professor of Computer Science, Professor of Biological Sciences, Biomedical Engineering, Neuroscience, and Psychology;</Position>
+    <Research_Area>Neural networks, brain theory, neuroinformatics, neural simulation, visuomotor coordination in animals and robots analysis of the evolution of brain mechanisms underlying language</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=10">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4683</Cellphone>
+    <E_mail>caire@usc.edu</E_mail>
+    <Name>Giuseppe Caire</Name>
+    <Office>EEB 540</Office>
+    <Position>Professor</Position>
+    <Research_Area>Information theory, Coding theory</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=100">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-3299</Cellphone>
+    <E_mail>annavara@usc.edu</E_mail>
+    <Name>Murali Annavaram</Name>
+    <Office>EEB 232</Office>
+    <Position>Associate Professor of Electrical Engineering and Computer Science</Position>
+    <Research_Area>Computer architecture, 3D stacking, mobiquitous computing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=101">
+    <Alias>Lloyd Welch</Alias>
+    <Category>Adjunct Faculty</Category>
+    <Cellphone>213-740-7335</Cellphone>
+    <E_mail>lloydwelch@earthlink.net</E_mail>
+    <Name>Lloyd R. Welch</Name>
+    <Office>EEB 504B</Office>
+    <Position>Professor Emeritus</Position>
+    <Research_Area>Error-control coding, implementation of coding algorithms and digital sequence design and analysis</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=102">
+    <Alias>Sanjit Kumar Mitra</Alias>
+    <Category>Adjunct Faculty</Category>
+    <E_mail>skmitra@usc.edu</E_mail>
+    <Name>Sanjit Mitra</Name>
+    <Position>Stephen and Etta Varra Professor Emeritus; Research Professor Emeritus of Electrical Engineering</Position>
+    <Research_Area>Analog and digital signal processing and image processing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=103">
+    <Alias>Hans H. Kuehl</Alias>
+    <Category>Adjunct Faculty</Category>
+    <Cellphone>213-740-4691</Cellphone>
+    <E_mail>kuehl@usc.edu</E_mail>
+    <Name>Hans Kuehl</Name>
+    <Office>PHE 622</Office>
+    <Position>Professor Emeritus</Position>
+    <Research_Area>Electromagnetics plasmas optics solitary waves in plasmas and in optical fibers</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=104">
+    <Alias>George A. Bekey</Alias>
+    <Category>Adjunct Faculty</Category>
+    <Cellphone>213-740-4501</Cellphone>
+    <E_mail>bekey@robotics.usc.edu</E_mail>
+    <Name>George Bekey</Name>
+    <Office>SAL 220</Office>
+    <Position>Professor Emeritus</Position>
+    <Research_Area>Robot intelligence, mobility, cooperation artificial intelligence in medicine and rehabilitation</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=105">
+    <Alias>Dan M. Goebel</Alias>
+    <Category>Adjunct Faculty</Category>
+    <Cellphone>213-740-7562</Cellphone>
+    <E_mail>dgoebel@usc.edu</E_mail>
+    <Name>Dan Goebel</Name>
+    <Office>PHE 624</Office>
+    <Position>Adjunct Professor</Position>
+    <Research_Area>Plasma physics, microwave communications, microwave devices</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=106">
+    <Alias>Alvin M. Despain</Alias>
+    <Category>Adjunct Faculty</Category>
+    <E_mail>despain@pollux.usc.edu</E_mail>
+    <Name>Alvin Despain</Name>
+    <Position>Professor Emeritus</Position>
+    <Research_Area>Computer architecture, multiprocessor systems, logic programming, quantum computation and design automation</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=107">
+    <Category>Adjunct Faculty</Category>
+    <E_mail>Serge.Dubovitsky@jpl.nasa.gov</E_mail>
+    <Name>Serge Dubovitsky</Name>
+    <Position>Adjunct Associate Professor</Position>
+    <Research_Area>Lasers and WDM devices, lasers, fiberoptics and integrated optics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=108">
+    <Alias>William H. Steier</Alias>
+    <Category>Adjunct Faculty</Category>
+    <Cellphone>213-740-4415</Cellphone>
+    <E_mail>steier@usc.edu</E_mail>
+    <Name>William Steier</Name>
+    <Office>SSC 502</Office>
+    <Position>William M. Hogue Professor Emeritus</Position>
+    <Research_Area>Nonlinear optics photonics organic polymer materials and devices for photonics nonlinear optical wave mixing in semiconductor amplifiers</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=109">
+    <Alias>Michael G. Safonov</Alias>
+    <Category>Adjunct Faculty</Category>
+    <Cellphone>213-740-4455</Cellphone>
+    <E_mail>msafonov@usc.edu</E_mail>
+    <Name>Michael Safonov</Name>
+    <Office>EEB 310</Office>
+    <Position>Professor Emeritus</Position>
+    <Research_Area>Control and decision theory</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=11">
+    <Alias>Mike Shuo-Wei Chen, Shuo-Wei Chen</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4691</Cellphone>
+    <E_mail>swchen@usc.edu</E_mail>
+    <Name>Mike S.W. Chen</Name>
+    <Office>PHE 622</Office>
+    <Position>Assistant Professor</Position>
+    <Research_Area>Analog and mixed-signal integrated circuits; digital signal processing techniques to alleviate circuit and system constraints; wireless and wireline communication systems design and implementation; circuits for emerging applications</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=110">
+    <Category>Adjunct Faculty</Category>
+    <Name>Min-Cheol Oh</Name>
+    <Position>Adjunct Associate Professor</Position>
+    <Research_Area>Polymer photonic devices and materials</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=111">
+    <Category>Adjunct Faculty</Category>
+    <Name>Kirby Holte</Name>
+    <Position>Adjunct Professor</Position>
+    <Research_Area>High voltage power transmission, power electronics and electro-magnetics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=112">
+    <Category>Adjunct Faculty</Category>
+    <Name>Lute Maleki</Name>
+    <Position>Adjunct Associate Professor</Position>
+    <Research_Area>Quantum sensors</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=113">
+    <Category>Adjunct Faculty</Category>
+    <E_mail>vijayk@usc.edu</E_mail>
+    <Name>P. Vijay Kumar</Name>
+    <Position>Adjunct Professor</Position>
+    <Research_Area>Codes for distributed storage; distributed function computation; distributed detection and localization in sensor networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=114">
+    <Category>Research Faculty</Category>
+    <Cellphone>213-821-4268</Cellphone>
+    <E_mail>faminzad@usc.edu</E_mail>
+    <Name>Fred Aminzadeh</Name>
+    <Office>HED 310</Office>
+    <Position>Research Professor</Position>
+    <Research_Area>Soft Computing (fuzzy logic, neural networks, AI); Geothermal Energy; Shale Gas;Fracture Detection;Gas Chimneys;Seismic Modeling(acoustic and elastic);Reservoir Characterization;Seismic Attributes</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=115">
+    <Alias>Federico M. Spedalieri</Alias>
+    <Category>Research Faculty</Category>
+    <Cellphone>310-448-8480</Cellphone>
+    <E_mail>fspedali@isi.edu</E_mail>
+    <Name>Federico Spedalieri</Name>
+    <Office>ISI Marina del Rey</Office>
+    <Position>Research Assistant Professor of Electrical Engineering</Position>
+    <Research_Area>Quantum computing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=116">
+    <Alias>John Patrick Stang</Alias>
+    <Category>Research Faculty</Category>
+    <Cellphone>213-740-2574</Cellphone>
+    <Name>John Stang</Name>
+    <Office>DRB 226</Office>
+    <Position>Research Assistant Professor of Electrophysics</Position>
+    <Research_Area>Medical Imaging and Therapy;Microwava Remote Sensing; Applied and Computation Electromagnetics;Antenn Theory and Design</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=117">
+    <Alias>Jeffrey T. Draper</Alias>
+    <Category>Research Faculty</Category>
+    <Cellphone>310- 448-8750</Cellphone>
+    <E_mail>draper@isi.edu</E_mail>
+    <Name>Jeffrey Draper</Name>
+    <Office>ISI Marina del Rey</Office>
+    <Position>Project Leader/Research Associate Professor of Electrical Engineering</Position>
+    <Research_Area>Computer Engineering</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=118">
+    <Category>Research Faculty</Category>
+    <Cellphone>213-821-2721</Cellphone>
+    <E_mail>sungbokl@usc.edu</E_mail>
+    <Name>Sungbok Lee</Name>
+    <Office>EEB 428</Office>
+    <Position>Research Assistant Professor of Electrical Engineering</Position>
+    <Research_Area>Speech processing and speech production modeling</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=119">
+    <Category>Research Faculty</Category>
+    <E_mail>muggli@usc.edu</E_mail>
+    <Name>Patric Muggli</Name>
+    <Position>Adjunct Research Professor</Position>
+    <Research_Area>Plasma-based accelerators</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=12">
+    <Alias>Keith M. Chugg</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-7294</Cellphone>
+    <E_mail>chugg@usc.edu</E_mail>
+    <Name>Keith Chugg</Name>
+    <Office>EEB 500A</Office>
+    <Position>Professor</Position>
+    <Research_Area>iterative detection, coding and modulation, and algorithm-architecture trade-offs for digital hardware implementation</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=120">
+    <Category>Research Faculty</Category>
+    <Cellphone>213-740-1454</Cellphone>
+    <E_mail>madhavan@usc.edu</E_mail>
+    <Name>Bindu Madhavan</Name>
+    <Office>PHE 512</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Electrical Engineering-Electrophysics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=121">
+    <Category>Research Faculty</Category>
+    <Cellphone>310-448-1511</Cellphone>
+    <E_mail>mfritze@isi.edu</E_mail>
+    <Name>Michael Fritze</Name>
+    <Office>ISI Marina del Rey</Office>
+    <Position>Research Professor</Position>
+    <Research_Area>carbon electronics and other novel nano- and micro-electronics technologies</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=122">
+    <Alias>Stephen P. Crago</Alias>
+    <Category>Research Faculty</Category>
+    <Cellphone>703-812-3729</Cellphone>
+    <E_mail>crago@isi.edu</E_mail>
+    <Name>Stephen Crago</Name>
+    <Office>ISI Arlington</Office>
+    <Position>Research Associate Professor of Electrical Engineering </Position>
+    <Research_Area>heterogeneous computing, high-performance and embedded cloud computing, introspective systems, and parallel software</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=123">
+    <Alias>Joseph Touch, Joseph (Joe) Touch, Joseph D. Touch</Alias>
+    <Category>Research Faculty</Category>
+    <Cellphone>310-448-9151</Cellphone>
+    <E_mail>touch@isi.edu</E_mail>
+    <Name>Joe Touch</Name>
+    <Office>ISI, Rm. 1130, Marina del Rey</Office>
+    <Position>Research Associate Professor of Computer Science and Electrical Engineering</Position>
+    <Research_Area>Network architecture and protocol performance</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=124">
+    <Category>Research Faculty</Category>
+    <Cellphone>213-740-2574</Cellphone>
+    <E_mail>alirezat@usc.edu</E_mail>
+    <Name>Alireza Tabatabaeenejad</Name>
+    <Office>DRB 226</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Microwave Remote Sensing, Applied and Computational Electromagnetics, Applied and Computational Mathematics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=125">
+    <Category>Research Faculty</Category>
+    <Cellphone>213- 740-4676</Cellphone>
+    <E_mail>ajoshi@usc.edu</E_mail>
+    <Name>Anand A. Joshi</Name>
+    <Office>EEB 426</Office>
+    <Position>Research Assistant Professor of Electrical Engineering</Position>
+    <Research_Area>Brain imaging, Image analysis, Geometric methods, Brain Networks, Level set methods, Computational Geometry, PDE-based methods</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=126">
+    <Category>Research Faculty</Category>
+    <E_mail>youngcho@isi.edu</E_mail>
+    <Name>Young Cho</Name>
+    <Office>ISI Marina del Rey</Office>
+    <Position>Research Assistant Professor of Computer Science and Electrical Engineering</Position>
+    <Research_Area>computer networks, wireless sensor networks, and other distributed computing systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=127">
+    <Category>Research Faculty</Category>
+    <E_mail>chunqi@usc.edu</E_mail>
+    <Name>Chunqi Jiang</Name>
+    <Position>Research Associate Professor</Position>
+    <Research_Area>Bioelectrics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=128">
+    <Alias>Allen E. Puckett</Alias>
+    <Category>Research Faculty</Category>
+    <Name>Allen Puckett</Name>
+    <Position>Research Professor</Position>
+    <Research_Area>Guggenheim Aeronautical Laboratory;satellite communications</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=129">
+    <Category>Research Faculty</Category>
+    <Cellphone>213-821-2523</Cellphone>
+    <E_mail>vernier@usc.edu</E_mail>
+    <Name>P. Thomas Vernier</Name>
+    <Office>ISI Marina del Rey</Office>
+    <Position>Research Associate Professor</Position>
+    <Research_Area>Molecular dynamics simulations of biomolecular structures in electrical fields; silicon platforms for nanoelectronics, bioelectronics, photonics and plasmonics; response of biological systems to ultra-short, high-power, low-energy (perturbative) electrical pulses; direct interfacing of cellular and tissue-level biological systems with CMOS integrated circuits built in standard commercial technologies; engineering of nanoscale structures for use as environmental monitors; development of experimental pulsed power systems and nano- and microfabricated electrode chambers and microfluidic assemblies</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=13">
+    <Alias>Stephen B. Cronin</Alias>
+    <Category>Full-time Faculty</Category>
+    <E_mail>scronin@usc.edu</E_mail>
+    <Name>Stephen Cronin</Name>
+    <Office>PHE 624</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>Optics and electronics of carbon nanotubes, nanowires and other nm-scale systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=130">
+    <Category>Part-Time Lecturers</Category>
+    <Cellphone>213-740-8495</Cellphone>
+    <E_mail>kaviani@usc.edu</E_mail>
+    <Name>Kian Kaviani</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=131">
+    <Category>Part-Time Lecturers</Category>
+    <E_mail>Sabino.Piazzolla@jpl.nasa.gov</E_mail>
+    <Name>Sabino Piazzolla</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=132">
+    <Category>Part-Time Lecturers</Category>
+    <E_mail>josevilleta@gmail.com</E_mail>
+    <Name>Jose Villeta</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=133">
+    <Category>Part-Time Lecturers</Category>
+    <E_mail>ali.zadeh@yahoo.com</E_mail>
+    <Name>Ali Zadeh</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=134">
+    <Category>Part-Time Lecturers</Category>
+    <Cellphone>213-740-9058</Cellphone>
+    <E_mail>zahida54@yahoo.com</E_mail>
+    <Name>Ali Zahid</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=135">
+    <Category>Research Staff</Category>
+    <Cellphone>213-740-6230</Cellphone>
+    <E_mail>albash@usc.edu</E_mail>
+    <Name>Tameem Albash</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=136">
+    <Category>Research Staff</Category>
+    <Cellphone>213-740-9129</Cellphone>
+    <E_mail>chelmis@usc.edu</E_mail>
+    <Name>Charalampos Chelmis</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=137">
+    <Category>Research Staff</Category>
+    <E_mail>engad@usc.edu</E_mail>
+    <Name>Eyal En Gad</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=138">
+    <Category>Research Staff</Category>
+    <Cellphone>213-740-4145</Cellphone>
+    <E_mail>lingala@usc.edu</E_mail>
+    <Name>Sajan Goud Lingala</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=139">
+    <Category>Research Staff</Category>
+    <Cellphone>310-895-4987</Cellphone>
+    <E_mail>michelusi@usc.edu</E_mail>
+    <Name>Nicolo Michelusi</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=14">
+    <Alias>P. Dan Dapkus</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4414</Cellphone>
+    <E_mail>dapkus@usc.edu</E_mail>
+    <Name>P. Daniel Dapkus</Name>
+    <Office>VHE 314</Office>
+    <Position>William M. Keck Distinguished Professor of Engineering, Professor of Electrical Engineering and Physics and Astronomy</Position>
+    <Research_Area>Photonics, MOCVD &amp; III-V materials vertical cavity surface emitting lasers, novel photonic devices</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=140">
+    <Category>Research Staff</Category>
+    <Cellphone>213-740-9129</Cellphone>
+    <E_mail>saberteh@usc.edu</E_mail>
+    <Name>Arash Tehrani</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=141">
+    <Category>Research Staff</Category>
+    <Cellphone>213-740-4146</Cellphone>
+    <E_mail>toger@usc.edu</E_mail>
+    <Name>Johannes Toger</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=142">
+    <Category>Research Staff</Category>
+    <Cellphone>213-740-4146</Cellphone>
+    <E_mail>toutios@usc.edu</E_mail>
+    <Name>Asterious Toutios</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=143">
+    <Category>Research Staff</Category>
+    <Cellphone>213-740-4146</Cellphone>
+    <E_mail>maarten@sipi.usc.edu</E_mail>
+    <Name>Maarten Van Segbroeck</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=144">
+    <Category>Research Staff</Category>
+    <E_mail>wvinci@usc.edu</E_mail>
+    <Name>Walter Vinci</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=15">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4475</Cellphone>
+    <E_mail>dubois@paris.usc.edu</E_mail>
+    <Name>Michel Dubois</Name>
+    <Office>EEB 228</Office>
+    <Position>Professor</Position>
+    <Research_Area>Computer architecture, microarchitecture, memory systems, multiprocessor architectures, server design, performance evaluation of computer architecture</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=16">
+    <Alias>Mary Eshaghian</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-6257</Cellphone>
+    <E_mail>eshaghia@usc.edu</E_mail>
+    <Name>Mary Mehrnoosh Eshaghian-Wilner</Name>
+    <Office>EEB 320</Office>
+    <Position>Professor of Engineering Practice</Position>
+    <Research_Area>Engineering Practice</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=17">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-1134</Cellphone>
+    <E_mail>feinberg@usc.edu</E_mail>
+    <Name>Jack Feinberg</Name>
+    <Office>SSC 327</Office>
+    <Position>Professor of Physics and Astronomy and Electrical Engineering</Position>
+    <Research_Area>Nonlinear optics and lasers optical phase conjugation, photorefractive effects and materials, image processing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=18">
+    <Alias>Panayiotis G. Georgiou</Alias>
+    <Category>Full-time Faculty</Category>
+    <E_mail>georgiou@sipi.usc.edu</E_mail>
+    <Name>Panayiotis Georgiou</Name>
+    <Office>EEB 428</Office>
+    <Position>Assistant Professor of Electrical Engineering</Position>
+    <Research_Area>Signal Processing with an emphasis on human-generated signals</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=19">
+    <Alias>Solomon Golomb, Sol Golomb</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-7333</Cellphone>
+    <E_mail>sgolomb@usc.edu</E_mail>
+    <Name>Solomon W. Golomb</Name>
+    <Office>EEB 504A</Office>
+    <Position>University Professor, Distinguished Professor of Electrical Engineering and Mathematics, Andrew and Erna Viterbi Chair in Communications</Position>
+    <Research_Area>Signal design for communications and radar, coding theory and cryptography, combinatorial analysis, number theory, mathematical game theory</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=2">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4428</Cellphone>
+    <E_mail>armani@usc.edu</E_mail>
+    <Name>Andrea Armani</Name>
+    <Office>VHE 712</Office>
+    <Position>Associate Professor of Chemical Engineering and Electrical Engineering</Position>
+    <Research_Area>Optical biological and chemical sensors; integration of microfluidics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=20">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-7285</Cellphone>
+    <E_mail>ramesh@usc.edu</E_mail>
+    <Name>Ramesh Govindan</Name>
+    <Office>SAL 212</Office>
+    <Position>Professor of Computer Science and Electrical Engineering</Position>
+    <Research_Area>Computer Science and Electrical Engineering</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=21">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4524</Cellphone>
+    <E_mail>leana@usc.edu</E_mail>
+    <Name>Leana Golubchik</Name>
+    <Office>SAL 226</Office>
+    <Position>Professor of Computer Science and Electrical Engineering</Position>
+    <Research_Area>Internet-based computing, multimedia systems, and computer systems modeling and performance evaluation</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=22">
+    <Alias>Norbert Grzywacz</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-821-1150</Cellphone>
+    <E_mail>nmg@bmsrs.usc.edu</E_mail>
+    <Name>Norbert M. Grzywacz</Name>
+    <Office>DRB 168/176</Office>
+    <Position>Professor of Biomedical Engineering and Electrical Engineering</Position>
+    <Research_Area>Small networks of retinal neurons, emergence of retinal function during development, retina as an optimal computational device, measurement of visual motion in the brain, perceptual learning, analysis of medical images</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=23">
+    <Alias>Martin A. Gundersen</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4396</Cellphone>
+    <E_mail>mag@usc.edu </E_mail>
+    <Name>Martin Gundersen</Name>
+    <Office>SSC 421</Office>
+    <Position>Professor of Electrical Engineering, Physics and Astronomy</Position>
+    <Research_Area>Neural networks, brain theory, neuroinformatics, neural simulation, visuomotor coordination in animals and robots analysis of the evolution of brain mechanisms underlying language</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=24">
+    <Alias>Sandeep K. Gupta</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-2251</Cellphone>
+    <E_mail>sandeep@usc.edu</E_mail>
+    <Name>Sandeep Gupta</Name>
+    <Office>EEB 100A</Office>
+    <Position>Professor; Chair of Electrical Engineering-Systems</Position>
+    <Research_Area>Design for testability, test, and validation of high speed systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=25">
+    <Alias>Justin P. Haldar</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-2358</Cellphone>
+    <E_mail>jhaldar@usc.edu</E_mail>
+    <Name>Justin Haldar</Name>
+    <Office>EEB 442</Office>
+    <Position>Assistant Professor of Electrical Engineering</Position>
+    <Research_Area>Multidimensional Signal Processing, Biomedical Imaging, Neuroimaging, Magnetic Resonance Imaging, Constrained Image Reconstruction, Signal Modeling, Inverse Problems, Parameter Estimation, Experiment Design</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=26">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-3596</Cellphone>
+    <E_mail>hosseinh@usc.edu</E_mail>
+    <Name>Hossein Hashemi</Name>
+    <Office>PHE 616</Office>
+    <Position>Professor</Position>
+    <Research_Area>Analog, radio frequency, microwave, and millimeter wave integrated circuits and systems. Optical integrated circuits and systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=27">
+    <Alias>Robert W. Hellwarth</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4380</Cellphone>
+    <E_mail>hellwart@usc.edu</E_mail>
+    <Name>Robert Hellwarth</Name>
+    <Position>Professor</Position>
+    <Research_Area>Quantum electronics; nonlinear optics; design and employment of lasers to aid a variety of practical and scientific efforts, from adaptive optics for astronomy to electro-optic modulators for communications</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=28">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213- 740-8056</Cellphone>
+    <E_mail>horowitz@usc.edu</E_mail>
+    <Name>Ellis Horowitz</Name>
+    <Office>SAL 320</Office>
+    <Position>Professor of Computer Science and Electrical Engineering</Position>
+    <Research_Area>Software development, software engineering, computer-based instruction, World Wide Web/Internet and collaboration</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=29">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4470</Cellphone>
+    <E_mail>kaihwang@usc.edu</E_mail>
+    <Name>Kai Hwang</Name>
+    <Office>EEB 212</Office>
+    <Position>Professor of Electrical Engineering and Computer Science</Position>
+    <Research_Area>Parallel/cluster/grid/distributed computing, scalable computer architecture, intranet and internet security, benchmarl experiments, metacomputing and supercomputing systems and their applications</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=3">
+    <Alias>Amir Salman Avestimehr</Alias>
+    <Category>Full-time Faculty</Category>
+    <E_mail>avestimehr@ee.usc.edu</E_mail>
+    <Name>Salman Avestimehr</Name>
+    <Office>EEB 526</Office>
+    <Position>Associate Professor of Electrical Engineering</Position>
+    <Research_Area>Information theory, the theory of communications, and their applications such as wireless networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=30">
+    <Alias>Petros A. Ioannou</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4452</Cellphone>
+    <E_mail>ioannou@usc.edu</E_mail>
+    <Name>Petros Ioannou</Name>
+    <Office>EEB 200B</Office>
+    <Position>A.V. "Bal" Balakrishnan Chair, Professor of Electrical Engineering and Aerospace and Mechanical Engineering</Position>
+    <Research_Area>Control systems and applications, intelligent transportation systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=31">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-2228</Cellphone>
+    <E_mail>behnam.jafarpour@usc.edu</E_mail>
+    <Name>Behnam Jafarpour</Name>
+    <Office>HED 313</Office>
+    <Position>Associate Professor of Chemical Engineering and Electrical Engineering</Position>
+    <Research_Area>Stochastic subsurface description and modeling, sparse/compact representation and estimation methods, inverse modeling and uncertainty quantification, field development optimization, applied signal processing and system analysis</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=32">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-2246</Cellphone>
+    <E_mail>rahul.jain@usc.edu</E_mail>
+    <Name>Rahul Jain</Name>
+    <Office>EEB 328</Office>
+    <Position>Associate Professor of Electrical Engineering and Industrial and Systems Engineering</Position>
+    <Research_Area>Communication Networks; Network Economics and Game Theory; Stochastic Control and Learning</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=33">
+    <Alias>Keith Jenkins</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4149</Cellphone>
+    <E_mail>jenkins@sipi.usc.edu</E_mail>
+    <Name>B. Keith Jenkins</Name>
+    <Office>EEB 404A</Office>
+    <Position>Professor</Position>
+    <Research_Area>3-D photonic multichip modules for computation and vision, volume holography and diffractive optical elements, multidimensional displays, neural networks and early vision systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=34">
+    <Alias>Edmond A. Jonckheere</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4457</Cellphone>
+    <E_mail>jonckhee@usc.edu</E_mail>
+    <Name>Edmond Jonckheere</Name>
+    <Office>EEB 306</Office>
+    <Position>Professor of Electrical Engineering and Mathematics</Position>
+    <Research_Area>Topological methods in robust control, control of chaos, and propulsion controlled aircraft</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=35">
+    <Alias>Rehan R. Kapadia</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-821-0845</Cellphone>
+    <E_mail>rkapadia@usc.edu</E_mail>
+    <Name>Rehan Kapadia</Name>
+    <Office>PHE 626</Office>
+    <Position>Assistant Professor of Electrical Engineering - Electrophysics</Position>
+    <Research_Area>Photonics, Energy Harvesting and Generation, Next-generation logic components, Novel Materials Growth Techniques</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=36">
+    <Alias>Eun Kim</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4697</Cellphone>
+    <E_mail>eskim@usc.edu</E_mail>
+    <Name>Eun Sok Kim</Name>
+    <Office>PHE 612</Office>
+    <Position>Professor; Chair of Electrical Engineering-Electrophysics</Position>
+    <Research_Area>Microelectromechanical systems (MEMS), integrated transducers, microfabrication technology, device physics, ultrasonics and materials study</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=37">
+    <Alias>Bart Andrew Kosko</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-6242</Cellphone>
+    <E_mail>kosko@usc.edu</E_mail>
+    <Name>Bart Kosko</Name>
+    <Office>EEB 438</Office>
+    <Position>Professor of Electrical Engineering and Law</Position>
+    <Research_Area>Adaptive systems, fuzzy theory, neural networks, bio-computing, nonlinear signal processing, intelligent agents, smart materials, stochastic resonance</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=38">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-821-2528</Cellphone>
+    <E_mail>bkrishna@usc.edu</E_mail>
+    <Name>Bhaskar Krishnamachari</Name>
+    <Office>RTH 410</Office>
+    <Position>Professor of Electrical Engineering and Computer Science</Position>
+    <Research_Area>analysis and design of wireless ad-hoc and sensor networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=39">
+    <Alias>C.-C. Jay Kuo, C.-C. Kuo</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4658</Cellphone>
+    <E_mail>cckuo@sipi.usc.edu</E_mail>
+    <Name>Jay Kuo</Name>
+    <Office>EEB 440</Office>
+    <Position>Professor of Electrical Engineering and Computer Science</Position>
+    <Research_Area>Multimedia data compression and database management</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=4">
+    <Alias>Peter A. Beerel</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4481</Cellphone>
+    <E_mail>pabeerel@usc.edu</E_mail>
+    <Name>Peter Beerel</Name>
+    <Office>EEB 350</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>Design, synthesis, analysis, and formal verification of mixed asynchronous and synchronous architectures</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=40">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-8600</Cellphone>
+    <E_mail>ckyriak@usc.edu</E_mail>
+    <Name>Chris Kyriakakis</Name>
+    <Office>EEB 432</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>Immersive audio environments, adaptive audio signal processing, virtual microphones, virtual loudspeakers, 3D HDTV</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=41">
+    <Alias>Richard M. Leahy</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4659,</Cellphone>
+    <E_mail>leahy@sipi.usc.edu</E_mail>
+    <Name>Richard Leahy</Name>
+    <Office>EEB 400C</Office>
+    <Position>Professor of Electrical Engineering, Biomedical Engineering, and Radiology</Position>
+    <Research_Area>Biomedical signal and image processing methods for anatomical and functional imaging with applications in neuroimaging, oncology, and gene expression</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=42">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-7318</Cellphone>
+    <E_mail>alevi@usc.edu</E_mail>
+    <Name>Anthony F. J. Levi</Name>
+    <Office>KAP 132</Office>
+    <Position>Professor</Position>
+    <Research_Area>Scaling of ultra-fast electronic and photonic devices. System-level integration of advanced optoelectronic technologies</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=43">
+    <Alias>Daniel Amihud Lidar</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-0198</Cellphone>
+    <E_mail>lidar@usc.edu</E_mail>
+    <Name>Daniel Lidar</Name>
+    <Office>SSC 609</Office>
+    <Position>Professor of Electrical Engineering and Chemistry</Position>
+    <Research_Area>Dynamics and control of open quantum systems, quantum computers</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=44">
+    <Alias>William C. Lindsey </Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4675</Cellphone>
+    <E_mail>wcl@usc.edu</E_mail>
+    <Name>William Lindsey </Name>
+    <Office>EEB 510</Office>
+    <Position>Professor</Position>
+    <Research_Area>Adaptive coded modulation, channel characterization, PCS communications, satellite communications, smart modems/antennas, positioning systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=45">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4371</Cellphone>
+    <E_mail>yanliu.cs@usc.edu</E_mail>
+    <Name>Yan Liu</Name>
+    <Office>PHE 336</Office>
+    <Position>Assistant Professor of Computer Science and Electrical Engineering</Position>
+    <Research_Area>Machine learning, data mining</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=46">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-821-4328</Cellphone>
+    <E_mail>jialu@usc.edu</E_mail>
+    <Name>Jia Grace Lu</Name>
+    <Office>SSC 215B</Office>
+    <Position>Associate Professor of Physics and Electrical Engineering</Position>
+    <Research_Area>Nanoelectronics, mesoscopic physics, charge and spin transport in low dimensional systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=47">
+    <Alias>Edward W. Maby</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4706</Cellphone>
+    <E_mail>maby@usc.edu</E_mail>
+    <Name>Edward Maby</Name>
+    <Office>PHE 626</Office>
+    <Position>Professor of Engineering Practice</Position>
+    <Research_Area>Semiconductor device processing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=48">
+    <Alias>Vasilis Z. Marmarelis</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-0841</Cellphone>
+    <E_mail>vzm@usc.edu</E_mail>
+    <Name>Vasilis Marmarelis</Name>
+    <Office>DRB 160</Office>
+    <Position>Professor of Biomedical and Electrical Engineering</Position>
+    <Research_Area>Modeling of nonlinear and non-stationary physiological systems and signals</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=49">
+    <Alias>Gerard G. Medioni</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-6440</Cellphone>
+    <E_mail>medioni@usc.edu</E_mail>
+    <Name>Gerard Medioni</Name>
+    <Office>PHE 212</Office>
+    <Position>Professor of Computer Science and Electrical Engineering</Position>
+    <Research_Area>Computer vision and image understanding</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=5">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213740-6433</Cellphone>
+    <E_mail>beshir@usc.edu</E_mail>
+    <Name>Mohammed Beshir</Name>
+    <Office>EEB 200A</Office>
+    <Position>Associate Professor of Engineering Practice</Position>
+    <Research_Area>Power system design and analysis, grid reliability planning, renewable energy resources, smart-grid development, electric vehicle grid integration, electric power distribution</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=50">
+    <Alias>Jerry M. Mendel</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213- 740-4445</Cellphone>
+    <E_mail>mendel@sipi.usc.edu</E_mail>
+    <Name>Jerry Mendel</Name>
+    <Office>EEB 400B</Office>
+    <Position>Professor</Position>
+    <Research_Area>Uncertain rule-based fuzzy logic systems applied to a wide range of applications</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=51">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-6952</Cellphone>
+    <E_mail>ellis.meng@usc.edu</E_mail>
+    <Name>Ellis Meng</Name>
+    <Office>DRB 159</Office>
+    <Position>Professor of Biomedical Engineering and Electrical Engineering</Position>
+    <Research_Area>BioMEMS, microfluidics, lab-on-a-chip, microsystem integration and packaging, world-to-chip interfacing, cell-to-chip interfacing, implantable biomedical microdevices</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=52">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4667</Cellphone>
+    <E_mail>ubli@usc.edu</E_mail>
+    <Name>Urbashi Mitra</Name>
+    <Office>EEB 536</Office>
+    <Position>Dean's Professor of Electrical Engineering; Professor of Electrical Engineering and Computer Science</Position>
+    <Research_Area>Multi-user spread-spectrum systems, space-time coding, communication theory, wireless resource allocation, ultra wideband communications, sensor networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=53">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4712</Cellphone>
+    <E_mail>mahta@usc.edu</E_mail>
+    <Name>Mahta Moghaddam</Name>
+    <Office>PHE 634</Office>
+    <Position>Professor</Position>
+    <Research_Area>Radar systems, remote sensing, environmental sensing, medical imaging, focused microwave therapy systems, inverse scattering, subsurface sensing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=54">
+    <Alias>Andreas F. Molisch</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4670</Cellphone>
+    <E_mail>molisch@usc.edu </E_mail>
+    <Name>Andreas Molisch</Name>
+    <Office>EEB 530</Office>
+    <Position>Professor</Position>
+    <Research_Area>Ultrawideband communications and geolocation, wireless propagation channels, multiple-antenna systems, and cooperative communications</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=55">
+    <Alias>Shrikanth S. Narayanan, Shrikanth S. (Shri) Narayanan, Shrikanth Narayanan</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-6432</Cellphone>
+    <E_mail>shri@sipi.usc.edu</E_mail>
+    <Name>Shrikanth (Shri) Narayanan</Name>
+    <Office>EEB 430</Office>
+    <Position>Andrew Viterbi Professor of Engineering; Professor of Electrical Engineering, Computer Science, Linguistics, Pediatrics, and Psychology</Position>
+    <Research_Area>Signals and systems modeling with an interdisciplinary emphasis on speech, audio, language, multimodal and biomedical signal and information processing and applications</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=56">
+    <Alias>Krishna S. Nayak</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-3494</Cellphone>
+    <E_mail>knayak@sipi.usc.edu</E_mail>
+    <Name>Krishna Nayak</Name>
+    <Office>EEB 406</Office>
+    <Position>Professor of Electrical Engineering, Biomedical Engineering, Radiology, and Medicine</Position>
+    <Research_Area>Medical Imaging, Magnetic Resonance Imaging, Image Reconstruction</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=57">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-2353</Cellphone>
+    <E_mail>ashutosn@usc.edu</E_mail>
+    <Name>Ashutosh Nayyar</Name>
+    <Office>EEB 326</Office>
+    <Position>Assistant Professor</Position>
+    <Research_Area>Decentralized stochastic systems, stochastic control, sensing and communication systems, decentralized control, game theory and mechanism design, electric power systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=58">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4653</Cellphone>
+    <E_mail>shahin.nazarian@usc.edu</E_mail>
+    <Name>Shahin Nazarian</Name>
+    <Office>EEB 340</Office>
+    <Position>Associate Professor of Engineering Practice</Position>
+    <Research_Area>VLSI design, functional and timing verification</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=59">
+    <Alias>Michael J. Neely</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-3505</Cellphone>
+    <E_mail>mjneely AT usc.edu</E_mail>
+    <Name>Michael Neely</Name>
+    <Office>EEB 520</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>Data networks for satellite and wireless</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=6">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-821-5720</Cellphone>
+    <E_mail>pbogdan@usc.edu</E_mail>
+    <Name>Paul Bogdan</Name>
+    <Office>EEB 304</Office>
+    <Position>Assistant Professor</Position>
+    <Research_Area>Electrical and Computer Engineering</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=60">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4489</Cellphone>
+    <E_mail>eneumann@usc.edu</E_mail>
+    <Name>Ulrich Neumann</Name>
+    <Office>PHE 402</Office>
+    <Position>Professor of Computer Science and Electrical Engineering</Position>
+    <Research_Area>Computer graphics, visualization, tracking for augmented reality, 3D modeling, rendering and animation</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=61">
+    <Alias>Ram Nevatia</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-6427</Cellphone>
+    <E_mail>nevatia@iris.usc.edu</E_mail>
+    <Name>Ramakant Nevatia</Name>
+    <Office>PHE 202</Office>
+    <Position>Professor of Computer Science and Electrical Engineering</Position>
+    <Research_Area>Computer vision, robotics, artificial intelligence, computer graphics and image processing, pattern recognition</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=62">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-821-1600</Cellphone>
+    <E_mail>nezami@usc.edu</E_mail>
+    <Name>Elahe Nezami</Name>
+    <Office>UVI-E210</Office>
+    <Position>Associate Professor of Preventive Medicine, Medical Education, Gerontology, and Electrical Engineering</Position>
+    <Research_Area>Global health education and training, Uses of new technology in education, Psychosocial risk indicators of coronary heart disease, Age and ethnicity in relation to drug use among adolescents &amp; young adults, Psychosocial characteristics of drug users (smoking, alcohol, marijuana), Role of motivation and self-esteem in smoking prevention and cessation</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=63">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-2111</Cellphone>
+    <Name>Chrysostomos L. (Max) Nikias</Name>
+    <Office>ADM 110</Office>
+    <Position>President</Position>
+    <Research_Area>Statistical signal processing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=64">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-0145</Cellphone>
+    <E_mail>jdobrien@usc.edu</E_mail>
+    <Name>John O'Brien</Name>
+    <Office>OHE 200</Office>
+    <Position>Professor and Executive Vice Dean for Engineering, Louise L. Dunn Endowed Professorship in Engineering</Position>
+    <Research_Area>Nanofabricated photonic devices; modeling and fabrication of photonic bandgap crystals for use in microcavity semiconductor lasers</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=65">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-2320</Cellphone>
+    <E_mail>ortega@sipi.usc.edu</E_mail>
+    <Name>Antonio Ortega</Name>
+    <Office>EEB 436</Office>
+    <Position>Professor</Position>
+    <Research_Area>Multimedia compression, communications and signal analysis</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=66">
+    <Alias>Alice Parker</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4476</Cellphone>
+    <E_mail>parker@usc.edu</E_mail>
+    <Name>Alice C. Parker </Name>
+    <Office>EEB 348</Office>
+    <Position>Professor</Position>
+    <Research_Area>Biomimetic Real-Time Cortex, neuromorphic circuits, bionanotechnology, artificial retina, carbon nanotube neural circuits</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=67">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4458</Cellphone>
+    <E_mail>pedram@ceng.usc.edu</E_mail>
+    <Name>Massoud Pedram</Name>
+    <Office>EEB 300B</Office>
+    <Position>Professor</Position>
+    <Research_Area>Low power electronics; Power-aware computing and communication; Smart battery systems; Noise analysis and control; Integrated logical and physical design</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=68">
+    <Alias>Timothy Mark Pinkston</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4482</Cellphone>
+    <E_mail>tpink@usc.edu</E_mail>
+    <Name>Timothy Pinkston</Name>
+    <Office>EEB 208</Office>
+    <Position>Professor and Vice Dean of Faculty Affairs</Position>
+    <Research_Area>High performance communication in parallel processing systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=69">
+    <Alias>Michelle L. Povinelli</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-8682</Cellphone>
+    <E_mail>povinell@usc.edu  </E_mail>
+    <Name>Michelle Povinelli</Name>
+    <Office>PHE 614</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>Nanophotonics, photonic crystals, metamaterials, nano-optomechanics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=7">
+    <Alias>Melvin A. Breuer</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4469</Cellphone>
+    <E_mail>mb@ee.usc.edu</E_mail>
+    <Name>Melvin Breuer</Name>
+    <Office>EEB 300C</Office>
+    <Position>Professor, Charles Lee Powell Chair in Electrical Engineering and Computer Science</Position>
+    <Research_Area>Computer-aided design for digital systems, design-for-test, built-in self-test, and VLSI circuits</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=70">
+    <Alias>Viktor K. Prasanna</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4483</Cellphone>
+    <E_mail>prasanna@usc.edu</E_mail>
+    <Name>Viktor Prasanna</Name>
+    <Office>EEB 200</Office>
+    <Position>Charles Lee Powell Chair in Engineering; Professor of Electrical Engineering and Computer Science</Position>
+    <Research_Area>Parallel and distributed systems, embedded systems, configurable architectures, high performance computing, cloud computing, semantic web, and social network analysis</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=71">
+    <Alias>Aluizio Prata</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4704</Cellphone>
+    <E_mail>prata@usc.edu</E_mail>
+    <Name>Aluizio Prata Jr.</Name>
+    <Office>PHE 618</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>Applied electromagnetics; applications of electromagnetic theory to microwave, millimeter-wave, infrared, and optical passive devices and antennas</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=72">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4453</Cellphone>
+    <E_mail>kpsounis@usc.edu</E_mail>
+    <Name>Konstantinos Psounis</Name>
+    <Office>RTH 409</Office>
+    <Position>Associate Professor of Electrical Engineering and Computer Science</Position>
+    <Research_Area>Modelling, design, and performance analysis of computer networks, sensor and mobile systems, and the web. Design of methods and algorithms to solve problems related to such systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=73">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4461</Cellphone>
+    <E_mail>gandhi@usc.edu</E_mail>
+    <Name>Gandhi Puvvada</Name>
+    <Office>EEB 238</Office>
+    <Position>Professor of Engineering Practice</Position>
+    <Research_Area>Engineering Practice</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=74">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-0317</Cellphone>
+    <E_mail>sqin@usc.edu</E_mail>
+    <Name>S. Joe Qin</Name>
+    <Office>HED 211</Office>
+    <Position>Vice Dean for Academic Initiatives (East Asia and China); Professor of Chemical Engineering and Materials Science, Electrical Engineering, and Industrial and Systems Engineering</Position>
+    <Research_Area>Model Predictive Control and Performance Assessment; Process Monitoring and Fault Diagnosis Modeling and System Identification; Semiconductor, Chemical and Pulp and Paper Processes</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=75">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4459</Cellphone>
+    <E_mail>xuehai.qian@usc.edu</E_mail>
+    <Name>Xuehai Qian</Name>
+    <Office>EEB 204</Office>
+    <Position>Assistant Professor of Electrical Engineering</Position>
+    <Research_Area>Multicore and parallel computer architecture. Architectural support for programming productivity. Debugging support for large-scale HPC and distributed applications</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=76">
+    <Alias>Cauligi S. Raghavendra, Cauligi Raghavendra</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-9133</Cellphone>
+    <E_mail>raghu@usc.edu</E_mail>
+    <Name>C. S. Raghavendra</Name>
+    <Office>EEB 216</Office>
+    <Position>Vice Dean for Global Academic Initiatives, USC Viterbi School of Engineering</Position>
+    <Research_Area>Parallel and distributed computing, routing, multicasting, and QoS in computer networks, energy efficient protocols for wireless and sensor networks, and active networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=77">
+    <Category>Full-time Faculty</Category>
+    <Name>Simon Ramo</Name>
+    <Position>Presidential Chair Professor</Position>
+    <Research_Area>the electronics department of Hughes Aircraft√Ø_Aerospace√Ø_</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=78">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-6006</Cellphone>
+    <E_mail>redekopp@usc.edu</E_mail>
+    <Name>Mark Redekopp</Name>
+    <Office>EEB 222</Office>
+    <Position>Associate Professor of Engineering Practice</Position>
+    <Research_Area>Reconfigurable computing, high-performance computing, digital logic design and computer organization</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=79">
+    <Alias>Ben W. Reichardt, Benjamin Reichardt</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-7229</Cellphone>
+    <E_mail>ben.reichardt@usc.edu</E_mail>
+    <Name>Ben Reichardt</Name>
+    <Office>EEB 528</Office>
+    <Position>Associate Professor of Electrical Engineering and Computer Science</Position>
+    <Research_Area>Fault-tolerant quantum computing, quantum algorithms, quantum cryptography</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=8">
+    <Alias>Todd A. Brun</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-3503</Cellphone>
+    <E_mail>tbrun@usc.edu</E_mail>
+    <Name>Todd Brun</Name>
+    <Office>EEB 502</Office>
+    <Position>Professor of Electrical Engineering and Computer Science</Position>
+    <Research_Area>Quantum information theory and quantum computation</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=80">
+    <Alias>Aristides A. G. Requicha</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4502</Cellphone>
+    <E_mail>requicha@lipari.usc.edu</E_mail>
+    <Name>Aristides Requicha</Name>
+    <Office>SAL 202</Office>
+    <Position>Professor of Computer Science and Electrical Engineering</Position>
+    <Research_Area>Nanorobotics and sensor/actuator networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=81">
+    <Alias>Steven B. Sample</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-5400</Cellphone>
+    <Name>Steven Sample</Name>
+    <Office>ADM 300</Office>
+    <Position>University Professor and President Emeritus</Position>
+    <Research_Area>Electronics; antennas</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=82">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-0670</Cellphone>
+    <E_mail>ksavla@usc.edu</E_mail>
+    <Name>Ketan Savla</Name>
+    <Office>KAP 254A</Office>
+    <Position>Assistant Professor of Civil and Environmental Engineering, and Electrical Engineering</Position>
+    <Research_Area>Control and Optimization tools for: Complex Dynamical Networks, Multi-agent Systems, Humans-in-loop Systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=83">
+    <Alias>Alexander A. (Sandy) Sawchuk</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4622</Cellphone>
+    <E_mail>sawchuk@sipi.usc.edu</E_mail>
+    <Name>Alexander A. Sawchuk</Name>
+    <Office>EEB 404B</Office>
+    <Position>Leonard M. Silverman Chair; Professor</Position>
+    <Research_Area>Optical computing, interconnections, networks, data storage systems; digital image processing, multimedia systems; wireless health, body area networks, multimodal sensing and pattern recognition</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=84">
+    <Alias>Robert A. Scholtz</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-7327</Cellphone>
+    <E_mail>scholtz@usc.edu</E_mail>
+    <Name>Robert Scholtz</Name>
+    <Office>EEB 500B</Office>
+    <Position>Fred H. Cole Professor of Engineering</Position>
+    <Research_Area>Communication theory, spread-spectrum techniques, ultra-wideband radio, pseudo-noise generation, applications to communication and radar systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=85">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-8162</Cellphone>
+    <E_mail>shahabi@usc.edu</E_mail>
+    <Name>Cyrus Shahabi</Name>
+    <Office>PHE 306A</Office>
+    <Position>Professor of Computer Science and Electrical Engineering</Position>
+    <Research_Area>Geospatial and multidimensional data management</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=86">
+    <Alias>Maryam Modir Shanechi, Maryam Shanechi</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-1377</Cellphone>
+    <E_mail>shanechi@usc.edu </E_mail>
+    <Name>Maryam M. Shanechi</Name>
+    <Office>EEB 408</Office>
+    <Position>Assistant Professor, Viterbi Early Career Chair</Position>
+    <Research_Area>Electrical Engineering and Computer Sciences</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=87">
+    <Alias>Leonard M. Silverman</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-0619</Cellphone>
+    <E_mail>lsilverm@usc.edu</E_mail>
+    <Name>Leonard Silverman</Name>
+    <Office>EEB 344</Office>
+    <Position>Fred W. O'Green Chair in Engineering; Professor</Position>
+    <Research_Area>Control theory</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=88">
+    <Alias>John A. Silvester</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-9730</Cellphone>
+    <E_mail>silvester@usc.edu</E_mail>
+    <Name>John Silvester</Name>
+    <Office>EEB 240</Office>
+    <Position>Professor</Position>
+    <Research_Area>Design and analysis of communication networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=89">
+    <Alias>John B. Slaughter</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-0195</Cellphone>
+    <E_mail>jslaught@usc.edu</E_mail>
+    <Name>John Slaughter</Name>
+    <Office>EEB 342</Office>
+    <Position>Professor of Education and Engineering</Position>
+    <Research_Area>Applied Physics Laboratory, Naval Electronics Laboratory, Astronomical, Atmospheric, Earth and Ocean Sciences</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=9">
+    <Alias>Douglas R. Burke</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4711</Cellphone>
+    <E_mail>burked@usc.edu</E_mail>
+    <Name>Douglas Burke</Name>
+    <Office>PHE 430</Office>
+    <Position>Senior Lecturer of Electrical Engineering and Electrophysic</Position>
+    <Research_Area>Electrical Engineering and Electrophysics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=90">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4456</Cellphone>
+    <E_mail>soltanol@usc.edu</E_mail>
+    <Name>Mahdi Soltanolkotabi</Name>
+    <Office>EEB 422</Office>
+    <Position>Assistant Professor of Electrical Engineering</Position>
+    <Research_Area>Statistical learning, machine learning, large-scale data analysis, signal processing, and optimization</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=91">
+    <Alias>Gaurav S. Sukhatme, G. Stefano Sukhatme</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-0218</Cellphone>
+    <E_mail>gaurav@usc.edu </E_mail>
+    <Name>Gaurav Sukhatme</Name>
+    <Office>RTH 405</Office>
+    <Position>Professor of Computer Science and Electrical Engineering</Position>
+    <Research_Area>Networked robots, multi-robot systems, sensor/actuator networks, mobile sensing and applications to aquatic exploration and monitoring</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=92">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-0194</Cellphone>
+    <E_mail>satsukit@usc.edu</E_mail>
+    <Name>Satsuki Takahashi</Name>
+    <Office>PHE 506</Office>
+    <Position>Lecturer</Position>
+    <Research_Area>photonics, electro-optic polymers, and optical modulators/resonators</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=93">
+    <Alias>Armand R. Tanguay Jr., Armand Tanguay</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4403</Cellphone>
+    <E_mail>atanguay@usc.edu</E_mail>
+    <Name>Armand Tanguay Jr.</Name>
+    <Office>SSC 520</Office>
+    <Position>Professor</Position>
+    <Research_Area>Optical materials, thin films, optical and photonic devices, smart cameras, hybrid electronic/photonic multilayer retinas and neural networks, and VLSI-neural interfaces</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=94">
+    <Category>Full-time Faculty</Category>
+    <Name>Andrew Viterbi</Name>
+    <Position>Presidential Chair Professor</Position>
+    <Research_Area>Electrical Engineering</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=95">
+    <Category>Full-time Faculty</Category>
+    <E_mail>han.wang.4@usc.edu</E_mail>
+    <Name>Han Wang</Name>
+    <Position>Assistant Professor</Position>
+    <Research_Area>the device technology and novel circuit applications of two-dimensional (2D) materials; GaN-based III-V HEMTs for high power millimeter-wave applications and Si power electronic devices</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=96">
+    <Alias>Alan E. Willner</Alias>
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4664</Cellphone>
+    <E_mail>willner@usc.edu</E_mail>
+    <Name>Alan Willner</Name>
+    <Office>EEB 538</Office>
+    <Position>Professor</Position>
+    <Research_Area>High-speed optical fiber communication systems, with emphasis on optical amplification and wavelength-division-multiplexed technologies and networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=97">
+    <Category>Full-time Faculty</Category>
+    <E_mail>wu.w@usc.edu</E_mail>
+    <Name>Wei Wu</Name>
+    <Position>Associate Professor</Position>
+    <Research_Area>Nano-fabrication, oxide electronics (i.e. memristor), optical meta-materials, and surface enhanced Raman sensors</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=98">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4340</Cellphone>
+    <E_mail>js.yoon@usc.edu</E_mail>
+    <Name>Jongseung Yoon</Name>
+    <Office>VHE 718</Office>
+    <Position>Assistant Professor of Chemical Engineering and Electrical Engineering</Position>
+    <Research_Area>Nano/microstructured materials and their printed assemblies for photovoltaics, solid state lighting, and sensor technologies; 3D heterogeneous integration of high performance semiconductor devices for large area device applications implemented in flexible/stretchable formats; Top-down and bottom-up nanolithography for nanoelectronic and nanophotonic device fabrication</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/ee_faculty_final.csv#row=99">
+    <Category>Full-time Faculty</Category>
+    <Cellphone>213-740-4708</Cellphone>
+    <E_mail>chongwuz@usc.edu</E_mail>
+    <Name>Chongwu Zhou</Name>
+    <Office>RTH 511</Office>
+    <Position>Professor</Position>
+    <Research_Area>Nanotechnology, nanoelectronics, and bionanotechnology; synthesis and applications of carbon nanotubes and nanowires; solar energy conversion; MEMS and bioMEMs</Research_Area>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,13 @@
+#search_tab ul li:hover {
+    background: #367DB5;
+}
+
+#pname_error,#dept_error,#pcategory_error, #phdname_error, #phdpname_error,#cid_error, #cpname_error, #cdept_error,#unit_error, #pubpname_error, 
+#keyword_error{
+    color:red;
+    font-size:11px;
+}
+
+.asteroid{
+    color:red;
+}

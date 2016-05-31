@@ -1,0 +1,1004 @@
+<!-- Written by Lingnan Song     lingnans@usc.edu -->
+<html>
+    <head>
+        <title>Viterbi guide</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="viterbiguide.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div style="background:#900">
+                <a href="http://viterbi.usc.edu/" id="logo-viterbi" style="margin-left:150px;">
+                    <img src="http://ee.usc.edu/images/logo-viterbi.png">
+                </a>
+            </div>
+            </br>
+            </br>
+    
+            <div id="search_tab" style="border:1px solid black">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#faculty_search" id="faculty" role="tab" data-toggle="tab" aria-controls="faculty_search">Search Faculty</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#phd_search" id="phd" role="tab" data-toggle="tab" aria-controls="phd_search">Search PhD</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#course_search" id="course" role="tab" data-toggle="tab" aria-controls="course_search">Search Course</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#publication_search" id="publication" role="tab" data-toggle="tab" aria-controls="publication_search">Search Publication</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="faculty_search" class="tab-pane fade active in" role="tabpanel" aria-labelledby="faculty">
+                        <div id="faculty_s" style="margin-top: 20px">
+                            <b style="margin-left:20px">Search Option 1</b>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2">
+                                </div>
+                                <div class="col-xs-12 col-md-4">
+                                    <p>
+                                    Faculty name: <span class="asteroid">*</span>
+                                    <br>
+                                    <input type="text" id="pname" placeholder="firstname lastname">
+                                    </p>
+                                </div>  
+                                <div class="col-xs-12 col-md-1"></div>
+                                <div class="col-xs-12 col-md-4" style="margin-top:15px;">
+                                    <button type="submit" id = "search1_1" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon-search"></span>  Search</button>
+                                    <button type="button" id = "reset1_1" class="btn btn-default">
+                                        <span class="glyphicon glyphicon-refresh"></span>  Clear</button>
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-6" id="pname_error"></div>   
+                                <div class="col-xs-12 col-md-4"></div>
+                            </div>
+                            <hr>
+                            <b style="margin-left:20px">Search Option 2</b>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-2">
+                                    <p>
+                                        Department:<span class="asteroid">*</span>
+                                        <br>
+                                        <select id="dept" style="height:30px;">
+                                            <option value="unselected">Select Department...</option>
+                                            <option value="cs">Computer Science</option>
+                                            <option value="ee">Electronic Engineer</option>
+                                            <option value="inf">Informatics</option>
+                                        </select>
+                                    </p>
+                                </div>
+                                <div class="col-xs-12 col-md-2">
+                                    <p>
+                                        Category:
+                                        <br>
+                                        <select id="pcategory" style="height:30px;">
+                                            <option value="unselected">Select Category...</option>
+                                        </select>
+                                    </p>
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>        
+                                <div class="col-xs-12 col-md-4" style="margin-top:15px;">
+                                    <button type="submit" id = "search1_2" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon-search"></span>  Search</button>
+                                    <button type="button" id = "reset1_2" class="btn btn-default">
+                                        <span class="glyphicon glyphicon-refresh"></span>  Clear</button>
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-2" id="dept_error"></div>  
+                                <div class="col-xs-12 col-md-2" id="pcategory_error"></div>
+                                <div class="col-xs-12 col-md-6"></div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="faculty_display">
+                        </div>
+                    </div>
+                    <div id="phd_search" class="tab-pane fade" role="tabpanel" aria-labelledby="phd">
+                        <div id="phd_s" style="margin-top: 20px">
+                            <b style="margin-left:20px">Search Option 1</b>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-4">
+                                    <p>
+                                        Phd name:<span class="asteroid">*</span>
+                                        <br>
+                                        <input type="text" id="phdname" placeholder="firstname lastname">
+                                    </p>
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                                <div class="col-xs-12 col-md-4" style="margin-top:15px">
+                                    <button type="submit" id = "search2_1" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon-search"></span>  Search</button>
+                                    <button type="button" id = "reset2_1" class="btn btn-default">
+                                        <span class="glyphicon glyphicon-refresh"></span>  Clear</button>
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-6" id="phdname_error"></div>   
+                                <div class="col-xs-12 col-md-4"></div>
+                            </div>
+                            <hr>
+                            <b style="margin-left:20px">Search Option 2</b>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-4">
+                                    <p>
+                                    Faculty name <span style="color:gray">(Firstname Lastname)<span>: <span class="asteroid">*</span>
+                                    <br>
+                                    <input type="text" id="phdpname" placeholder="firstname lastname">
+                                    </p>
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                                <div class="col-xs-12 col-md-4" style="margin-top:15px;">
+                                    <button type="submit" id = "search2_2" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon-search"></span>  Search</button>
+                                    <button type="button" id = "reset2_2" class="btn btn-default">
+                                        <span class="glyphicon glyphicon-refresh"></span>  Clear</button> 
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                            </div>  
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-6" id="phdpname_error"></div>   
+                                <div class="col-xs-12 col-md-4"></div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="phd_display">
+                        </div>
+                    </div>
+                    <div id="course_search" class="tab-pane fade" role="tabpanel" aria-labelledby="course">
+                        <div id="course_s" style="margin-top:20px">
+                            <b style="margin-left:20px">Search Option 1</b>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-4">
+                                    <p>
+                                        Course ID:<span class="asteroid">*</span>
+                                        <br>
+                                        <input type="text" id="cid" placeholder="Enter course id (eg: CSCI 586)" style="width:195px">
+                                    </p>
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                                <div class="col-xs-12 col-md-4" style="margin-top:15px">
+                                    <button type="submit" id = "search3_1" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon-search"></span>  Search</button>
+                                    <button type="button" id = "reset3_1" class="btn btn-default">
+                                        <span class="glyphicon glyphicon-refresh"></span>  Clear</button>
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-6" id="cid_error"></div>   
+                                <div class="col-xs-12 col-md-4"></div>
+                            </div>
+                            <hr>
+                            <b style="margin-left:20px">Search Option 2</b>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-4">
+                                    <p>
+                                    Faculty name: <span class="asteroid">*</span>
+                                    <br>
+                                    <input type="text" id="cpname" placeholder="firstname lastname">
+                                    </p>
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                                <div class="col-xs-12 col-md-4" style="margin-top:15px;">
+                                    <button type="submit" id = "search3_2" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon-search"></span>  Search</button>
+                                    <button type="button" id = "reset3_2" class="btn btn-default">
+                                        <span class="glyphicon glyphicon-refresh"></span>  Clear</button> 
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                            </div> 
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-6" id="cpname_error"></div>   
+                                <div class="col-xs-12 col-md-4"></div>
+                            </div>
+                            <hr>
+                            <b style="margin-left:20px">Search Option 3</b>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-2">
+                                    <p>
+                                        Department:<span class="asteroid">*</span>
+                                        <br>
+                                        <select id="cdept" style="height:30px;">
+                                            <option value="unselected">Select Department...</option>
+                                            <option value="cs">Computer Science</option>
+                                            <option value="ee">Electronic Engineer</option>
+                                            <option value="inf">Informatics</option>
+                                        </select>
+                                    </p>
+                                </div>
+                                <div class="col-xs-12 col-md-2">
+                                    <p>
+                                    Unit: <span class="asteroid">*</span>
+                                    <br>
+                                    <input type="text" id="unit" placeholder="Enter unit">
+                                    </p>
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                                <div class="col-xs-12 col-md-4" style="margin-top:15px;">
+                                    <button type="submit" id = "search3_3" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon-search"></span>  Search</button>
+                                    <button type="button" id = "reset3_3" class="btn btn-default">
+                                        <span class="glyphicon glyphicon-refresh"></span>  Clear</button> 
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                            </div> 
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-2" id="cdept_error"></div>
+                                <div class="col-xs-12 col-md-2" id="unit_error"></div>   
+                                <div class="col-xs-12 col-md-6"></div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="course_display">
+                        </div>
+                    </div>
+                    <div id="publication_search" class="tab-pane fade" role="tabpanel" aria-labelledby="publication">
+                        <div id="publication_s" style="margin-top:20px">
+                            <b style="margin-left:20px">Search Option 1</b>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-4">
+                                    <p>
+                                    Faculty name: <span class="asteroid">*</span>
+                                    <br>
+                                    <input type="text" id="pubpname" placeholder="Enter faculty name">
+                                    </p>
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                                <div class="col-xs-12 col-md-4" style="margin-top:15px;">
+                                    <button type="submit" id = "search4_1" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon-search"></span>  Search</button>
+                                    <button type="button" id = "reset4_1" class="btn btn-default">
+                                        <span class="glyphicon glyphicon-refresh"></span>  Clear</button> 
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                            </div> 
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-6" id="pubpname_error"></div>   
+                                <div class="col-xs-12 col-md-4"></div>
+                            </div>
+                            <hr>
+                            <b style="margin-left:20px">Search Option 2</b>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-4">
+                                    <p>
+                                    Keyword: <span class="asteroid">*</span>
+                                    <br>
+                                    <input type="text" id="keyword" placeholder="Enter keyword of title">
+                                    </p>
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                                <div class="col-xs-12 col-md-4" style="margin-top:15px;">
+                                    <button type="submit" id = "search4_2" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon-search"></span>  Search</button>
+                                    <button type="button" id = "reset4_2" class="btn btn-default">
+                                        <span class="glyphicon glyphicon-refresh"></span>  Clear</button> 
+                                </div>
+                                <div class="col-xs-12 col-md-1"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-2"></div>
+                                <div class="col-xs-12 col-md-6" id="keyword_error"></div>   
+                                <div class="col-xs-12 col-md-4"></div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="publication_display">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                <a href="#pub_tab" id="publication_tab" role="tab" data-toggle="tab" aria-controls="pub_tab">Result</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#sum_tab" id="summary_tab" role="tab" data-toggle="tab" aria-controls="sum_tab">Summary</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="pub_tab" class="tab-pane fade active in" role="tabpanel" aria-labelledby="publication_tab">
+                                </div>
+                                <div id="sum_tab" style="margin-left:50px;" class="tab-pane fade" role="tabpanel" aria-labelledby="summary_tab">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <script type="application/javascript">
+            $(document).ready(function(){
+                var url1 = "";
+                
+                $("#pname").keyup(function(){
+                    if($("#pname").val().length == 0){
+                        $("#pname_error").text('Faculty name is required for search option 1');
+                    }else{
+                        $("pname_error").empty();
+                    }
+                });
+                
+                $("#dept").mouseup(function(){
+                    if($("#dept option:selected").val() == "unselected"){
+                        $("#dept_error").text("Please select a department");
+                        $("#pcategory").empty();
+                    }else if($("#dept option:selected").val() == "cs"){
+                        $("#dept_error").text('');
+                        $("#pcategory").empty();
+                        $("#pcategory").append("<option value='fulltime'>Fulltime faculty</option>");
+                        $("#pcategory").append("<option value='parttime'>Parttime faculty</option>");
+                        $("#pcategory").append("<option value='tenure'>Tenure and tenure track faculty</option>");
+                        $("#pcategory").append("<option value='research'>Research faculty</option>");
+                        $("#pcategory").append("<option value='teaching'>Teaching faculty</option>");
+                        $("#pcategory").append("<option value='joint'>Joint faculty</option>");
+                        $("#pcategory").append("<option value='adjunct'>Adjunct parttime faculty</option>");
+                    }else if($("#dept option:selected").val() == "ee"){
+                        $("#dept_error").text('');
+                        $("#pcategory").empty();
+                        $("#pcategory").append("<option value='fulltime'>Fulltime faculty</option>");
+                        $("#pcategory").append("<option value='parttime'>Parttime faculty</option>");
+                        $("#pcategory").append("<option value='research'>Research faculty</option>");
+                        $("#pcategory").append("<option value='adjunct'>Adjunct/emeritus faculty</option>");
+                        $("#pcategory").append("<option value='lecturer'>Parttime Lecturer</option>");
+                    }else if($("#dept option:selected").val() == "inf"){
+                        $("#dept_error").text('');
+                        $("#pcategory").empty();
+                        $("#pcategory").append("<option value='fulltime'>Fulltime faculty</option>");
+                        $("#pcategory").append("<option value='parttime'>Parttime faculty</option>");
+                        $("#pcategory").append("<option value='director'>Director</option>");
+                        $("#pcategory").append("<option value='inf_faculty'>Informatics faculty</option>");
+                        $("#pcategory").append("<option value='advisor'>Faculty Board of Advisors</option>");
+                        $("#pcategory").append("<option value='p_lecturer'>Parttime Lecturer</option>");
+                    }
+                });
+                
+                
+                $("#phdname").keyup(function(){
+                    if($("#phdname").val().length == 0){
+                        $("#phdname_error").text('PhD name is required for search option 1');
+                    }else{
+                        $("phdname_error").empty();
+                    }
+                });
+                
+                $("#phdpname").keyup(function(){
+                    if($("#phdpname").val().length == 0){
+                        $("#phdpname_error").text('Phd Advisor name is required for search option 2');
+                    }else{
+                        $("#phdpname_error").empty();
+                    }
+                });
+                
+                $("#cid").keyup(function(){
+                    if($("#cid").val().length == 0){
+                        $("#cid_error").text('Course id is required for search option 1');
+                    }else{
+                        $("#cid_error").empty();
+                    }
+                });
+                
+                $("#cpname").keyup(function(){
+                    if($("#cpname").val().length == 0){
+                        $("#cpname_error").text('Faculty name is required for search option 2');
+                    }else{
+                        $("#cpname_error").empty();
+                    }
+                });
+                
+                $("#cdept").mouseup(function(){
+                    if($("#cdept option:selected").val() == "unselected"){
+                        $("#cdept_error").text("Please select a department");
+                    }else{
+                        $("#cdept_error").empty();
+                    }
+                });
+                
+                $("#unit").keyup(function(){
+                    if($("#unit").val().length == 0){
+                        $("#unit_error").text('Unit is required for search option 3');
+                    }else{
+                        $("#unit_error").empty();
+                    }
+                });
+                
+                $("#pubpname").keyup(function(){
+                    if($("#pubpname").val().length == 0){
+                        $("#pubpname_error").text('Faculty name is required for search option 1');
+                    }else{
+                        $("#pubpname_error").empty();
+                    }
+                });
+                
+                $("#keyword").keyup(function(){
+                    if($("#keyword").val().length == 0){
+                        $("#keyword_error").text('Keyword is required for search option 2');
+                    }else{
+                        $("#keyword_error").empty();
+                    }
+                });
+                
+                url1 = "http://localhost:8888/586_project_interface/query.php";
+                $("#search1_1").click(function(){
+                    console.log('search1_1');
+                    if($("#pname").val().length == 0){
+                        alert('Faculty name is required');
+                    }else{
+                        $.ajax({
+                            url:url1,
+                            dataType:'json',
+                            data:{
+                                'type':"1",
+                                'option':"1",
+                                'param1':$("#pname").val()
+                            },
+                            type:'GET',
+                            success:function(arr){
+                            	  //alert("success");
+                                $("#faculty_display").empty();
+                                var name = arr.Name;
+                                var dept = arr.Department;
+                                var category = arr.Category;
+                                var position = arr.Position;
+                                var cellphone = arr.Cellphone;
+                                var email = arr.E_mail;
+                                var office = arr.Office;
+                                var research = arr.Research_Area;
+                                var content = "<table class='table table-striped'>";
+                                content += "<thead><tr><th>Faculty</th><th>Category</th><th>Position</th><th>Cellphone</th><th>Email</th><th>Office</th><th>Research Area</th></tr></thead>";
+                                if(name.length == 0){
+                                    content += "</table>"
+                                }else{
+                                    content += "<tbody>";
+                                    for(i = 0; i < name.length; i++){
+                                        content += "<tr><td>"
+                                        content += name[i];
+                                        content += "</td><td>";
+                                        content += category[i];
+                                        content += "</td><td>";
+                                        content += position[i];
+                                        content += "</td><td>";
+                                        content += cellphone[i];
+                                        content += "</td><td>";
+                                        content += email[i];
+                                        content += "</td><td>";
+                                        content += office[i];
+                                        content += "</td><td>";
+                                        content += research[i];
+                                        content += "</td></tr>";
+                                    }
+                                    content += "</tbody></table>";
+                                }
+                                $("#faculty_display").append(content);  
+                            },
+                            error:function(){
+                                alert('error');
+                            }
+                        });
+                    }
+                });
+                
+                $("#search1_2").click(function(){
+                    console.log('search1_2');
+                    if($("#dept option:selected").val() == "unselected"){
+                        alert('Department is required!');
+                    }else{
+                        $.ajax({
+                            url:url1,
+                            dataType:'json',
+                            data:{
+                                'type':"1",
+                                'option':"2",
+                                'param1':$("#dept option:selected").val(),
+                                'param2':$("#pcategory option:selected").val()
+                            },
+                            type:'GET',
+                            success:function(arr){
+                                $("#faculty_display").empty();
+                                var name = arr.Name;
+                                var category = arr.Category;
+                                var position = arr.Position;
+                                var cellphone = arr.Cellphone;
+                                var email = arr.E_mail;
+                                var office = arr.Office;
+                                var research = arr.Research_Area;
+                                var content = "<table class='table table-striped'>";
+                                content += "<thead><tr><th>Faculty</th><th>Category</th><th>Position</th><th>Cellphone</th><th>Email</th><th>Office</th><th>Research Area</th></tr></thead>";
+                                if(name.length == 0){
+                                    content += "</table>"
+                                }else{
+                                    content += "<tbody>";
+                                    for(i = 0; i < name.length; i++){
+                                        content += "<tr><td>"
+                                        content += name[i];
+                                        content += "</td><td>";
+                                        content += category[i];
+                                        content += "</td><td>";
+                                        content += position[i];
+                                        content += "</td><td>";
+                                        content += cellphone[i];
+                                        content += "</td><td>";
+                                        content += email[i];
+                                        content += "</td><td>";
+                                        content += office[i];
+                                        content += "</td><td>";
+                                        content += research[i];
+                                        content += "</td></tr>";
+                                    }
+                                    content += "</tbody></table>";
+                                }
+                                $("#faculty_display").append(content);  
+                            },
+                            error:function(){
+                                alert('error');
+                            }
+                        });
+                    }
+                });
+                
+                $("#search2_1").click(function(){
+                    console.log('search2_1');
+                    if($("#phdname").val().length == 0){
+                        alert('PhD name is required');
+                    }else{
+                        $.ajax({
+                            url:url1,
+                            dataType:'json',
+                            data:{
+                                'type':"2",
+                                'option':"1",
+                                'param1':$("#phdname").val()
+                            },
+                            type:'GET',
+                            success:function(arr){
+                            	  //alert('success');
+                                $("#phd_display").empty();
+                                var phd = arr.Name;
+                                var email = arr.Email;
+                                var advisor = arr.FacultyAdvisor;
+                                var content = "<table class='table table-striped'>";
+                                content += "<thead><tr><th>PhD student</th><th>E-mail</th><th>Faculty Advisor</th></tr></thead>";
+                                if(phd.length == 0){
+                                    content += "</table>"
+                                }else{
+                                    content += "<tbody>";
+                                    for(i = 0; i < phd.length; i++){
+                                        content += "<tr><td>"
+                                        content += phd[i];
+                                        content += "</td><td>";
+                                        content += email[i];
+                                        content += "</td><td>";
+                                        content += advisor[i];
+                                        content += "</td></tr>";
+                                    }
+                                    content += "</tbody></table>";
+                                }
+                                $("#phd_display").append(content);
+                            },
+                            error:function(){
+                                alert('error');
+                            }
+                        });
+                    }
+                });
+                
+                $("#search2_2").click(function(){
+                    console.log('search2_2');
+                    if($("#phdpname").val().length == 0){
+                        alert('Faculty name is required!');
+                    }else{
+                        $.ajax({
+                            url:url1,
+                            dataType:'json',
+                            data:{
+                                'type':"2",
+                                'option':"2",
+                                'param1':$("#phdpname").val()
+                            },
+                            type:'GET',
+                            success:function(arr){
+                            	  //alert('success');
+                            	  //alert(arr);
+                            	 
+                                $("#phd_display").empty();
+                                var advisor = arr.FacultyAdvisor;
+                                var phd = arr.Name;
+                                var total = arr.Total;
+                                var content = "<table class='table table-striped'>";
+                                content += "<thead><tr><th>Faculty Advisor</th><th>PhD Name</th></tr></thead>";
+                                if(advisor.length == 0){
+                                    content += "</table>";
+                                }else{
+                                    content += "<tbody>";
+                                    for(i = 0; i < advisor.length; i++){
+                                        content += "<tr><td>"
+                                        content += advisor[i];
+                                        content += "</td><td>";
+                                        content += phd[i];
+                                        content += "</td></tr>";
+                                    }
+                                    content += "<tr><td><B>Total PhD Students: </B>";
+                                    content += "</td><td>";
+                                    content += total;
+                                    content += "</td><td>";
+                                    content += "</tbody></table>";
+                                }
+                                $("#phd_display").append(content);
+                                
+                            },
+                            error:function(){
+                                alert('error');
+                            }
+                        });
+                    }
+                });
+                
+                $("#search3_1").click(function(){
+                    console.log("search3_1");
+                    if($("#cid").val().length == 0){
+                        alert('Course ID is required!');
+                    }else{
+                        $.ajax({
+                            url:url1,
+                            dataType:'json',
+                            data:{
+                                'type':"3",
+                                'option':"1",
+                                'param1':$("#cid").val()
+                            },
+                            type:'GET',
+                            success:function(arr){
+                            	  //alert('success');
+                            	  //alert(arr);
+                            	  
+                                $("#course_display").empty();
+                                var id = arr.CourseID;
+                                var cname = arr.CourseName;
+                                var unit = arr.Unit;
+                                var instructor = arr.Instructor;
+                                var prerequistie = arr.Prerequisite;
+                                var corequisite = arr.Corequisite;
+                                var content = "<table class='table table-striped'>";
+                                content += "<thead><tr><th>Course ID</th><th>Course Name</th><th>Unit</th><th>Instructor</th><th>Prerequisite</th><th>Corequisite</th></tr></thead>";
+                                
+                                if(id.length == 0){
+                                    content += "</table>"
+                                }else{
+                                    content += "<tbody>";
+                                    for(i = 0; i < id.length; i++){
+                                        content += "<tr><td>"
+                                        content += id[i];
+                                        content += "</td><td>";
+                                        content += cname[i];
+                                        content += "</td><td>";
+                                        content += unit[i];
+                                        content += "</td><td>";
+                                        content += instructor[i];
+                                        content += "</td><td>";
+                                        content += prerequistie[i];
+                                        content += "</td><td>";
+                                        content += corequisite[i];
+                                        content += "</td></tr>";
+                                    }
+                                    content += "</tbody></table>";
+                                }
+                                $("#course_display").append(content);
+                                
+                            },
+                            error:function(){
+                                alert('error');
+                            }
+                        });
+                    }
+                });
+                
+                $("#search3_2").click(function(){
+                    console.log('search3_2');
+                    if($("#cpname").val().length == 0){
+                        alert('Faculty name is required');
+                    }else{
+                        $.ajax({
+                            url:url1,
+                            dataType:'json',
+                            data:{
+                                'type':"3",
+                                'option':"2",
+                                'param1':$("#cpname").val()
+                            },
+                            type:'GET',
+                            success:function(arr){
+                            	      //alert('success');
+                            	      //alert(arr);
+                                    $("#course_display").empty();
+                                    var id = arr.CourseID;
+                                    var cname = arr.CourseName;
+                                    var unit = arr.Unit;
+                                    var instructor = arr.Instructor;
+                                    var prerequistie = arr.Prerequisite;
+                                    var corequisite = arr.Corequisite;
+                                    var content = "<table class='table table-striped'>";
+                                    content += "<thead><tr><th>Instructor</th><th>Course ID</th><th>Course Name</th><th>Unit</th><th>Prerequisite</th><th>Corequisite</th></tr></thead>";
+                                    if(id.length == 0){
+                                        content += "</table>"
+                                    }else{
+                                        content += "<tbody>";
+                                        for(i = 0; i < id.length; i++){
+                                            content += "<tr><td>"
+                                            content += instructor[i];
+                                            content += "</td><td>";
+                                            content += id[i];
+                                            content += "</td><td>";
+                                            content += cname[i];
+                                            content += "</td><td>";
+                                            content += unit[i];
+                                            content += "</td><td>";
+                                            content += prerequistie[i];
+                                            content += "</td><td>";
+                                            content += corequisite[i];
+                                            content += "</td></tr>";
+                                        }
+                                        content += "</tbody></table>";
+                                    }
+                                    $("#course_display").append(content);
+                                },
+                            error:function(){
+                                alert('error');
+                            }
+                        });
+                    }
+                });
+                
+                $("#search3_3").click(function(){
+                    console.log("search3_3");
+                    if($("#cdept option:selected").val() == "unselected"){
+                        alert('Department is required');
+                    }else{
+                        $.ajax({
+                            url:url1,
+                            dataType:'json',
+                            data:{
+                                'type':"3",
+                                'option':"3",
+                                'param1':$("#cdept option:selected").val(),
+                                'param2':$("#unit").val()
+                            },
+                            type:'GET',
+                            success:function(arr){
+                                $("#course_display").empty();
+                                var id = arr.CourseID;
+                                var cname = arr.CourseName;
+                                var content = "<table class='table table-striped'>";
+                                content += "<thead><tr><th>Course ID</th><th>Course Name</th></tr></thead>";
+                                if(id.length == 0){
+                                    content += "</table>";
+                                }else{
+                                    content += "<tbody>";
+                                    for(i = 0; i < id.length; i++){
+                                        content += "<tr><td>";
+                                        content += id[i];
+                                        content += "</td><td>";
+                                        content += cname[i];
+                                        content += "</td></tr>";
+                                    }
+                                    content += "</tbody></table>";
+                                }
+                                $("#course_display").append(content);
+                            },
+                            error:function(){
+                                alert('error');
+                            }
+                        });
+                    }
+                });
+                
+                $("#search4_1").click(function(){
+                    //alert('search4_1');
+                    $.ajax({
+                        url:url1,
+                        dataType:'json',
+                        data:{
+                            'type':"4",
+                            'option':"1",
+                            'param1':$("#pubpname").val()
+                        },
+                        type:'GET',
+                        success:function(arr){
+                            //alert("success");
+                            //alert(arr);
+                            
+                            $("#sum_tab").empty();
+                            $("#pub_tab").empty(); 
+                            var pubindex = arr.index;
+                            var pubcategory = arr.category;
+                            var author = arr.author;
+                            var pubtitle = arr.title;
+                            var pubyear = arr.year;
+                            var puburl = arr.url;
+                            var sum_Idx_1 = arr.sumIndex1;
+                            var sumcategory = arr.sumCategory;
+                            var sumcategorytotal = arr.sumCategoryTotal;
+                            var sum_Idx_2 = arr.sumIndex2;
+                            var sum_2010_total = arr.sum2010totalPub;
+                            var sum_Idx_3 = arr.sumIndex3;
+                            var sumTotal = arr.sumTotalPub;
+                            
+                            var summary = "";
+                            // j is the index of iterating sum_Idx_1
+                            var j = 0;
+                            // k is the index of iterating sum_Idx_2
+                            for(k = 0; k < sum_Idx_2.length; k++){
+                                summary += "<div style='border: 40px;'><p><b>Summary: ";
+                                summary += sum_Idx_2[k];
+                                summary += "</b></p>";
+                                while(j < sum_Idx_1.length && sum_Idx_2[k] == sum_Idx_1[j]){
+                                    summary += "<div>";
+                                    summary += sumcategory[j];
+                                    summary += ": ";
+                                    summary += sumcategorytotal[j];
+                                    summary += "</div>";
+                                    j++;
+                                }
+                                summary += "<div>Sum from year 2010: ";
+                                summary += sum_2010_total[k];
+                                summary += "</div><div>Total publication:";
+                                summary += sumTotal[k];
+                                summary += "</div></div></br></br>";
+                            }
+                            
+                            var content = "<thead><tr><th>USC faculty</th><th>Year</th><th>Title</th><th>Author</th><th>Category</th><th>URL</th></tr></thead>";
+                            if(pubtitle.length == 0){
+                                content += "";
+                            }else{
+                                content += "<tbody>";
+                                for(i = 0; i < pubtitle.length; i++){
+                                    content += "<tr><td>";
+                                    content += pubindex[i];
+                                    content += "</td><td>";
+                                    content += pubyear[i];
+                                    content += "</td><td>";
+                                    content += pubtitle[i];
+                                    content += "</td><td>";
+                                    content += author[i];
+                                    content += "</td><td>";
+                                    content += pubcategory[i];
+                                    content += "</td><td>";
+                                    content += puburl[i];
+                                    content += "</td></tr>";
+                                }
+                                content += "</tbody>";
+                            }
+                            $("#sum_tab").append(summary);
+                            $("#pub_tab").append(content);
+                            
+                        },
+                        error:function(){
+                            alert('error');
+                        }
+                    });
+                });
+                
+                $("#search4_2").click(function(){
+                    //alert('search4_2');
+                    $.ajax({
+                        url:url1,
+                        dataType:'json',
+                        data:{
+                            'type':"4",
+                            'option':"2",
+                            'param1':$("#keyword").val()
+                        },
+                        type:'GET',
+                        success:function(arr){
+                        	//alert('success');
+                            $("#pub_tab").empty();
+                            $("#sum_tab").empty();
+                            var pubcategory = arr.category;
+                            var author = arr.author;
+                            var pubtitle = arr.title;
+                            var pubyear = arr.year;
+                            var puburl = arr.url;
+                            var content = "<table class='table table-striped'>";
+                            content += "<thead><tr><th>Category</th><th>Author</th><th>Title</th><th>Year</th><th>URL</th></tr></thead>";
+                            
+                            if(pubtitle.length == 0){
+                                content += "</table>";
+                            }else{
+                                content += "<tbody>";
+                                for(i = 0; i < pubtitle.length; i++){
+                                    content += "<tr><td>";
+                                    content += pubcategory[i];
+                                    content += "</td><td>";
+                                    content += author[i];
+                                    content += "</td><td>";
+                                    content += pubtitle[i];
+                                    content += "</td><td>";
+                                    content += pubyear[i];
+                                    content += "</td><td>";
+                                    content += puburl[i];
+                                    content += "</td></tr>";
+                                }
+                                content += "</tbody></table>";
+                            }
+                            $("#pub_tab").append(content);
+                            
+                        },
+                        error:function(){
+                            alert('error');
+                        }
+                    });
+                });
+                
+                $("#reset1_1").click(function(){
+                    $("#pname").val('');
+                    $("#pname_error").empty();
+                });    
+                                      
+                $("#reset1_2").click(function(){
+                    $('#dept option[value=unselected]').prop('selected', true);
+                    $("#dept_error").empty();
+                    $('#pcategory option[value=unselected]').prop('selected', true);
+                    $("#pcategory_error").empty();
+                }); 
+                
+                $("#reset2_1").click(function(){
+                    $("#phdname").val('');
+                    $("#phdname_error").empty();
+                });   
+                
+                $("#reset2_2").click(function(){
+                    $("#phdpname").val('');
+                    $("#phdpname_error").empty();
+                });    
+                
+                $("#reset3_1").click(function(){
+                    $("#cid").val('');
+                    $("#cid_error").empty();
+                });    
+                
+                $("#reset3_2").click(function(){
+                    $("#cpname").val('');
+                    $("#cpname_error").empty();
+                });    
+                
+                $("#reset3_3").click(function(){
+                    $("#unit").val('');
+                    $("#unit_error").empty();
+                }); 
+                
+                $("#reset4_1").click(function(){
+                    $("#pubpname").val('');
+                    $("#pubpname_error").empty();
+                });    
+                
+                $("#reset4_2").click(function(){
+                    $("#keyword").val('');
+                    $("#keyword_error").empty();
+                });    
+            });
+        </script>
+    </body>
+</html>

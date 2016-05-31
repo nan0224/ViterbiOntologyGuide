@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+]>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://example.org/data/CS_faculty_final.csv#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=1">
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <Name>E. Daniel Arey</Name>
+    <Position>Part-Time Lecturer</Position>
+    <Research_Area>Game design, game production</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=10">
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <E_mail>havaldar@usc.edu</E_mail>
+    <Name>Parag Havaldar</Name>
+    <Office>SAL 216</Office>
+    <Position>Part-Time Lecturer</Position>
+    <Research_Area>Multimedia systems design</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=100">
+    <Alias>George A. Bekey</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4494</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>bekey@usc.edu</E_mail>
+    <Name>George Bekey</Name>
+    <Office>SAL 106</Office>
+    <Position>University Professor Emeritus</Position>
+    <Research_Area>Robotics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=101">
+    <Alias>Barry W. Boehm</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4927</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>boehm@sunset.usc.edu</E_mail>
+    <Name>Barry Boehm</Name>
+    <Office>SAL 326</Office>
+    <Position>Director, CSSE</Position>
+    <Research_Area>Systems engineering, software engineering</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=102">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4494</Cellphone>
+    <Department>Computer Science</Department>
+    <Name>Ilias Diakonikolas</Name>
+    <Office>SAL 220</Office>
+    <Position>Assistant Professor/ Andrew and Erna Viterbi Early Career Chair</Position>
+    <Research_Area>Algorithms, learning, statistics, applied probability, big data algorithmics for machine learning, optimization and game theory</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=103">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4518</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>shaddin@usc.edu</E_mail>
+    <Name>Shaddin Dughmi</Name>
+    <Office>SAL 234</Office>
+    <Position>Assistant Professor</Position>
+    <Research_Area>Algorithms, algorithmic game theory, optimization</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=104">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4781</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>shahram@usc.edu</E_mail>
+    <Name>Shahram Ghandeharizadeh</Name>
+    <Office>SAL 208</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>File and database management systems, Benchmarking, Novel data store architectures</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=105">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4524</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>leana@usc.edu</E_mail>
+    <Name>Leana Golubchik</Name>
+    <Office>SAL 218</Office>
+    <Position>Professor</Position>
+    <Research_Area>Computer systems modeling and performance evaluation</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=106">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4509</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>ramesh@usc.edu</E_mail>
+    <Name>Ramesh Govindan</Name>
+    <Office>SAL 212</Office>
+    <Position>Professor/ Northrup Grumman Chair in Engineering</Position>
+    <Research_Area>Computer networks, wireless sensing, Internet technologies</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=107">
+    <Alias>William G.J. Halfond, William Halfond</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-1239</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>halfond@usc.edu</E_mail>
+    <Name>William GJ Halfond</Name>
+    <Office>SAL 330</Office>
+    <Position>Assistant Professor</Position>
+    <Research_Area>Software engineering, program analysis, software testing, web applications</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=108">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-8056</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>horowitz@usc.edu</E_mail>
+    <Name>Ellis Horowitz</Name>
+    <Office>SAL 320</Office>
+    <Position>Professor/ Associate Chair, M.S. Program</Position>
+    <Research_Area>World wide web, Internet, search engines, deep web</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=109">
+    <Alias>Ming-Deh A. Huang</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4783</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>mdhuang@usc.edu</E_mail>
+    <Name>Ming-Deh Huang</Name>
+    <Office>SAL 314</Office>
+    <Position>Professor</Position>
+    <Research_Area>Cryptography, algorithmic number theory, self-assembly</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=11">
+    <Alias>Eduard H. Hovy</Alias>
+    <Category>adjunct part time</Category>
+    <Cellphone>310-448-8731</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>hovy@isi.edu</E_mail>
+    <Name>Eduard Hovy</Name>
+    <Office>ISI</Office>
+    <Position>Adjunct Associate Professor</Position>
+    <Research_Area>Natural language processing, computational linguistics, digital government, ontologies</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=110">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-3527</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>itti@usc.edu</E_mail>
+    <Name>Laurent Itti</Name>
+    <Office>HNB 7A</Office>
+    <Position>Professor/ Associate Chair, Ph.D. Program</Position>
+    <Research_Area>Computational neuroscience, neural networks, visual attention, brain modeling</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=111">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-821-5717</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>ethan.kb@usc.edu</E_mail>
+    <Name>Ethan Katz-Bassett</Name>
+    <Office>SAL 236</Office>
+    <Position>Assistant Professor</Position>
+    <Research_Area>Networks and distributed systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=112">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-6438</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>dkempe@usc.edu</E_mail>
+    <Name>David Kempe</Name>
+    <Office>SAL 232</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>Algorithms, CS theory, social networks, game theory, sampling</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=113">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-7191</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>knight@isi.edu</E_mail>
+    <Name>Kevin Knight</Name>
+    <Office>SAL 242</Office>
+    <Position>Dean's Professor</Position>
+    <Research_Area>Artificial intelligence, cryptography, code breaking</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=114">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-6491</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>skoenig@usc.edu</E_mail>
+    <Name>Sven Koenig</Name>
+    <Office>SAL 312</Office>
+    <Position>Professor</Position>
+    <Research_Area>Artificial intelligence, robotics, games, autonomy, decision making, agents, intelligent systems, planning, learning, probabilistic methods</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=115">
+    <Category>tenured and tenure track faculty</Category>
+    <Department>Computer Science</Department>
+    <Name>Aleksandra Korolova</Name>
+    <Position>WiSE Gabilan Assistant Professor</Position>
+    <Research_Area>Data privacy, privacy-preserving  algorithms and technologies; big data applications; and large-scale data  mining of social and information networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=116">
+    <Category>tenured and tenure track faculty</Category>
+    <Department>Computer Science</Department>
+    <E_mail>hao@hao-li.com</E_mail>
+    <Name>Hao Li</Name>
+    <Office>SAL 244</Office>
+    <Position>Assistant Professor/ Andrew and Erna Viterbi Early Career Chair</Position>
+    <Research_Area>Computer Graphics and Vision, Performance and Reality Capture, Geometry Processing, 3D Digitization and Reconstruction, Real-time Facial Animation and Motion Capture</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=117">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4371</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>yanliu.cs@usc.edu</E_mail>
+    <Name>Yan Liu</Name>
+    <Office>SAL 216</Office>
+    <Position>Assistant Professor</Position>
+    <Research_Area>Graphical models, causality, time-series analysis</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=118">
+    <Category>tenured and tenure track faculty</Category>
+    <Department>Computer Science</Department>
+    <E_mail>wyatt.lloyd@usc.edu</E_mail>
+    <Name>Wyatt Lloyd</Name>
+    <Office>SAL 210</Office>
+    <Position>Assistant Professor</Position>
+    <Research_Area>Massive-scale distributed systems, big data</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=119">
+    <Alias>Maja J. Mataric</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4520</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>mataric@usc.edu</E_mail>
+    <Name>Maja Mataric</Name>
+    <Office>RTH 407</Office>
+    <Position>Professor and Chan Soon-Shiong Chair/ Vice Dean for Research</Position>
+    <Research_Area>Robotics, human-robot interaction, socially assistive robotics, STEM education and outreach</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=12">
+    <Alias>Auke Jan Ijspeert</Alias>
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <E_mail>ijspeert@usc.edu</E_mail>
+    <Name>Auke Ijspeert</Name>
+    <Office>EPF L</Office>
+    <Position>AdjunctAssistant Professor</Position>
+    <Research_Area>Robotics, computational neuroscience, nonlinear dynamical systems, and applied machine learning</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=120">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4504</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>mcleod@usc.edu</E_mail>
+    <Name>Dennis McLeod</Name>
+    <Office>PHE 406</Office>
+    <Position>Professor</Position>
+    <Research_Area>Structured domain ontologies; semantic web; database semantic heterogeneity resolution and inter-database correlation; service-based information access and delivery frameworks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=121">
+    <Alias>Gerard G. Medioni</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-6440</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>medioni@usc.edu</E_mail>
+    <Name>Gerard Medioni</Name>
+    <Office>PHE 212</Office>
+    <Position>Professor</Position>
+    <Research_Area>Image understanding field, computer vision and computer graphics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=122">
+    <Alias>Nenad Medvidovic</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-5579</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>neno@cs.usc.edu</E_mail>
+    <Name>Neno Medvidovic</Name>
+    <Office>SAL 338</Office>
+    <Position>Professor</Position>
+    <Research_Area>Software engineering, distributed systems, embedded systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=123">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-821-2657</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>anakano@usc.edu</E_mail>
+    <Name>Aiichiro Nakano</Name>
+    <Office>VHE 610</Office>
+    <Position>Professor</Position>
+    <Research_Area>High performance computing and simulation</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=124">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4489</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>uneumann@usc.edu</E_mail>
+    <Name>Ulrich Neumann</Name>
+    <Office>PHE 402</Office>
+    <Position>Professor</Position>
+    <Research_Area>Computer graphics, animation, 3D modeling, augmented reality, 6DOF tracking, visualization, interactive interfaces</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=125">
+    <Alias>Ram Nevatia</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-6427</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>nevatia@usc.edu</E_mail>
+    <Name>Ramakant Nevatia</Name>
+    <Office>PHE 202</Office>
+    <Position>Professor</Position>
+    <Research_Area>Computer vision, robotics, artificial intelligence, computer graphics and image processing, pattern recognition</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=126">
+    <Alias>Aristides A. G. Requicha</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4502</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>requicha@usc.edu</E_mail>
+    <Name>Ari Requicha</Name>
+    <Office>SAL 202</Office>
+    <Position>Gordon Marshall Professor</Position>
+    <Research_Area>Molecular robotics, programmable automation</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=127">
+    <Alias>Paul S. Rosenbloom</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4780</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>rosenblo@cs.usc.edu</E_mail>
+    <Name>Paul Rosenbloom</Name>
+    <Office>SAL 238</Office>
+    <Position>Professor</Position>
+    <Research_Area>Cognitive architecture, graphical models, virtual human architecture, agent architecture, factor graphs</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=128">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-9418</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>sschaal@usc.edu</E_mail>
+    <Name>Stefan Schaal</Name>
+    <Office>RTH 401</Office>
+    <Position>Professor</Position>
+    <Research_Area>Robotics, motor control, statistical and machine learning, neural networks, computational neuroscience</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=129">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-5924</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>feisha@usc.edu</E_mail>
+    <Name>Fei Sha</Name>
+    <Office>RTH 403</Office>
+    <Position>Associate Professor/ Jack Munushian Early Career Chair</Position>
+    <Research_Area>Machine learning, speech and audio processing, convex optimization</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=13">
+    <Category>adjunct part time</Category>
+    <Cellphone>213-740-4494</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>koolmano@usc.edu</E_mail>
+    <Name>Supannika Koolmanojwong</Name>
+    <Office>SAL 332</Office>
+    <Position>Part-Time Lecturer</Position>
+    <Research_Area>Software process modeling and software process improvement especially in rapid-fielding software development</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=130">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-8162</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>cshahabi@cs.usc.edu</E_mail>
+    <Name>Cyrus Shahabi</Name>
+    <Office>PHE 306</Office>
+    <Position>Professor/ Director, IMSC/ Director, Informatics Program</Position>
+    <Research_Area>Multidimensional databases, database management, spatial and temporal databases, file and database management</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=131">
+    <Alias>Gaurav S. Sukhatme, G. Stefano Sukhatme</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-4498</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>gaurav@usc.edu</E_mail>
+    <Name>Gaurav Sukhatme</Name>
+    <Office>SAL 106</Office>
+    <Position>Dean's Professor and Chairman</Position>
+    <Research_Area>Robotics, robot networks, aquatic robots, artificial intelligence, on-body networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=132">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-6447</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>tambe@usc.edu</E_mail>
+    <Name>Milind Tambe</Name>
+    <Office>SAL 300</Office>
+    <Position>Helen N. and Emmett H. Jones/ Professor in Engineering</Position>
+    <Research_Area>Artificial intelligence, intelligent agents, game theory, security, multi-agent systems, human behavior modeling, machine learning</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=133">
+    <Alias>Shanghua Teng</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-3667</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>shanghua@usc.edu</E_mail>
+    <Name>Shang-Hua Teng</Name>
+    <Office>RTH 402</Office>
+    <Position>Seeley G. Mudd Professor of Engineering</Position>
+    <Research_Area>Smoothed analysis, PAC learning, multiobjective optimization, Nash equilibrium, market equilibrium</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=134">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-6416</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>minlanyu@usc.edu</E_mail>
+    <Name>Minlan Yu</Name>
+    <Office>SAL 214</Office>
+    <Position>Assistant Professor/ Andrew and Erna Viterbi Early Career Chair</Position>
+    <Research_Area>Software defined networks, data centers, cloud computing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=14">
+    <Alias>Stacy C. Marsella</Alias>
+    <Category>adjunct part time</Category>
+    <Cellphone>310-448-0369</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>marsella@ict.usc.edu</E_mail>
+    <Name>Stacy Marsella</Name>
+    <Office>ICT</Office>
+    <Position>Adjunct Associate Professor</Position>
+    <Research_Area>Computational models of human cognition and emotion</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=15">
+    <Alias>Larry H. Matthies</Alias>
+    <Category>adjunct part time</Category>
+    <Cellphone>818-393-5007</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>lhm@jpl.nasa.gov</E_mail>
+    <Name>Larry Matthies</Name>
+    <Office>JPL</Office>
+    <Position>AdjunctAssociate Professor</Position>
+    <Research_Area>3-D sensing, visual motion estimation, obstacle detection, terrain classification</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=16">
+    <Alias>Chris A. Mattmann</Alias>
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <E_mail>mattmann@usc.edu</E_mail>
+    <Name>Chris Mattmann</Name>
+    <Office>JPL</Office>
+    <Position>Adjunct Associate Professor</Position>
+    <Research_Area>Software architecture, data-intensive computing, grid computing, workflow systems, process control systems, search engines</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=17">
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <E_mail>morency@ict.usc.edu</E_mail>
+    <Name>Louis-Philippe Morency</Name>
+    <Position>Adjunct Assistant Professor</Position>
+    <Research_Area>Multimodal signal processing, human nonverbal communication, machine learning, computer vision</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=18">
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <E_mail>aknaraya@usc.edu</E_mail>
+    <Name>Anand Kumar Narayanan</Name>
+    <Position>Part-Time Lecturer</Position>
+    <Research_Area>Computer science theory</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=19">
+    <Category>adjunct part time</Category>
+    <Cellphone>213-740-6470</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>papa@usc.edu</E_mail>
+    <Name>Marco Papa</Name>
+    <Office>SAL 216</Office>
+    <Position>Adjunct Assistant Professor</Position>
+    <Research_Area>"Geo-social" networking, mobile computing interfaces (i.e., "gestures") and the application of computing models to the analysis of stock and options movement</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=2">
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <E_mail>billard@usc.edu</E_mail>
+    <Name>Aude Billard</Name>
+    <Office>EPL</Office>
+    <Position>AdjunctAssistant Professor</Position>
+    <Research_Area>Machine learning, neural modeling, humanoid robotics, human-robot interactions, computational neuroscience</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=20">
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <Name>Khaled Rahman</Name>
+    <Position>Part-Time Lecturer</Position>
+    <Research_Area>Game design, game production</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=21">
+    <Alias>Richard W. Selby</Alias>
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <E_mail>rick.selby@ngc.com</E_mail>
+    <Name>Rick Selby</Name>
+    <Position>AdjunctProfessor</Position>
+    <Research_Area>Development, management, and economics of large-scale mission-critical systems, software, and processes</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=22">
+    <Category>adjunct part time</Category>
+    <Cellphone>+44 (0) 131 651 3444</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>sethu.vijayakumar@ed.ac.uk</E_mail>
+    <Name>Sethu Vijayakumar</Name>
+    <Position>AdjunctAssistant Professor</Position>
+    <Research_Area>Statistical machine learning, motor control, planning and optimization in autonomous systems and computational neuroscience</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=23">
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <E_mail>zhang@microsoft.com</E_mail>
+    <Name>Zhengyou Zhang</Name>
+    <Position>Adjunct Faculty</Position>
+    <Research_Area>Computer vision, 3D face modeling</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=24">
+    <Category>adjunct part time</Category>
+    <Cellphone>213-740-7654</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>rogerz@comp.nus.edu.sg</E_mail>
+    <Name>Roger Zimmermann</Name>
+    <Office>PHE 414</Office>
+    <Position>Adjunct Assistant Professor</Position>
+    <Research_Area>Streaming media architectures, Spatio-temporal database systems and mobile data management</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=25">
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-3299</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>annavara@usc.edu</E_mail>
+    <Name>Murali Annavaram</Name>
+    <Office>EEB 232</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>EE-Systems
+Computer Architecture, 3D stacking, Mobiquitous Computing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=26">
+    <Alias>Melvin A. Breuer</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-4449</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>mb@poisson.usc.edu</E_mail>
+    <Name>Melvin Breuer</Name>
+    <Office>EEB 300C</Office>
+    <Position>Professor</Position>
+    <Research_Area>EE-Systems
+VLSI testing, design for test, error tolerance, computer aided design</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=27">
+    <Alias>Todd A. Brun</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-3503</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>tbrun@usc.edu</E_mail>
+    <Name>Todd Brun</Name>
+    <Office>EEB 502</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>EE-Systems
+Quantum information processing, quantum computing, quantum communication</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=28">
+    <Alias>Ting Chen</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-2415</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>tingchen@hto.usc.edu</E_mail>
+    <Name>Tim-Ting Chen</Name>
+    <Office>DRB 290</Office>
+    <Position>Professor</Position>
+    <Research_Area>Computational and Molecular Biology</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=29">
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-4382</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>mdehghan@usc.edu</E_mail>
+    <Name>Morteza Dehghani</Name>
+    <Office>BCI</Office>
+    <Position>Assistant Professor</Position>
+    <Research_Area>Psychology
+Computational social sciences, Psychoinformatics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=3">
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <E_mail>chiang@isi.edu</E_mail>
+    <Name>David Chiang</Name>
+    <Position>Adjunct Associate Professor</Position>
+    <Research_Area>Natural language processing, language translation, syntactic parsing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=30">
+    <Alias>Panayiotis G. Georgiou</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-4654</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>georgiou@sipi.usc.edu</E_mail>
+    <Name>Panayiotis Georgiou</Name>
+    <Office>EEB 428</Office>
+    <Position>Assistant Professor</Position>
+    <Research_Area>EE-Systems.
+Signal processing. Diverse sensing and speech processing from microphone arrays. Speech-to-speech translation.</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=31">
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-4470</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>kaihwang@usc.edu</E_mail>
+    <Name>Kai Hwang</Name>
+    <Office>EEB 112</Office>
+    <Position>Professor</Position>
+    <Research_Area>EE-Systems
+High-Performance computing, internet of things, cloud computing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=32">
+    <Alias>Rajiv K. Kalia</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-821-2658</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>rkalia@usc.edu</E_mail>
+    <Name>Rajiv Kalia</Name>
+    <Office>VHE 614</Office>
+    <Position>Professor</Position>
+    <Research_Area>Physics, Chemical Engineering and Materials Science</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=33">
+    <Category>joint faculty</Category>
+    <Cellphone>310-448-9338</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>carl@isi.edu</E_mail>
+    <Name>Carl Kesselman</Name>
+    <Office>ISI</Office>
+    <Position>Professor</Position>
+    <Research_Area>Industrial Systems Engineering
+Grid infrastructure, virtual organizations, health informatics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=34">
+    <Category>joint faculty</Category>
+    <Cellphone>213-821-2528</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>bkrishna@usc.edu</E_mail>
+    <Name>Bhaskar Krishnamachari</Name>
+    <Office>EEB 342</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>EE-Systems
+Wireless networks, sensor networks, algorithm design, performance analysis, applications</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=35">
+    <Alias>C.-C. Jay Kuo, C.-C. Kuo</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-4658</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>cckuo@sipi.usc.edu</E_mail>
+    <Name>Jay Kuo</Name>
+    <Office>EEB 440</Office>
+    <Position>Dean's Professor in Electrical Engineering - Systems</Position>
+    <Research_Area>EE-Systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=36">
+    <Alias>Stephen C. Y. Lu</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-9616</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>sclu@usc.edu</E_mail>
+    <Name>Stephen Lu</Name>
+    <Office>OHE 430M</Office>
+    <Position>Professor</Position>
+    <Research_Area>Aerospace and Mechanical Engineering</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=37">
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-4667</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>ubli@usc.edu</E_mail>
+    <Name>Urbashi Mitra</Name>
+    <Office>EEB 536</Office>
+    <Position>Professor</Position>
+    <Research_Area>EE-Systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=38">
+    <Alias>Shrikanth S. Narayanan</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-6432</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>shri@sipi.usc.edu</E_mail>
+    <Name>Shrikanth (Shri) Narayanan</Name>
+    <Office>EEB 430</Office>
+    <Position>Andrew J. Viterbi Professor of Engineering</Position>
+    <Research_Area>EE-Systems
+Human-centered signal and information processing and computing; speech, audio, language, biomedical and multi-modal machine learning and pattern recognition. Emotions, Affect and Behavioral computing and informatics.</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=39">
+    <Alias>Viktor K. Prasanna</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-4483</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>prasanna@usc.edu</E_mail>
+    <Name>Viktor Prasanna</Name>
+    <Office>EEB 200C</Office>
+    <Position>Charles Lee Powell Chair Professor</Position>
+    <Research_Area>EE-Systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=4">
+    <Category>adjunct part time</Category>
+    <Cellphone>818-393-5320</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>chien@aig.jpl.nasa.gov</E_mail>
+    <Name>Steve Chien</Name>
+    <Office>JPL</Office>
+    <Position>Adjunct Faculty</Position>
+    <Research_Area>Machine learning, planning, scheduling, and expert systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=40">
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-4453</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>kpsounis@usc.edu</E_mail>
+    <Name>Konstantinos Psounis</Name>
+    <Office>RTH 409</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>EE-Systems
+Mobile, ad hoc, delay-tolerant, sensor, mesh, peer-to-peer networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=41">
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-4459</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>xuehai.qian@usc.edu</E_mail>
+    <Name>Xuehai Qian</Name>
+    <Office>EEB 204</Office>
+    <Position>Assistant Professor</Position>
+    <Research_Area>EE-Systems
+Muticore and parallel computer architecture. Architectural support for programming productivity.</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=42">
+    <Alias>Cauligi S. Raghavendra, Cauligi Raghavendra</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-9133</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>raghu@usc.edu</E_mail>
+    <Name>C. S. Raghavendra</Name>
+    <Office>EEB 216</Office>
+    <Position>Professor</Position>
+    <Research_Area>EE-Systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=43">
+    <Alias>Ben W. Reichardt, Benjamin Reichardt</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-7229</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>ben.reichardt@usc.edu</E_mail>
+    <Name>Ben Reichardt</Name>
+    <Office>EEB 528</Office>
+    <Position>Assistant Professor</Position>
+    <Research_Area>EE-Systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=44">
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-0552</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>rohs@usc.edu</E_mail>
+    <Name>Remo Rohs</Name>
+    <Office>RRI 404C</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>Computational Biology
+Biological sciences, chemistry, physics, and astronomy</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=45">
+    <Category>joint faculty</Category>
+    <Cellphone>323-442-1838</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>schweigh@usc.edu</E_mail>
+    <Name>Nicolas Schweighofer</Name>
+    <Office>CHP 155</Office>
+    <Position>Associate Professor</Position>
+    <Research_Area>Biokinesiology and Physical Therapy</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=46">
+    <Alias>Francisco J. Valero-Cuevas</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-821-2084</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>valero@usc.edu</E_mail>
+    <Name>Francisco Valero-Cuevas</Name>
+    <Office>RTH 404</Office>
+    <Position>Professor</Position>
+    <Research_Area>Biomedical Engineering
+neuromuscular systems, neural motor control, biomechanics, biomechanical modeling, robotics, EMG, fMRI, human and robotic manipulation, nonlinear sytems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=47">
+    <Category>joint faculty</Category>
+    <Cellphone>213-821-2663</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>priyav@usc.edu</E_mail>
+    <Name>Priya Vashishta</Name>
+    <Office>VHE 602</Office>
+    <Position>Dean's Professor in Chemical Engineering and Materials Science</Position>
+    <Research_Area>Materials Science</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=48">
+    <Alias>Michael S. Waterman</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-2408</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>msw@hto.usc.edu</E_mail>
+    <Name>Michael Waterman</Name>
+    <Office>DRB 155</Office>
+    <Position>University Professor</Position>
+    <Research_Area>Computational and Molecular Biology</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=49">
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-3239</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>weinberg@usc.edu</E_mail>
+    <Name>Richard Weinberg</Name>
+    <Office>SCB 210F</Office>
+    <Position>Research Associate Professor</Position>
+    <Research_Area>Cinematic Arts</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=5">
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <E_mail>dannycohen@ieee.org</E_mail>
+    <Name>Danny Cohen</Name>
+    <Position>AdjunctProfessor</Position>
+    <Research_Area>Real-time applications, high-performance system</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=50">
+    <Alias>John P. Wilson</Alias>
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-1908</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>jpwilson@usc.edu</E_mail>
+    <Name>John Wilson</Name>
+    <Office>AHF B55F</Office>
+    <Position>Professor</Position>
+    <Research_Area>Geography, Sociology, Civil and Environmental Engineering, Architecture</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=51">
+    <Category>joint faculty</Category>
+    <Cellphone>213-740-7055</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>xjzhou@dornsife.usc.edu</E_mail>
+    <Name>Xianghong Jasmine Zhou</Name>
+    <Position>Professor</Position>
+    <Research_Area>Biological Science</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=52">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-8472</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>ambite@isi.edu</E_mail>
+    <Name>Jose Luis Ambite</Name>
+    <Office>ISI</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Argos scientific workflows web services</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=53">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-0313</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>artstein@ict.usc.edu</E_mail>
+    <Name>Ron Artstein</Name>
+    <Office>ICT</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Computational linguistics, corpus creation and management, dialogue, anaphora resolution, formal semantics, compositional semantics, focus, coordination, temporal quantification</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=54">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-8494</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>ychang@isi.edu</E_mail>
+    <Name>Yu-Han Chang</Name>
+    <Office>ISI</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Multi-agent environments, machine learning, game theory, anomaly detection, social and cultural modeling, and interactive media</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=55">
+    <Alias>Young H. Cho</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-448-9107</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>youngcho@isi.edu</E_mail>
+    <Name>Young Cho</Name>
+    <Office>ISI</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Cyberphysical, sensor, network, wireless, ecology, environmental science, datalogger, low-power</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=56">
+    <Alias>Paul E. Debevec</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-574-7809</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>debevec@ict.usc.edu</E_mail>
+    <Name>Paul Debevec</Name>
+    <Office>ICT</Office>
+    <Position>Research Professor</Position>
+    <Research_Area>Computer graphics, computer vision, autostereoscopic displays, digital actors</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=57">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-8408</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>deelman@isi.edu</E_mail>
+    <Name>Ewa Deelman</Name>
+    <Office>ISI</Office>
+    <Position>Research Associate Professor</Position>
+    <Research_Area>Distributed computing, scientific workflows, data-intensive computing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=58">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-5329</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>devault@ict.usc.edu</E_mail>
+    <Name>David DeVault</Name>
+    <Office>ICT</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Natural language dialogue systems, which converse and interact with human speakers in a natural language such as English</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=59">
+    <Alias>Pedro C. Diniz</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-822-1511</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>pedro@isi.edu</E_mail>
+    <Name>Pedro Diniz</Name>
+    <Office>ISI</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Parallelizing compilers, program analysis, parallel and distributed computing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=6">
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <E_mail>scolon@usc.edu</E_mail>
+    <Name>St. John Colon</Name>
+    <Office>EGG 100</Office>
+    <Position>Part-Time Lecturer</Position>
+    <Research_Area>Game design; game producing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=60">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-9183</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>galstyan@isi.edu</E_mail>
+    <Name>Aram Galstyan</Name>
+    <Office>IST</Office>
+    <Position>Research Associate Professor</Position>
+    <Research_Area>Statistical mechanics based approaches to inference and learning, statistical models of complex networks, and social network analysis</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=61">
+    <Category>research faculty</Category>
+    <Cellphone>310-574-5700</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>kgeorgila@ict.usc.edu</E_mail>
+    <Name>Kallirroi Georgila</Name>
+    <Office>ICT</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Statistical dialogue modelling, expressive speech synthesis, speech recognition in the framework of natural language interaction with virtual humans</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=62">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-8794</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>gil@isi.edu</E_mail>
+    <Name>Yolanda Gil</Name>
+    <Office>ISI</Office>
+    <Position>Research Professor</Position>
+    <Research_Area>Scientific workflows, intelligent interfaces, knowledge systems, semantic web, artificial intelligence</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=63">
+    <Alias>Andrew S. Gordon</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-574-5700</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>gordon@ict.usc.edu</E_mail>
+    <Name>Andrew Gordon</Name>
+    <Office>ICT</Office>
+    <Position>Research Associate Professor</Position>
+    <Research_Area>Storytelling and the human mind, exploring how people experience, interpret, and narrate the events in their lives</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=64">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-0306</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>gratch@ict.usc.edu</E_mail>
+    <Name>Jonathan Gratch</Name>
+    <Office>ICT</Office>
+    <Position>Research Professor</Position>
+    <Research_Area>Affective computing, human-computer interaction, virtual humans</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=65">
+    <Alias>John S. Heidemann</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-448-8708</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>johnh@isi.edu</E_mail>
+    <Name>John Heidemann</Name>
+    <Office>ISI</Office>
+    <Position>Research Professor</Position>
+    <Research_Area>Internet protocols, topology, measurement, traffic, security</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=66">
+    <Alias>Randall W. Hill Jr.</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-574-5700</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>hill@ict.usc.edu</E_mail>
+    <Name>Randall Hill</Name>
+    <Office>ICT</Office>
+    <Position>Research Professor</Position>
+    <Research_Area>Intelligent tutoring systems and virtual humans to create immersive learning environments</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=67">
+    <Alias>Jerry R. Hobbs</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-448-9140</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>hobbs@isi.edu</E_mail>
+    <Name>Jerry Hobbs</Name>
+    <Office>ISI</Office>
+    <Position>Research Professor</Position>
+    <Research_Area>OWL-Time and temporal representation, discourse interpretation, encoding commonsense knowledge, information extraction</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=68">
+    <Alias>Craig A. Knoblock</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-448-8786</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>knoblock@isi.edu</E_mail>
+    <Name>Craig Knoblock</Name>
+    <Office>ISI</Office>
+    <Position>Research Professor</Position>
+    <Research_Area>Information integration, artificial intelligence, machine learning, geospatial data integration</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=69">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-8714</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>lerman@isi.edu</E_mail>
+    <Name>Kristina Lerman</Name>
+    <Office>ISI</Office>
+    <Position>Research Associate Professor</Position>
+    <Research_Area>Social networks, social web, social media, AI</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=7">
+    <Category>adjunct part time</Category>
+    <Cellphone>213-740-6504</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>gedwards@usc.edu</E_mail>
+    <Name>George Edwards</Name>
+    <Office>SAL 327</Office>
+    <Position>Part-Time Lecturer</Position>
+    <Research_Area>Software engineering, designed and implementation XTEAM</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=70">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-0310</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>leuski@ict.usc.edu</E_mail>
+    <Name>Anton Leuski</Name>
+    <Office>ICT</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Natural language understanding, Information retrieval, Machine learning</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=71">
+    <Alias>Robert F. Lucas</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-448-9449</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>rflucas@isi.edu</E_mail>
+    <Name>Robert Lucas</Name>
+    <Office>ISI</Office>
+    <Position>Research Associate Professor</Position>
+    <Research_Area>Scalable computing, quantum computing, linear solvers</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=72">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-8726</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>marcu@isi.edu</E_mail>
+    <Name>Daniel Marcu</Name>
+    <Office>ISI</Office>
+    <Position>Research Associate Professor</Position>
+    <Research_Area>Computational linguistics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=73">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-9170</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>sunshine@isi.edu</E_mail>
+    <Name>Jelena Mirkovic</Name>
+    <Office>ISI</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Network security, testbed, experimentation, defense</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=74">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-8700</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>pnataraj@isi.edu</E_mail>
+    <Name>Premkumar Natarajan</Name>
+    <Office>ISI</Office>
+    <Position>Research Professor</Position>
+    <Research_Area>Speech recognition, language understanding, speech-to-speech translation, video analysis and content extraction, machine learning and optical character recognition.</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=75">
+    <Alias>B. Clifford Neuman</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-448-8736</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>bcn@isi.edu</E_mail>
+    <Name>Clifford Neuman</Name>
+    <Office>ISI</Office>
+    <Position>Research Associate Professor</Position>
+    <Research_Area>Distributed systems, security, trusted computing, operating systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=76">
+    <Category>research faculty</Category>
+    <Cellphone>310-574-5700</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>scherer@ict.usc.edu</E_mail>
+    <Name>Stefan Scherer</Name>
+    <Office>ICT</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Human machine interaction, social signal processing, affective computing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=77">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-8710</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>shen@isi.edu</E_mail>
+    <Name>Wei-Min Shen</Name>
+    <Office>ISI</Office>
+    <Position>Research Associate Professor</Position>
+    <Research_Area>Reconfigurable and metamorphic systems, autonomous robots, machine learning, artificial intelligence, and life science</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=78">
+    <Alias>Evan A. Suma</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-448-5311</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>suma@ict.usc.edu</E_mail>
+    <Name>Evan Suma</Name>
+    <Office>ICT</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Immersive virtual environments, real-time computing systems, perceptual illusions in virtual reality, video games for rehabilitation, sharing space with virtual humans, surface and gesture interfaces</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=79">
+    <Alias>William R. Swartout</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-574-5700</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>swartout@ict.usc.edu</E_mail>
+    <Name>William Swartout</Name>
+    <Office>ICT</Office>
+    <Position>Research Professor</Position>
+    <Research_Area>Artificial intelligence, intelligent agents, virtual humans, knowledge-based systems, natural language processing, education and training</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=8">
+    <Alias>Massoud Ghyam-Khah</Alias>
+    <Category>adjunct part time</Category>
+    <Cellphone>213-740-4515</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>ghyam@usc.edu</E_mail>
+    <Name>Massoud Ghyam</Name>
+    <Office>SAL 344</Office>
+    <Position>Part-Time Lecturer</Position>
+    <Research_Area>Program design with C++</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=80">
+    <Alias>Pedro A. Szekely</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-448-8641</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>pszekely@isi.edu</E_mail>
+    <Name>Pedro Szekely</Name>
+    <Office>ISI</Office>
+    <Position>Research Associate Professor</Position>
+    <Research_Area>Human-computer interaction, bio-informatics and education</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=81">
+    <Alias>Joseph Touch, Joseph (Joe) Touch, Joseph D. Touch</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-448-9151</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>touch@isi.edu</E_mail>
+    <Name>Joe Touch</Name>
+    <Office>ISI</Office>
+    <Position>Research Associate Professor</Position>
+    <Research_Area>Networking, optical, security, performance</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=82">
+    <Alias>David R. Traum</Alias>
+    <Category>research faculty</Category>
+    <Cellphone>310-574-5729</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>traum@ict.usc.edu</E_mail>
+    <Name>David Traum</Name>
+    <Office>ICT</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Natural language processing, intelligent systems, agents, human computer interaction, immersive environements, dialogue systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=83">
+    <Category>research faculty</Category>
+    <Cellphone>310-448-8482</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>gregv@isi.edu</E_mail>
+    <Name>Greg Ver Steeg</Name>
+    <Office>ISI</Office>
+    <Position>Research Assistant Professor</Position>
+    <Research_Area>Practical methods for inferring meangful structure in complex systems,  quantum computing, information theoretic methods for learning, bell  inequalities for complex networks, mapping graph clusters</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=84">
+    <Category>teaching faculty</Category>
+    <Cellphone>213-740-4510</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>bono@usc.edu</E_mail>
+    <Name>Claire Bono</Name>
+    <Office>SAL 310</Office>
+    <Position>Lecturer</Position>
+    <Research_Area>Programming systems design, computer engineering</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=85">
+    <Category>teaching faculty</Category>
+    <Cellphone>213-821-4222</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>bill.cheng@usc.edu</E_mail>
+    <Name>William Cheng</Name>
+    <Office>SAL 302</Office>
+    <Position>Lecturer</Position>
+    <Research_Area>Algorithms, operating systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=86">
+    <Category>teaching faculty</Category>
+    <Cellphone>213-740-4494</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>aaroncot@usc.edu</E_mail>
+    <Name>Aaron Cote</Name>
+    <Office>SAL 340</Office>
+    <Position>Lecturer</Position>
+    <Research_Area>Online algorithms, game theory, and power management</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=87">
+    <Category>teaching faculty</Category>
+    <Cellphone>213-821-5653</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>crowley@usc.edu</E_mail>
+    <Name>Michael Crowley</Name>
+    <Office>OHE 412</Office>
+    <Position>Professor of Engineering Practice</Position>
+    <Research_Area>Information technology</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=88">
+    <Category>teaching faculty</Category>
+    <Cellphone>213-740-7230</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>seasley@usc.edu</E_mail>
+    <Name>Scott Easley</Name>
+    <Position>Lecturer</Position>
+    <Research_Area>Visual Media, virtual social structure, production pipelines</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=89">
+    <Category>teaching faculty</Category>
+    <Cellphone>213-740-7129</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>jeffream@usc.edu</E_mail>
+    <Name>Jeffrey Miller</Name>
+    <Office>SAL 342</Office>
+    <Position>Associate Professor of Engineering Practice</Position>
+    <Research_Area>Computer science education, vehicle-to-vehicle communication, software architectures, traffic optimization</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=9">
+    <Alias>Mary W. Hall</Alias>
+    <Category>adjunct part time</Category>
+    <Department>Computer Science</Department>
+    <E_mail>maryehal@usc.edu</E_mail>
+    <Name>Mary Hall</Name>
+    <Office>University of Utah</Office>
+    <Position>AdjunctAssociate Professor</Position>
+    <Research_Area>Performance tuning, locality optimization, parallel computing, interprocedural analysis and opti-mization, parallelizing compilers</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=90">
+    <Alias>Sathyanaraya Raghavachary</Alias>
+    <Category>teaching faculty</Category>
+    <Department>Computer Science</Department>
+    <E_mail>saty@usc.edu</E_mail>
+    <Name>Saty Raghavachary</Name>
+    <Office>SAL 346</Office>
+    <Position>Senior Lecturer</Position>
+    <Research_Area>Introductory computer graphics, rendering, animation/simulation</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=91">
+    <Alias>Shawn Shamsian</Alias>
+    <Category>teaching faculty</Category>
+    <Cellphone>310-740-5972</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>sshamsia@usc.edu</E_mail>
+    <Name>Shahriar (Shawn) Shamsian</Name>
+    <Office>SAL 318</Office>
+    <Position>Senior Lecturer</Position>
+    <Research_Area>Algorithims, database systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=92">
+    <Category>teaching faculty</Category>
+    <Department>Computer Science</Department>
+    <E_mail>shindler@usc.edu</E_mail>
+    <Name>Michael Shindler</Name>
+    <Position>Lecturer</Position>
+    <Research_Area>Algorithms, database systems, computations on large data sets, computer science education</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=93">
+    <Category>teaching faculty</Category>
+    <Cellphone>213-740-4505</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>stejada@usc.edu</E_mail>
+    <Name>Sheila Tejada</Name>
+    <Office>SAL 316</Office>
+    <Position>Senior Lecturer</Position>
+    <Research_Area>Artificial intelligence, human-agent collaboration</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=94">
+    <Category>teaching faculty</Category>
+    <Department>Computer Science</Department>
+    <E_mail>wenshenw@usc.edu</E_mail>
+    <Name>Wensheng Wu</Name>
+    <Position>Associate Professor of Engineering Practice</Position>
+    <Research_Area>Databases, data integration, and Deep Web data management</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=95">
+    <Alias>Mike Zyda</Alias>
+    <Category>teaching faculty</Category>
+    <Cellphone>213-821-4141</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>zyda@usc.edu</E_mail>
+    <Name>Michael Zyda</Name>
+    <Office>RTH 321</Office>
+    <Position>Professor of Engineering Practice</Position>
+    <Research_Area>Computer graphics, large-scale, networked 3D virtual environments, agent-based simulation, modeling human and organizational behavior, interactive computer-generated story, and serious and entertainment games</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=96">
+    <Alias>Leonard M. Adleman, Leonard Adlemen</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-6490</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>adleman@usc.edu</E_mail>
+    <Name>Leonard Adleman</Name>
+    <Office>RTH 501</Office>
+    <Position>Henry Salvatori Professor</Position>
+    <Research_Area>Algorithms, computational complexity, computer viruses, cryptography, DNA computing, immunology, molecular biology, number theory, quantum computing</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=97">
+    <Alias>Michael A. Arbib</Alias>
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-9220</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>arbib@usc.edu</E_mail>
+    <Name>Michael Arbib</Name>
+    <Office>HNB 03</Office>
+    <Position>Fletcher Jones Professor/ University Professor</Position>
+    <Research_Area>Mirror neurons, neurolinguistics, language evolution, epistemology, neural networks, simulation, schema theory, neuroinformatics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=98">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-5377</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>nora.ayanian@usc.edu</E_mail>
+    <Name>Nora Ayanian</Name>
+    <Office>RTH 412</Office>
+    <Position>Assistant Professor/ WiSE Gabilan Chair</Position>
+    <Research_Area>Robotics, multi-robot coordination, human-robot interaction</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/CS_faculty_final.csv#row=99">
+    <Category>tenured and tenure track faculty</Category>
+    <Cellphone>213-740-1914</Cellphone>
+    <Department>Computer Science</Department>
+    <E_mail>jnb@usc.edu</E_mail>
+    <Name>Jernej Barbic</Name>
+    <Office>SAL 240</Office>
+    <Position>Associate Professor and Viterbi Early Career Chair/ Associate Chair, Undergraduate Programs</Position>
+    <Research_Area>Computer graphics, animation, simulation, interactive, deformations, Finite Element Method, haptics, sound, control</Research_Area>
+  </rdf:Description>
+</rdf:RDF>

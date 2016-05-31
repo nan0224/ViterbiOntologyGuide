@@ -1,0 +1,1337 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lingnan/ontologies/2016/2/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/lingnan/ontologies/2016/2/untitled-ontology-8">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Research_faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Department"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_PhD_student"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publishOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ee_cname"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cs_corequisite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joint_faculty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ee_pname"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#member"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ee_unit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#instructor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ee_area"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#author"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ee_mbox"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cs_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_graduate/PhD_course"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#position"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cs_mbox"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cs_area"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#url"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ee_alias"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mbox"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inf_alias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tenured_and_tenured-track_faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_journal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_undergraduate_course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_staff"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inf_corequisite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#office"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_thesis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#area"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cs_office"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#alias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_course"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#year"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inf_instructor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#INF_journal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cs_instructor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ee_instructor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adjunct/emeritus_faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Part-time_lecturer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inf_office"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inf_pname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cs_cellphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer_Science"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inf_cname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cs_pname"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ee_instructorOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ee_office"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cname"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_course"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cs_position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_publication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ee_member"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inf_cid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_thesis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ee_pcategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Full-time_lecturer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inf_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inf_area"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ee_cellphone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ee_position"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cs_member"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inf_mbox"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teaching_faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#INF_publication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inf_instructorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cs_prerequisite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_conference_and_workshop"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inf_member"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cs_cname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pcategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inf_prerequisite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ee_prerequisite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#instructorOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inf_cellphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_conference_and_workshop"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inf_position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electrical_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cs_pcategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#INF_graduate/PhD_course"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ee_memberOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#INF_thesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_undergraduate_course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#INF_faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_graduate/PhD_course"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pubcategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adjunct_and_part-time_faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informatics"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cs_alias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#INF_fulltime_faculty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_research_faculty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cs_cid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_faculty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#advisor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_PhD"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inf_memberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ee_corequisite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pname"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inf_pcategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#INF_part-time_lecturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#INF_conference_and_workshop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_fulltime_faculty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#corequisite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#advisorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cs_memberOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_publication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_part-time_faculty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cellphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_journal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prerequisite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Director"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ee_cid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_postdoc_student"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cs_instructorOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Faculty_board_of_advisor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_fulltime_faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_part-time_faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#INF_book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EE_full-time_faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS_student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publication"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Adjunct_and_part-time_faculty"/>
+        <Class IRI="#CS_part-time_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_PhD_student"/>
+        <Class IRI="#CS_student"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_book"/>
+        <Class IRI="#CS_publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_conference_and_workshop"/>
+        <Class IRI="#CS_publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_course"/>
+        <Class IRI="#Course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_faculty"/>
+        <Class IRI="#CS_person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_fulltime_faculty"/>
+        <Class IRI="#CS_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_journal"/>
+        <Class IRI="#CS_publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_part-time_faculty"/>
+        <Class IRI="#CS_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_person"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_postdoc_student"/>
+        <Class IRI="#CS_student"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_publication"/>
+        <Class IRI="#Publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_student"/>
+        <Class IRI="#CS_person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_thesis"/>
+        <Class IRI="#CS_publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_undergraduate_course"/>
+        <Class IRI="#CS_course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer_Science"/>
+        <Class IRI="#Department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Department"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Director"/>
+        <Class IRI="#INF_fulltime_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_PhD"/>
+        <Class IRI="#EE_person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_book"/>
+        <Class IRI="#EE_publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_conference_and_workshop"/>
+        <Class IRI="#EE_publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_course"/>
+        <Class IRI="#Course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_faculty"/>
+        <Class IRI="#EE_person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_full-time_faculty"/>
+        <Class IRI="#EE_fulltime_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_fulltime_faculty"/>
+        <Class IRI="#EE_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_journal"/>
+        <Class IRI="#EE_publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_part-time_faculty"/>
+        <Class IRI="#EE_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_person"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_publication"/>
+        <Class IRI="#Publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_research_faculty"/>
+        <Class IRI="#EE_fulltime_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_thesis"/>
+        <Class IRI="#EE_publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_undergraduate_course"/>
+        <Class IRI="#EE_course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electrical_Engineering"/>
+        <Class IRI="#Department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faculty_board_of_advisor"/>
+        <Class IRI="#INF_fulltime_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Full-time_lecturer"/>
+        <Class IRI="#INF_fulltime_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#INF_book"/>
+        <Class IRI="#INF_publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#INF_conference_and_workshop"/>
+        <Class IRI="#INF_publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#INF_faculty"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#INF_fulltime_faculty"/>
+        <Class IRI="#INF_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#INF_journal"/>
+        <Class IRI="#INF_publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#INF_part-time_lecturer"/>
+        <Class IRI="#INF_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#INF_publication"/>
+        <Class IRI="#Publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#INF_thesis"/>
+        <Class IRI="#INF_publication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informatics"/>
+        <Class IRI="#Department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joint_faculty"/>
+        <Class IRI="#CS_part-time_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Part-time_lecturer"/>
+        <Class IRI="#EE_part-time_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publication"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_faculty"/>
+        <Class IRI="#CS_fulltime_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_faculty"/>
+        <Class IRI="#EE_research_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_staff"/>
+        <Class IRI="#EE_research_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teaching_faculty"/>
+        <Class IRI="#CS_fulltime_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tenured_and_tenured-track_faculty"/>
+        <Class IRI="#CS_fulltime_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adjunct/emeritus_faculty"/>
+        <Class IRI="#EE_part-time_faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS_graduate/PhD_course"/>
+        <Class IRI="#CS_course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EE_graduate/PhD_course"/>
+        <Class IRI="#EE_course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#INF_graduate/PhD_course"/>
+        <Class IRI="#Course"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Adjunct_and_part-time_faculty"/>
+        <Class IRI="#Joint_faculty"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CS_PhD_student"/>
+        <Class IRI="#CS_postdoc_student"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CS_book"/>
+        <Class IRI="#CS_conference_and_workshop"/>
+        <Class IRI="#CS_journal"/>
+        <Class IRI="#CS_thesis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CS_course"/>
+        <Class IRI="#EE_course"/>
+        <Class IRI="#INF_graduate/PhD_course"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CS_faculty"/>
+        <Class IRI="#CS_student"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CS_fulltime_faculty"/>
+        <Class IRI="#CS_part-time_faculty"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CS_person"/>
+        <Class IRI="#EE_person"/>
+        <Class IRI="#INF_faculty"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CS_publication"/>
+        <Class IRI="#EE_publication"/>
+        <Class IRI="#INF_publication"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CS_undergraduate_course"/>
+        <Class IRI="#CS_graduate/PhD_course"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Course"/>
+        <Class IRI="#Department"/>
+        <Class IRI="#Person"/>
+        <Class IRI="#Publication"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EE_PhD"/>
+        <Class IRI="#EE_faculty"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EE_book"/>
+        <Class IRI="#EE_conference_and_workshop"/>
+        <Class IRI="#EE_journal"/>
+        <Class IRI="#EE_thesis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EE_full-time_faculty"/>
+        <Class IRI="#EE_research_faculty"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EE_fulltime_faculty"/>
+        <Class IRI="#EE_part-time_faculty"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EE_undergraduate_course"/>
+        <Class IRI="#EE_graduate/PhD_course"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#INF_book"/>
+        <Class IRI="#INF_conference_and_workshop"/>
+        <Class IRI="#INF_journal"/>
+        <Class IRI="#INF_thesis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#INF_fulltime_faculty"/>
+        <Class IRI="#INF_part-time_lecturer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Part-time_lecturer"/>
+        <Class IRI="#Adjunct/emeritus_faculty"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Research_faculty"/>
+        <Class IRI="#Research_staff"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Research_faculty"/>
+        <Class IRI="#Teaching_faculty"/>
+        <Class IRI="#Tenured_and_tenured-track_faculty"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#cs_corequisite"/>
+        <ObjectProperty IRI="#corequisite"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#cs_instructor"/>
+        <ObjectProperty IRI="#instructor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#cs_instructorOf"/>
+        <ObjectProperty IRI="#instructorOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#cs_member"/>
+        <ObjectProperty IRI="#member"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#cs_memberOf"/>
+        <ObjectProperty IRI="#memberOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#cs_prerequisite"/>
+        <ObjectProperty IRI="#prerequisite"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ee_corequisite"/>
+        <ObjectProperty IRI="#corequisite"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ee_instructor"/>
+        <ObjectProperty IRI="#instructor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ee_instructorOf"/>
+        <ObjectProperty IRI="#instructorOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ee_member"/>
+        <ObjectProperty IRI="#member"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ee_memberOf"/>
+        <ObjectProperty IRI="#memberOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ee_prerequisite"/>
+        <ObjectProperty IRI="#prerequisite"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inf_corequisite"/>
+        <ObjectProperty IRI="#corequisite"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inf_instructor"/>
+        <ObjectProperty IRI="#instructor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inf_instructorOf"/>
+        <ObjectProperty IRI="#instructorOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inf_member"/>
+        <ObjectProperty IRI="#member"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inf_memberOf"/>
+        <ObjectProperty IRI="#memberOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inf_prerequisite"/>
+        <ObjectProperty IRI="#prerequisite"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#advisor"/>
+        <ObjectProperty IRI="#advisorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#cs_instructor"/>
+        <ObjectProperty IRI="#cs_instructorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#cs_member"/>
+        <ObjectProperty IRI="#cs_memberOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ee_instructor"/>
+        <ObjectProperty IRI="#ee_instructorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ee_member"/>
+        <ObjectProperty IRI="#ee_memberOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#inf_instructor"/>
+        <ObjectProperty IRI="#inf_instructorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#inf_member"/>
+        <ObjectProperty IRI="#inf_memberOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#instructor"/>
+        <ObjectProperty IRI="#instructorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#member"/>
+        <ObjectProperty IRI="#memberOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#publish"/>
+        <ObjectProperty IRI="#publishOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#advisor"/>
+        <Class IRI="#CS_PhD_student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#advisorOf"/>
+        <Class IRI="#CS_faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#corequisite"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#cs_corequisite"/>
+        <Class IRI="#CS_course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#cs_instructor"/>
+        <Class IRI="#CS_course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#cs_instructorOf"/>
+        <Class IRI="#CS_faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#cs_member"/>
+        <Class IRI="#Computer_Science"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#cs_memberOf"/>
+        <Class IRI="#CS_person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#cs_prerequisite"/>
+        <Class IRI="#CS_course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ee_corequisite"/>
+        <Class IRI="#EE_course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ee_instructor"/>
+        <Class IRI="#EE_course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ee_instructorOf"/>
+        <Class IRI="#EE_faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ee_member"/>
+        <Class IRI="#Electrical_Engineering"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ee_memberOf"/>
+        <Class IRI="#EE_person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ee_prerequisite"/>
+        <Class IRI="#EE_course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inf_corequisite"/>
+        <Class IRI="#INF_graduate/PhD_course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inf_instructor"/>
+        <Class IRI="#INF_graduate/PhD_course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inf_instructorOf"/>
+        <Class IRI="#INF_faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inf_member"/>
+        <Class IRI="#Informatics"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inf_memberOf"/>
+        <Class IRI="#INF_faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inf_prerequisite"/>
+        <Class IRI="#INF_graduate/PhD_course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#instructor"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#instructorOf"/>
+        <Class IRI="#CS_faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#instructorOf"/>
+        <Class IRI="#EE_faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#instructorOf"/>
+        <Class IRI="#INF_faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#member"/>
+        <Class IRI="#Department"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#memberOf"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prerequisite"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publish"/>
+        <Class IRI="#Publication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publishOf"/>
+        <Class IRI="#CS_fulltime_faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publishOf"/>
+        <Class IRI="#EE_fulltime_faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publishOf"/>
+        <Class IRI="#INF_fulltime_faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#advisor"/>
+        <Class IRI="#CS_faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#advisorOf"/>
+        <Class IRI="#CS_PhD_student"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#corequisite"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#cs_corequisite"/>
+        <Class IRI="#CS_course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#cs_instructor"/>
+        <Class IRI="#CS_faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#cs_instructorOf"/>
+        <Class IRI="#CS_course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#cs_member"/>
+        <Class IRI="#CS_person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#cs_memberOf"/>
+        <Class IRI="#Computer_Science"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#cs_prerequisite"/>
+        <Class IRI="#CS_course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ee_corequisite"/>
+        <Class IRI="#EE_course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ee_instructor"/>
+        <Class IRI="#EE_faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ee_instructorOf"/>
+        <Class IRI="#EE_course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ee_member"/>
+        <Class IRI="#EE_person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ee_memberOf"/>
+        <Class IRI="#Electrical_Engineering"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ee_prerequisite"/>
+        <Class IRI="#EE_course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inf_corequisite"/>
+        <Class IRI="#INF_graduate/PhD_course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inf_instructor"/>
+        <Class IRI="#INF_faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inf_instructorOf"/>
+        <Class IRI="#INF_graduate/PhD_course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inf_member"/>
+        <Class IRI="#INF_faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inf_memberOf"/>
+        <Class IRI="#Informatics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inf_prerequisite"/>
+        <Class IRI="#INF_graduate/PhD_course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#instructor"/>
+        <Class IRI="#CS_faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#instructor"/>
+        <Class IRI="#EE_faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#instructor"/>
+        <Class IRI="#INF_faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#instructorOf"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#member"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#memberOf"/>
+        <Class IRI="#Department"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prerequisite"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publish"/>
+        <Class IRI="#CS_fulltime_faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publish"/>
+        <Class IRI="#EE_fulltime_faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publish"/>
+        <Class IRI="#INF_fulltime_faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publishOf"/>
+        <Class IRI="#Publication"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cs_alias"/>
+        <DataProperty IRI="#alias"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cs_area"/>
+        <DataProperty IRI="#area"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cs_cellphone"/>
+        <DataProperty IRI="#cellphone"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cs_cid"/>
+        <DataProperty IRI="#cid"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cs_cname"/>
+        <DataProperty IRI="#cname"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cs_mbox"/>
+        <DataProperty IRI="#mbox"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cs_office"/>
+        <DataProperty IRI="#office"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cs_pcategory"/>
+        <DataProperty IRI="#pcategory"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cs_pname"/>
+        <DataProperty IRI="#pname"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cs_position"/>
+        <DataProperty IRI="#position"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cs_unit"/>
+        <DataProperty IRI="#unit"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ee_alias"/>
+        <DataProperty IRI="#alias"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ee_area"/>
+        <DataProperty IRI="#area"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ee_cellphone"/>
+        <DataProperty IRI="#cellphone"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ee_cid"/>
+        <DataProperty IRI="#cid"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ee_cname"/>
+        <DataProperty IRI="#cname"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ee_mbox"/>
+        <DataProperty IRI="#mbox"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ee_office"/>
+        <DataProperty IRI="#office"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ee_pcategory"/>
+        <DataProperty IRI="#pcategory"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ee_pname"/>
+        <DataProperty IRI="#pname"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ee_position"/>
+        <DataProperty IRI="#position"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ee_unit"/>
+        <DataProperty IRI="#unit"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#inf_alias"/>
+        <DataProperty IRI="#alias"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#inf_area"/>
+        <DataProperty IRI="#area"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#inf_cellphone"/>
+        <DataProperty IRI="#cellphone"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#inf_cid"/>
+        <DataProperty IRI="#cid"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#inf_cname"/>
+        <DataProperty IRI="#cname"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#inf_mbox"/>
+        <DataProperty IRI="#mbox"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#inf_office"/>
+        <DataProperty IRI="#office"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#inf_pcategory"/>
+        <DataProperty IRI="#pcategory"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#inf_pname"/>
+        <DataProperty IRI="#pname"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#inf_position"/>
+        <DataProperty IRI="#position"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#inf_unit"/>
+        <DataProperty IRI="#unit"/>
+    </SubDataPropertyOf>
+    <DataPropertyRange>
+        <DataProperty IRI="#cs_alias"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cs_cid"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cs_cname"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cs_office"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cs_pcategory"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cs_pname"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cs_position"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ee_alias"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ee_cid"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ee_cname"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ee_office"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ee_pcategory"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ee_pname"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ee_position"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inf_alias"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inf_cid"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inf_cname"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inf_office"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inf_pcategory"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inf_pname"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inf_position"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#url"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+

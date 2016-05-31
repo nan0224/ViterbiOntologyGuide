@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+]>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://example.org/data/INF_course_final.csv#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=1">
+    <CourseID>INF 549</CourseID>
+    <CourseName>Introduction to Computational Thinking and Data Science</CourseName>
+    <Instructor>Yolanda Gil</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=10">
+    <CourseID>INF 528</CourseID>
+    <CourseName>Computer and Network Forensics</CourseName>
+    <Instructor>Joseph Greenfield</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=11">
+    <CourseID>INF 551</CourseID>
+    <CourseName>Foundations of Data Management</CourseName>
+    <Instructor>Wensheng Wu</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=12">
+    <CourseID>INF 552</CourseID>
+    <CourseName>Machine Learning for Data Informatics</CourseName>
+    <Instructor>Stefan Scherer, Matthew Michelson</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=13">
+    <CourseID>INF 561</CourseID>
+    <CourseName>Engineering Data Analytics</CourseName>
+    <Instructor>Qiang Huang</Instructor>
+    <Prerequisite>DSO529</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=14">
+    <CourseID>INF 563</CourseID>
+    <CourseName>Medical Diagnostics, Therapeutics and Informatics Application</CourseName>
+    <Instructor>Brent Liu</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=15">
+    <CourseID>INF 562</CourseID>
+    <CourseName>Integration of Medical Imaging Systems</CourseName>
+    <Instructor>Brent Liu</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=16">
+    <CourseID>INF 560</CourseID>
+    <CourseName>Data Informatics Professional Practicum</CourseName>
+    <Instructor>Atefeh Farzindar</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=17">
+    <CourseID>INF 590</CourseID>
+    <CourseName>Directed Research</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=18">
+    <CourseID>INF 522</CourseID>
+    <CourseName>Policy: The Foundation for Successful Information Assurance</CourseName>
+    <Instructor>Mark Heckman</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=19">
+    <CourseID>INF 520</CourseID>
+    <CourseName>Foundations of Information Security</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=2">
+    <CourseID>INF 527</CourseID>
+    <CourseName>Secure Systems Engineering</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=20">
+    <CourseID>INF 553</CourseID>
+    <CourseName>Foundations and Applications of Data Mining</CourseName>
+    <Instructor>Ann Chervenak</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=21">
+    <CourseID>INF 523</CourseID>
+    <CourseName>Assurance in Cyberspace Applied to Information Security</CourseName>
+    <Instructor>Mark Heckman</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=22">
+    <CourseID>INF 556</CourseID>
+    <CourseName>User Experience Design and Strategy</CourseName>
+    <Instructor>Jaime Levy</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=23">
+    <CourseID>INF 524</CourseID>
+    <CourseName>Distributed Systems and Network Security</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=3">
+    <CourseID>INF 555</CourseID>
+    <CourseName>User Interface Design, Implementation, and Testing</CourseName>
+    <Instructor>Pedro Szekely</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=4">
+    <CourseID>INF 526</CourseID>
+    <CourseName>Secure Systems Administration</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=5">
+    <CourseID>INF 550</CourseID>
+    <CourseName>Overview of Data Informatics in Large Data Environments</CourseName>
+    <Instructor>Seon Ho Kim</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=6">
+    <CourseID>INF 525</CourseID>
+    <CourseName>Trusted System Design, Analysis and Development</CourseName>
+    <Instructor>Robert Schell</Instructor>
+    <Prerequisite>INF522</Prerequisite>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=7">
+    <CourseID>INF 510</CourseID>
+    <CourseName>Principles of Programming for Informatics</CourseName>
+    <Instructor>Jeremy Abramson</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=8">
+    <CourseID>INF 521</CourseID>
+    <CourseName>Application of Cryptography to Information Security Problems</CourseName>
+    <Instructor>TBA</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_course_final.csv#row=9">
+    <CourseID>INF 554</CourseID>
+    <CourseName>Information Visualization</CourseName>
+    <Instructor>Luciano Nocera</Instructor>
+    <Unit>3</Unit>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+]>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://example.org/data/INF_faculty_final.csv#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=1">
+    <Category>Informatics Faculty</Category>
+    <Cellphone>213-740-4781</Cellphone>
+    <E_mail>shahram@usc.edu</E_mail>
+    <Name>Shahram Ghandeharizadeh</Name>
+    <Office>SAL 208</Office>
+    <Position>Associate Professor, Computer Science</Position>
+    <Research_Area>File and database management systems, Benchmarking, Novel data store architectures</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=10">
+    <Category>Informatics Faculty</Category>
+    <Cellphone>213-740-9418</Cellphone>
+    <E_mail>sschaal@usc.edu</E_mail>
+    <Name>Stefan Scherer</Name>
+    <Office>RTH 401</Office>
+    <Position>Research Assistant Professor, Computer Science</Position>
+    <Research_Area>Robotics, motor control, statistical and machine learning, neural networks, computational neuroscience</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=11">
+    <Category>Informatics Faculty</Category>
+    <Cellphone>213-740-4780</Cellphone>
+    <E_mail>rosenblo@cs.usc.edu</E_mail>
+    <Name>Paul Rosenbloom</Name>
+    <Office>SAL 238</Office>
+    <Position>Professor, Computer Science</Position>
+    <Research_Area>Cognitive architecture, graphical models, virtual human architecture, agent architecture, factor graphs</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=12">
+    <Category>Informatics Faculty</Category>
+    <Cellphone>310-448-8794</Cellphone>
+    <E_mail>gil@isi.edu</E_mail>
+    <Name>Yolanda Gil</Name>
+    <Office>ISI</Office>
+    <Position>Research Professor, Computer Science</Position>
+    <Research_Area>Scientific workflows, intelligent interfaces, knowledge systems, semantic web, artificial intelligence</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=13">
+    <Category>Informatics Faculty</Category>
+    <Name>Joseph Greenfield</Name>
+    <Position>Senior Lecturer, ITP</Position>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=14">
+    <Category>Informatics Faculty</Category>
+    <Cellphone>213-740-6447</Cellphone>
+    <E_mail>tambe@usc.edu</E_mail>
+    <Name>Milind Tambe</Name>
+    <Office>SAL 300</Office>
+    <Position>Professor, Computer Science</Position>
+    <Research_Area>Artificial intelligence, intelligent agents, game theory, security, multi-agent systems, human behavior modeling, machine learning</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=15">
+    <Category>Informatics Faculty</Category>
+    <Name>Julie Higle</Name>
+    <Position>Professor and Chair, Industrial and Systems Engineering</Position>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=16">
+    <Category>Informatics Faculty</Category>
+    <Cellphone>310-448-9170</Cellphone>
+    <E_mail>sunshine@isi.edu</E_mail>
+    <Name>Jelena Mirkovic</Name>
+    <Office>ISI</Office>
+    <Position>Research Assistant Professor, Computer Science</Position>
+    <Research_Area>Network security, testbed, experimentation, defense</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=17">
+    <Alias>Viktor K. Prasanna</Alias>
+    <Category>Informatics Faculty</Category>
+    <Cellphone>213-740-4483</Cellphone>
+    <E_mail>prasanna@usc.edu</E_mail>
+    <Name>Viktor Prasanna</Name>
+    <Office>EEB 200C</Office>
+    <Position>Professor, Electrical Engineering</Position>
+    <Research_Area>EE-Systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=18">
+    <Category>Informatics Faculty</Category>
+    <Cellphone>310-448-9338</Cellphone>
+    <E_mail>carl@isi.edu</E_mail>
+    <Name>Carl Kesselman</Name>
+    <Office>ISI</Office>
+    <Position>Professor, Industrial and Systems Engineering</Position>
+    <Research_Area>Industrial Systems Engineering Grid infrastructure, virtual organizations, health informatics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=19">
+    <Category>Informatics Faculty</Category>
+    <E_mail>wenshenw@usc.edu</E_mail>
+    <Name>WenSheng Wu</Name>
+    <Position>Associate Professor of the Practice, Computer Science</Position>
+    <Research_Area>Databases, data integration, and Deep Web data management</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=2">
+    <Category>Informatics Faculty</Category>
+    <Name>Aleksandra Korolova</Name>
+    <Position>Assistant Professor, Computer Science</Position>
+    <Research_Area>Data privacy, privacy-preserving  algorithms and technologies; big data applications; and large-scale data  mining of social and information networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=20">
+    <Category>Part Time Lecturer</Category>
+    <Name>David Bruce Morgan</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=21">
+    <Category>Part Time Lecturer</Category>
+    <Name>Seon Ho Kim</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=22">
+    <Category>Part Time Lecturer</Category>
+    <Name>Satish Kumar</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=23">
+    <Category>Part Time Lecturer</Category>
+    <Name>Atefeh Farzindar</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=24">
+    <Category>Part Time Lecturer</Category>
+    <Name>Tatyana Ryutov</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=25">
+    <Category>Part Time Lecturer</Category>
+    <Name>Jaime Levy</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=26">
+    <Category>Part Time Lecturer</Category>
+    <Name>Liyue Fan</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=27">
+    <Category>Part Time Lecturer</Category>
+    <Name>Luciano Nocera</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=28">
+    <Category>Director</Category>
+    <Name>Cyrus Shahabi</Name>
+    <Position>Director</Position>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=29">
+    <Alias>Craig  A. Knoblock</Alias>
+    <Category>Director</Category>
+    <Name>Craig Knoblock</Name>
+    <Position>Associate Director of Data Informatics</Position>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=3">
+    <Alias>Nenad Medvidovic</Alias>
+    <Category>Informatics Faculty</Category>
+    <Cellphone>213-740-5579</Cellphone>
+    <E_mail>neno@cs.usc.edu</E_mail>
+    <Name>Neno Medvidovic</Name>
+    <Office>SAL 338</Office>
+    <Position>Professor, Computer Science</Position>
+    <Research_Area>Software engineering, distributed systems, embedded systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=30">
+    <Alias>B. Clifford Neuman</Alias>
+    <Category>Director</Category>
+    <Cellphone>310-448-8736</Cellphone>
+    <E_mail>bcn@isi.edu</E_mail>
+    <Name>Clifford Neuman</Name>
+    <Office>ISI</Office>
+    <Position>Associate Director of Cyber-Security</Position>
+    <Research_Area>Distributed systems, security, trusted computing, operating systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=31">
+    <Alias>Viktor K. Prasanna</Alias>
+    <Category>faculty Board of Advisors</Category>
+    <Cellphone>213-740-4483</Cellphone>
+    <E_mail>prasanna@usc.edu</E_mail>
+    <Name>Viktor Prasanna</Name>
+    <Office>EEB 200C</Office>
+    <Research_Area>EE-Systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=32">
+    <Category>faculty Board of Advisors</Category>
+    <Cellphone>213-821-2663</Cellphone>
+    <E_mail>priyav@usc.edu</E_mail>
+    <Name>Priya Vashishta</Name>
+    <Office>VHE 602</Office>
+    <Research_Area>Materials Science</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=33">
+    <Alias>Gaurav S. Sukhatme, G. Stefano Sukhatme</Alias>
+    <Category>faculty Board of Advisors</Category>
+    <Cellphone>213-740-4498</Cellphone>
+    <E_mail>gaurav@usc.edu</E_mail>
+    <Name>Gaurav Sukhatme</Name>
+    <Office>SAL 106</Office>
+    <Research_Area>Robotics, robot networks, aquatic robots, artificial intelligence, on-body networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=34">
+    <Category>faculty Board of Advisors</Category>
+    <Name>Milind Tambe</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=35">
+    <Alias>Barry W. Boehm</Alias>
+    <Category>faculty Board of Advisors</Category>
+    <Cellphone>213-740-4927</Cellphone>
+    <E_mail>boehm@sunset.usc.edu</E_mail>
+    <Name>Barry Boehm</Name>
+    <Office>SAL 326</Office>
+    <Research_Area>Systems engineering, software engineering</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=36">
+    <Category>faculty Board of Advisors</Category>
+    <Cellphone>310-448-9338</Cellphone>
+    <E_mail>carl@isi.edu</E_mail>
+    <Name>Carl Kesselman</Name>
+    <Office>ISI</Office>
+    <Research_Area>Industrial Systems Engineering Grid infrastructure, virtual organizations, health informatics</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=37">
+    <Category>faculty Board of Advisors</Category>
+    <Cellphone>213-740-4509</Cellphone>
+    <E_mail>ramesh@usc.edu</E_mail>
+    <Name>Ramesh Govindan</Name>
+    <Office>SAL 212</Office>
+    <Research_Area>Computer networks, wireless sensing, Internet technologies</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=38">
+    <Alias>Shrikanth S. Narayanan, Shrikanth S. (Shri) Narayanan, Shrikanth Narayanan</Alias>
+    <Category>faculty Board of Advisors</Category>
+    <Cellphone>213-740-6432</Cellphone>
+    <E_mail>shri@sipi.usc.edu</E_mail>
+    <Name>Shrikanth (Shri) Narayanan</Name>
+    <Office>EEB 430</Office>
+    <Research_Area>EE-Systems, Human-centered signal and information processing and computing; speech, audio,languages, biomedical and multi-modal machine learning and pattern recognition. Emotions, affect and behavioral computing and informatics.</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=39">
+    <Category>faculty Board of Advisors</Category>
+    <Name>Herbert Schorr</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=4">
+    <Alias>Gaurav S. Sukhatme</Alias>
+    <Category>Informatics Faculty</Category>
+    <Cellphone>213-740-4498</Cellphone>
+    <E_mail>gaurav@usc.edu</E_mail>
+    <Name>Gaurav Sukhatme</Name>
+    <Office>SAL 106</Office>
+    <Position>Professor and Chair, Computer Science</Position>
+    <Research_Area>Robotics, robot networks, aquatic robots, artificial intelligence, on-body networks</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=40">
+    <Category>faculty Board of Advisors</Category>
+    <Name>Julia Higle</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=41">
+    <Category>faculty Board of Advisors</Category>
+    <Name>Suvrajeet Sen</Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=42">
+    <Alias>William R. Swartout</Alias>
+    <Category>faculty Board of Advisors</Category>
+    <Cellphone>310-574-5700</Cellphone>
+    <E_mail>swartout@ict.usc.edu</E_mail>
+    <Name>William Swartout</Name>
+    <Office>ICT</Office>
+    <Research_Area>Artificial intelligence, intelligent agents, virtual humans, knowledge-based systems, natural language processing, education and training</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=43">
+    <Alias>Nenad Medvidovic</Alias>
+    <Category>faculty Board of Advisors</Category>
+    <Cellphone>213-740-5579</Cellphone>
+    <E_mail>neno@cs.usc.edu</E_mail>
+    <Name>Neno Medvidovic</Name>
+    <Office>SAL 338</Office>
+    <Research_Area>Software engineering, distributed systems, embedded systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=44">
+    <Alias>B. Clifford Neuman</Alias>
+    <Category>faculty Board of Advisors</Category>
+    <Cellphone>310-448-8736</Cellphone>
+    <E_mail>bcn@isi.edu</E_mail>
+    <Name>Clifford Neuman</Name>
+    <Office>ISI</Office>
+    <Research_Area>Distributed systems, security, trusted computing, operating systems</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=45">
+    <Category>faculty Board of Advisors</Category>
+    <Cellphone>213-740-4371</Cellphone>
+    <E_mail>yanliu.cs@usc.edu</E_mail>
+    <Name>Yan Liu</Name>
+    <Office>SAL 216</Office>
+    <Research_Area>Graphical models, causality, time-series analysis</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=5">
+    <Category>Informatics Faculty</Category>
+    <Name>Yao-Yi Chiang</Name>
+    <Position>Research Assistant Professor, Spatial Sciences</Position>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=6">
+    <Alias>John P. Wilson</Alias>
+    <Category>Informatics Faculty</Category>
+    <Cellphone>213-740-1908</Cellphone>
+    <E_mail>jpwilson@usc.edu</E_mail>
+    <Name>John Wilson</Name>
+    <Office>AHF B55F</Office>
+    <Position>Professor, Spatial Sciences and Sociology</Position>
+    <Research_Area>Geography, Sociology, Civil and Environmental Engineering, Architecture</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=7">
+    <Category>Informatics Faculty</Category>
+    <Name>Michael Cody</Name>
+    <Position>Professor, Communication and Journalism</Position>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=8">
+    <Category>Informatics Faculty</Category>
+    <Cellphone>213-740-4371</Cellphone>
+    <E_mail>yanliu.cs@usc.edu</E_mail>
+    <Name>Yan Liu</Name>
+    <Office>SAL 216</Office>
+    <Position>Assistant Professor, Computer Science</Position>
+    <Research_Area>Graphical models, causality, time-series analysis</Research_Area>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/INF_faculty_final.csv#row=9">
+    <Category>Informatics Faculty</Category>
+    <Cellphone>213-740-8056</Cellphone>
+    <E_mail>horowitz@usc.edu</E_mail>
+    <Name>Ellis Horowitz</Name>
+    <Office>SAL 320</Office>
+    <Position>Professor and Associate Chair, Computer Science</Position>
+    <Research_Area>World wide web, Internet, search engines, deep web</Research_Area>
+  </rdf:Description>
+</rdf:RDF>
